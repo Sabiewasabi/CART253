@@ -1,10 +1,10 @@
-[Home](README.md) / [My portfolio](https://sabrinarath263.wixsite.com/srathdesigns) / [Reflective Journal](Journal.md) / Prototypes
+[Home 🏠](README.md) / [Portfolio 💼](https://sabrinarath263.wixsite.com/srathdesigns) / [Reflective Journal 📓](Journal.md) / Prototypes 💻
 
 # **Reflective journal** 📝
 
 ### My first impression of making a website and using Markdown - **09/11/2029**
 
-I would like to begin by saying that this whole experience turned out to be more chaotic than it should have been. 😅 The very first issue I ran into began with figuring out where exactly I had to begin coding the website and I did not expect it to be right within the READ.MD. After that, it was time to add in the image banner for our website. I follow the exact line of code to add an image to the website however it wasn't showing up after every pushed commit I made (that's why there so many commits counted on my GitHub). I fiddle around some more with the line of code and nothing was showing up on my page. LONG BEHOLD, it was because there was an extra space infront of my whole line of code.
+I would like to begin by saying that this whole experience turned out to be more chaotic than it should have been. 😅 The very first issue I ran into began with figuring out where exactly I had to begin coding the website and I did not expect it to be right within the READ.MD. After that, it was time to add in the image banner for our website. I follow the exact line of code to add an image to the website however it wasn't showing up after every pushed commit I made (that's why there so many commits counted on my GitHub). I fiddled around some more with the line of code and nothing was showing up on my page. LONG BEHOLD, it was because there was an extra space infront of my whole line of code.
 
 My computer science friends weren't jokiing when they said an additional space can break everything....
 
