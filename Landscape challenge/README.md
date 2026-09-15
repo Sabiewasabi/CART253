@@ -2,7 +2,7 @@
 
 Sabrina Rath and Erica Gavez
 
-[View this project online](./js/script.js)
+[View this project online](http://127.0.0.1:5500/Landscape%20challenge/)
 
 ## Description
 
