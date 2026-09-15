@@ -16,3 +16,11 @@ The process of brainstorming 3 ideas for 3 distinctevely different prototypes we
 
 To say the least, I am very satisfied with what I got so far. 
 
+Now making these actually work is another challenge I will tackle for another day.
+
+- ## Instruction challenge - **09/15/2026**
+
+The challenge was a great way to get me to practice and work my muscle memories becuase I will admit I forgot a little bit of all the dfferent functions that existed in p5.js, just like the forloop();.I hope that we get to do more of these as we progress to regain my sense of confort with p5.js to feel on top of my game.HOwever, it goes without saying that I will practice at home too.
+
+I'd like to take of this class to be some sort of review class because I believe a few students are starting off as beginners as well. 😅
+
