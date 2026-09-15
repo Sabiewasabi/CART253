@@ -4,7 +4,11 @@ function setup (){
 
 function draw(){
     background('#CF2913');
-
+    
+    //Draw moon 
+    rectMode(CENTER);
+    fill('#020122');
+    rect(30,20,55,100)
 
 
     
