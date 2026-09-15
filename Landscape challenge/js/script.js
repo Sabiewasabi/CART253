@@ -24,7 +24,7 @@ function draw(){
     push();
 
     fill('#FFF3D1');
-    ellipse(300,250,180);
+    ellipse(250,250,200);
   
     pop();
     //Drawing the mountains
