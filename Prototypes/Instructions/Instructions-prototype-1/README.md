@@ -2,7 +2,7 @@
 
 SABRINA RATH
 
-[View this project online](https://editor.p5js.org/Sabiewasabi/full/a4WdxFI8Q)
+[View this project online](https://editor.p5js.org/Sabiewasabi/sketches/a4WdxFI8Q)
 
 ## Description
 
