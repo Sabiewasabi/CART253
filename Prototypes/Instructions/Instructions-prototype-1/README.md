@@ -14,8 +14,6 @@ SABRINA RATH
 
 ## Screenshot(s)
 
-This bit should have some images of the program running so that the reader has a sense of what it looks like. For example:
-
 ![Click click Poyo!](./Assets/Click-click-Poyo.png)
 
 ## Attribution
