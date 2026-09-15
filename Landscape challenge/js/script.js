@@ -3,24 +3,43 @@ function setup (){
 }
 
 function draw(){
-    background('#CF2913');
+    background('#397367');
     
     //Draw land
-    fill('#020122');
-    rect(0,500,800,200)
+
+    //Back
+    fill('#5E5E5E');
+    rect(0,350,800,300,20)
+
+    //Middle
+    fill('#393D3F ');
+    rect(0,400,800,300,20)
+    
+    //Front
+    fill('#333333');
+    rect(0,500,800,300,20)
+
 
     //Draw moon 
     push();
 
     fill('#FFF3D1');
-    ellipse(320,280,150);
+    ellipse(300,250,180);
   
-    fill('#020122')
-    triangle(200,350,158, 100, 20,300);
-     fill('#020122')
-    triangle(100,500,70, 100, 20,300);
-
     pop();
+    //Drawing the mountains
+    //Reminders that will be useful:
+    //X-axis: 
+            // 1.Increasing x moves the point to the right.
+            //2.Decreasing x moves it to the left.
+    //Y-axis:
+        //1. Increasing y moves the point down.
+        //2. Decreasing y moves it up.
+        
+    fill('#ED6A5A')
+    noStroke();
+    triangle(80, 400, 400, 400, 250, 300);
+    triangle(200, 400, 600, 400, 400, 270);
 
 
 }
