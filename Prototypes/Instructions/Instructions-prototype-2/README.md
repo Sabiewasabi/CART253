@@ -15,11 +15,11 @@ SABRINA RATH
 ## Screenshot(s)
 
 
-![Click click Poyo!](./Assets/Click-click-Poyo.png)
+![Emulation Gamestation](./Assets/Emulation-Gamestation.png)
 
 ## Attribution
 
 > - This project uses [p5.js](https://p5js.org).
-> - The image is a capture of *Click click Poyo!* live on p5.js
+> - The image is a capture of *Emulation Gamestation* live on p5.js
 
 ## License
