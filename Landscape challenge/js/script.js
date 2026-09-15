@@ -6,7 +6,6 @@ function draw(){
     background('#397367');
     
     //Draw land
-
     //Back
     fill('#5E5E5E');
     rect(0,350,800,300,20)
@@ -24,24 +23,30 @@ function draw(){
     push();
 
     fill('#FFF3D1');
-    ellipse(250,250,200);
+    ellipse(320,250,200);
   
     pop();
     //Drawing the mountains
     //Reminders that will be useful:
     //X-axis: 
-            // 1.Increasing x moves the point to the right.
-            //2.Decreasing x moves it to the left.
+    // 1.Increasing x moves the point to the right.
+    //2.Decreasing x moves it to the left.
     //Y-axis:
-        //1. Increasing y moves the point down.
-        //2. Decreasing y moves it up.
-        
-    fill('#ED6A5A')
+    //1. Increasing y moves the point down.
+    //2. Decreasing y moves it up.
+    
+    //Mountains
+    push();
+
+    fill(0)
     noStroke();
     triangle(80, 400, 400, 400, 250, 300);
     triangle(200, 400, 600, 400, 400, 270);
+    triangle(50, 400, 300, 400, 200, 290);
+    triangle(0, 400, 150, 400, 100, 240);
+    triangle(400, 400, 640, 400, 640, 240);
 
-
+    pop();
 }
 
 
