@@ -2,7 +2,7 @@
 
 Sabrina Rath and Erica Gavez
 
-[View this project online](https://github.io)
+[View this project online](./index.html)
 
 ## Description
 
