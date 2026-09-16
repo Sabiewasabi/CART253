@@ -2,7 +2,7 @@
 
 SABRINA RATH AND ERICA GAVEZ
 
-[View this project online](/Topics/Landscape%20challenge/index.html)
+[View this project online](/Topics/Landscape-challenge/index.html)
 
 ## Description
 
