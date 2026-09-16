@@ -1,6 +1,6 @@
 # Overlook
 
-Sabrina Rath and Erica Gavez
+SABRINA RATH AND ERICA GAVEZ
 
 [View this project online](https://editor.p5js.org/Sabiewasabi/sketches/TLdh1UkKR)
 
