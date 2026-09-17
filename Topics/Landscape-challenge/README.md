@@ -2,7 +2,7 @@
 
 SABRINA RATH AND ERICA GAVEZ
 
-[View this project online](https://github.com/Sabiewasabi/CART253/tree/main/Topics/Landscape-challenge)
+[View this project online](https://github.com/Sabiewasabi/CART253/tree/main/topics/landscape-challenge)
 
 ## Description
 
