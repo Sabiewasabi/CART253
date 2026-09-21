@@ -80,10 +80,15 @@ if (expressionIndex === 4){
   line(330,145,275,175);
 }
 
-  //Draw mouth
+  //Draw mouth differently depending on expression shown
+
+  //Normal mouth
+  if (expressionIndex ===0){
   noStroke();
   fill('#FC60A8');
   ellipse(250,300,20,30);
+
+  }
 
   //Draw blush
   noStroke();
