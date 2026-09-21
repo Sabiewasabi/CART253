@@ -72,10 +72,14 @@ function draw() {
 
 //Angry eyebrows
 // (===) means it IS
-if (expressionIndex === 4)
+if (expressionIndex === 4){
+  nofill();
+  stroke('#503529');
+  strokeWeight(4);
+  line(170,145,225,175);
+  line(330,145,275,175);
+}
 
-
-  
   //Draw mouth
   noStroke();
   fill('#FC60A8');
