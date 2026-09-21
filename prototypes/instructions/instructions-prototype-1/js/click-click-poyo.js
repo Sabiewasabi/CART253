@@ -4,6 +4,11 @@
 
 //A static drawing of Kirby (known as Poyo in Japanese) mostly made from calling different shape and sizes of elipses.
 
+//Variable
+// This variable holds the information for each different expressions 0 = Neutral 1 = Happy, 2 = Poyo!. 3 =Sleepy, 4 = Angry
+
+let expressionIndex = 0
+
 function setup() {
   createCanvas(500, 500);
 }
