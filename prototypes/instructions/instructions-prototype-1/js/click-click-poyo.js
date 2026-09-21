@@ -87,11 +87,8 @@ if (expressionIndex === 4){
 
   //Draw blush
   noStroke();
-  fill('#F490A7')
-  ellipse(170,295,60,30);
-
-  noStroke();
   fill('#F490A7');
+  ellipse(170,295,60,30);
   ellipse(330,295,60,30);
 
 }
