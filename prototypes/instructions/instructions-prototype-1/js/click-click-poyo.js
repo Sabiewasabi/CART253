@@ -17,10 +17,14 @@ function draw() {
   //Colour for background
   background('#9BF3F0');
 
-  //Draw circle
+  //Draw circle body
   noStroke();
   fill('#FFC0DB');
   ellipse(250,250,300);
+
+  //Draw normal eyes for all expressions EXCEPT Sleepy
+
+  if (expressionIndex !== 3) {
 
   //Draw the left eye
   stroke('#503529');
@@ -55,6 +59,10 @@ function draw() {
   strokeWeight(2);
   fill(255);
   ellipse(300,200,40,75);
+  }else{
+    
+
+  }
 
   //Draw mouth
   noStroke();
