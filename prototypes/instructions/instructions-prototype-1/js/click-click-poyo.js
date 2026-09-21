@@ -23,7 +23,7 @@ function draw() {
   ellipse(250,250,300);
 
   //Draw normal eyes for all expressions EXCEPT Sleepy
-
+  // (!) means is NOT
   if (expressionIndex !== 3) {
 
   //Draw the left eye
@@ -70,8 +70,12 @@ function draw() {
     arc(300,220,45,30,0);
   }
 
-//
+//Angry eyebrows
+// (===) means it IS
+if (expressionIndex === 4)
 
+
+  
   //Draw mouth
   noStroke();
   fill('#FC60A8');
