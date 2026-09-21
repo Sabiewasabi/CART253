@@ -88,6 +88,13 @@ if (expressionIndex === 4){
   fill('#FC60A8');
   ellipse(250,300,20,30);
 
+  //Happy smile mouth
+  } else if (expressionIndex ===1){
+    stroke('#503529');
+    strokeWeight(4);
+    nofill();
+    arc(250,290,40,30,0,PI)
+    
   }
 
   //Draw blush
