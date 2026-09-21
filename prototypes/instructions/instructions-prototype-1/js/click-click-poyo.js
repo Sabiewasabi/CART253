@@ -59,10 +59,18 @@ function draw() {
   strokeWeight(2);
   fill(255);
   ellipse(300,200,40,75);
-  }else{
-    
 
+  //If on sleepy expression,draw closed eyes instead of wide eyes
+  }else{
+  //Sleepy eyes expression
+    nofill();
+    stroke('#503529');
+    strokeWeight(5);
+    arc(200,220,45,30,0,PI);
+    arc(300,220,45,30,0);
   }
+
+//
 
   //Draw mouth
   noStroke();
