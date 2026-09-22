@@ -45,5 +45,5 @@ function draw() {
   push();
   noStroke();
   fill('#FAC05E');
-  ellipse(350,300,30);
+  ellipse(350,100,30);
 }
