@@ -24,3 +24,6 @@ The challenge was a great way to get me to practice and work my muscle memories 
 
 I'd like to take of this class to be some sort of review class because I believe a few students are starting off as beginners as well. 😅
 
+- ### Variable challenge - **09/22/2026**
+
+This challenge was quite fun actually because I got to experience the mind boggling way to code the flying annoying bird to fly back and forth abov Mr.Furious.
