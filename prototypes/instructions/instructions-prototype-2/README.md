@@ -6,11 +6,11 @@ SABRINA RATH
 
 ## Description
 
-> *Confusion Gamastation* is a simulation experience that allows the user to play a game through a small screen of a Gameboy.
+> *Confusion Gamastation* is a simulation experience that display an image of a gameboy with a silly face.
 
-> The experience is controlled via the WASD and arrow keys allowing the user to manipulate movement within the game.
+> The experience has no controls.
 
-> The project is meant to give the user the feeling of playing a emulation game through an actual Gameboy console creating a sense of nostalgia playing retro games.
+> The project is meant to be a weird gameboy looking back at it's owner confused, is it sentient?.
 
 ## Screenshot(s)
 
