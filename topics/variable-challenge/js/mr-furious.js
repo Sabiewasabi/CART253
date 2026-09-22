@@ -21,6 +21,15 @@ let mrFurious = {
   }
 };
 
+  //Draw annoying bird botering Mr.Furious
+  //Using lerp will allow the bird the move back and forth on a linear path
+let bird = {
+fill: '#FAC05E',
+x:350,
+y:100,
+
+}
+
 /**
  * Create the canvas
  */
@@ -42,8 +51,6 @@ function draw() {
   pop();
 
   //Draw annoying bird botering Mr.Furious
-  push();
-  noStroke();
-  fill('#FAC05E');
-  ellipse(350,100,30);
+  //Using lerp will allow the bird the move back and forth on a linear path
+
 }
