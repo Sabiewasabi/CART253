@@ -59,10 +59,11 @@ function draw() {
   stroke(0);
   strokeWeight(2);
   ellipse(bird.x,bird.y,bird.size)
+  pop();
 
 
 //Mr.Furious gets angrier
-mrFurious.fill = mrFurious.fill +1
+mrFurious.fill.r,mrFurious.fill.g,mrFurious.fill.b = mrFurious.fill +1,-1,-1
 
 //Make annoying bird fly back and forth
 
