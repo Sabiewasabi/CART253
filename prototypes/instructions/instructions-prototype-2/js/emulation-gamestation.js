@@ -9,6 +9,12 @@ function setup() {
 
   background('#EE92C2');
 
+  //Turn on HSB color mode: Hue,Saturation and Brightness
+  colorMode(HSB,360,100,100);
+
+}
+
+  function draw(){
   //Draw gameboy body
   rectMode (CENTER);
   fill ('#46237A');
