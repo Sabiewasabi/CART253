@@ -15,6 +15,7 @@ A guy who becomes visibly furious becuase of a darn annoting bird! Mr.Furious be
 ## Attribution
 
 > - This project uses [p5.js](https://p5js.org).
+> - The image is a capture of *Mr.Fusion* live on p5.js
 
 ## License
 
