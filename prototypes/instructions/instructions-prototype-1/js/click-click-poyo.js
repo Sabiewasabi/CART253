@@ -107,7 +107,13 @@ if (expressionIndex === 4){
     noStroke();
     fill('#FC60A8');
     ellipse(250,300,12,12);
-    
+
+  //Angry mouth
+  } else if (expressionIndex ===4){
+    nofill();
+    stroke('#503529');
+    strokeWeight(4);
+    arc(250,320,35,25,PI,0);
   }
 
   //Draw blush
