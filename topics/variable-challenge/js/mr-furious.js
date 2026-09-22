@@ -38,7 +38,7 @@ direction: "left"
 let sky = {
 fill: {
 r:160,
-b:180,
+g:180,
 b:200,
     }
 }
