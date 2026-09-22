@@ -15,7 +15,7 @@ SABRINA RATH
 ## Screenshot(s)
 
 
-![Confusion Gamestation](./Assets/Emulation-Gamestation.png)
+![Confusion Gamestation](./Assets/confusion-gamestation.png)
 
 ## Attribution
 
