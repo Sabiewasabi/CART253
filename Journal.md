@@ -26,4 +26,8 @@ I'd like to take of this class to be some sort of review class because I believe
 
 - ### Variable challenge - **09/22/2026**
 
-This challenge was quite fun actually because I got to experience the mind boggling way to code the flying annoying bird to fly back and forth abov Mr.Furious. I had the logic down and ready to execute by using an "if" statement, however Micheal showed me quickly how it can get complicated. The main idea was to write if (bird.x ===0){bird.x +1} else if (bird.x === 400){bird.x -1}. In plain words, I wanted the bird to change directions once it has hit the end of the left side of the canvas and move on towards the right and vice-versa - that didn't work.
+This challenge was quite fun actually because I got to experience the mind boggling way to code the flying annoying bird to fly back and forth abov Mr.Furious. I had the logic down and ready to execute by using an "if" statement, however Micheal showed me quickly how it can get complicated. The main idea was to write if (bird.x ===0){bird.x +1} else if (bird.x === 400){bird.x -1}. In plain words, I wanted the bird to change directions once it has hit the end of the left side of the canvas and move on towards the right and vice-versa - that didn't work.Micheal then suggested that we give the bird another variable called "direction" and say "left" so the program knows exactly where it is going. I would explain further but I'm not sure how to myself, so here is an image instead:
+
+![Line of code](./images/line-of-code.png)
+
+Not only am I bad at math but I am horrible with my directions...
