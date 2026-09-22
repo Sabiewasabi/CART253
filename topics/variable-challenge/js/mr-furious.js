@@ -40,4 +40,10 @@ function draw() {
   fill(mrFurious.fill.r, mrFurious.fill.g, mrFurious.fill.b);
   ellipse(mrFurious.x, mrFurious.y, mrFurious.size);
   pop();
+
+  //Draw annoying bird botering Mr.Furious
+  push();
+  noStroke();
+  fill('#FAC05E');
+  ellipse(350,300,30);
 }
