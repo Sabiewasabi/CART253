@@ -33,6 +33,15 @@ y:100,
 
 }
 
+//Sky
+let sky = {
+fill: {
+r:160,
+b:180,
+b:200,
+    }
+}
+
 /**
  * Create the canvas
  */
@@ -45,6 +54,18 @@ function setup() {
  */
 function draw() {
   background(160, 180, 200);
+
+  //Mr.Furious gets angrier
+mrFurious.fill.r = mrFurious.fill.r + 1
+mrFurious.fill.g = mrFurious.fill.g - 1
+mrFurious.fill.b = mrFurious.fill.b - 1
+mrFurious.fill +1,-1,-1;
+
+//Make day turn night overtime
+sky.fill.r = sky.fill.r = -1
+sky.fill.g = sky.fill.g = -1
+sky.fill.b = sky.fill.b = -1
+
   
   // Draw Mr. Furious as a coloured circle
   push();
@@ -62,8 +83,7 @@ function draw() {
   pop();
 
 
-//Mr.Furious gets angrier
-mrFurious.fill.r,mrFurious.fill.g,mrFurious.fill.b = mrFurious.fill +1,-1,-1
+
 
 //Make annoying bird fly back and forth
 
