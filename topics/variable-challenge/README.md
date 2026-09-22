@@ -1,6 +1,6 @@
 # Mr. Furious gets FURIOUS!!!
 
-SABRINA RATH,KONSTANTINOS CHRISTODOULAKIS AND ERICA GAVEZ
+SABRINA RATH, KONSTANTINOS CHRISTODOULAKIS AND ERICA GAVEZ
 
 [View this project online](https://sabiewasabi.github.io/CART253/topics/variable-challenge/)
 
