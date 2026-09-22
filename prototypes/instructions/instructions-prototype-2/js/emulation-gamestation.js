@@ -53,6 +53,13 @@ arc(335,175,40,20,0,PI);
 
 //Cute wiggly mouth (i love cute things!)
 //For the mouth, I am using vertex(); seen in the p5.js reference page. This will allow me to draw a custom shape with continuously until I endShape(); - meaing I stop the drawing.
+noFill();
+stroke(0);
+strokeWeight(4);
+beginShape();
+vertex(200,255);
+vertex(290,245);
+endShape();
 
 
 
