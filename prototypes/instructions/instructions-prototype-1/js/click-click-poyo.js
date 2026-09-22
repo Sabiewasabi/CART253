@@ -102,6 +102,12 @@ if (expressionIndex === 4){
     fill('#FC60A8');
     ellipse(250,300,12,12);
 
+  //Sleept mouth
+  } else if (expressionIndex ===3){
+    noStroke();
+    fill('#FC60A8');
+    ellipse(250,300,12,12);
+    
   }
 
   //Draw blush
