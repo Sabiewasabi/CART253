@@ -26,14 +26,14 @@ function setup() {
   fill ('#C4E0F9');
   rect (300,220,200,150);
 
+  //Draw silly face on screen
   
-  //Text
-  fill (0);
-  //Setting variable for text size
-  let s = 'PLAY A GAME';
-  textSize (20)
-  text(s, 330, 300, 200, 160);
-  
+  //Draw left eye
+  fill(0);
+  ellipse(265,210,25,25);
+  //White shine in the eyes
+  fill(255);
+  ellipse(268,207,8,8);
 
   // Buttons
   fill(0);
