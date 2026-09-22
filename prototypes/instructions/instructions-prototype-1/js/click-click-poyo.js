@@ -127,6 +127,11 @@ if (expressionIndex === 4){
   ellipse(170,295,60,30);
   ellipse(330,295,60,30);
 
+//Text for viewwers to know exactly how to interact with the projects
+let t = 'Click on Poyo!';
+textSize(20)
+text(s,250,300)
+
 }
 
  //By clicking on kirby, cycle through all it's expressions (0, 1, 2, 3, 4 and back to 0)
