@@ -63,17 +63,17 @@ function draw() {
   //If on sleepy expression,draw closed eyes instead of wide eyes
   }else{
   //Sleepy eyes expression
-    nofill();
+    noFill();
     stroke('#503529');
     strokeWeight(5);
     arc(200,220,45,30,0,PI);
-    arc(300,220,45,30,0);
+    arc(300,220,45,30,0,PI);
   }
 
 //Angry eyebrows
 // (===) means it IS
 if (expressionIndex === 4){
-  nofill();
+  noFill();
   stroke('#503529');
   strokeWeight(4);
   line(170,145,225,175);
@@ -92,13 +92,13 @@ if (expressionIndex === 4){
   } else if (expressionIndex ===1){
     stroke('#503529');
     strokeWeight(4);
-    nofill();
+    noFill();
     arc(250,290,40,30,0,PI)
 
   //Wide "Poyo!" open mouth
   } else if (expressionIndex ===2){
     stroke('#503529');
-    atrokeWeight(3);
+    strokeWeight(3);
     fill('#FC60A8');
     ellipse(250,300,12,12);
 
@@ -115,7 +115,7 @@ if (expressionIndex === 4){
 
   //Angry mouth
   } else if (expressionIndex ===4){
-    nofill();
+    noFill();
     stroke('#503529');
     strokeWeight(4);
     arc(250,320,35,25,PI,0);
@@ -127,9 +127,10 @@ if (expressionIndex === 4){
   ellipse(170,295,60,30);
   ellipse(330,295,60,30);
 
-  //By clicking on kirby, cycle through all it's expressions (0, 1, 2, 3, 4 and back to 0)
+}
+
+ //By clicking on kirby, cycle through all it's expressions (0, 1, 2, 3, 4 and back to 0)
 function mousePressed(){
   expressionIndex = (expressionIndex +1)%5;
-}
 
 }
