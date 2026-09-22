@@ -2,7 +2,7 @@
  * Mr. Furious
  * Sabrina Rath and Erica Gavez
  *
- * A guy who becomes visibly furious!
+ * A guy who becomes visibly furious becuase of a darn annoting bird!
  */
 
 "use strict";
@@ -21,10 +21,13 @@ let mrFurious = {
   }
 };
 
-  //Draw annoying bird botering Mr.Furious
-  //Using lerp will allow the bird the move back and forth on a linear path
+//Draw annoying bird botering Mr.Furious
+//Using lerp will allow the bird the move back and forth on a linear path
 let bird = {
 fill: '#FAC05E',
+size:60,
+stroke:0,
+strokeWeight:2,
 x:350,
 y:100,
 
@@ -50,7 +53,6 @@ function draw() {
   ellipse(mrFurious.x, mrFurious.y, mrFurious.size);
   pop();
 
-  //Draw annoying bird botering Mr.Furious
-  //Using lerp will allow the bird the move back and forth on a linear path
+
 
 }
