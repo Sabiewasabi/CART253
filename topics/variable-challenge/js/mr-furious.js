@@ -69,11 +69,11 @@ sky.fill.b = sky.fill.b -1
 sky.fill -1,-1,-1;
 
   
-  // Draw Mr. Furious as a coloured circle
+  //Draw Mr. Furious as a coloured circle
   push();
   noStroke();
   fill(mrFurious.fill.r, mrFurious.fill.g, mrFurious.fill.b);
-  ellipse(mrFurious.x, mrFurious.y, mrFurious.size);
+  ellipse(mrFurious.x + random(-10,10), mrFurious.y, mrFurious.size);
   
   pop();
 
@@ -99,6 +99,7 @@ if (bird.x ===400){
 }
   pop();
 
+  //CHecking for errors
   console.log(bird.direction);
   console.log(bird.x);
 }
