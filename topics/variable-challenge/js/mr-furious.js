@@ -1,6 +1,6 @@
 /**
  * Mr. Furious
- * Pippin Barr
+ * Sabrina Rath and Erica Gavez
  *
  * A guy who becomes visibly furious!
  */
