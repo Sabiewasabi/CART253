@@ -131,11 +131,13 @@ if (expressionIndex === 4){
 
 //Text for viewwers to know exactly how to interact with the projects
 let t = 'Click on Poyo!';
-fill(0);
-textSize(20);
+fill(255);
+stroke(0);
+strokeWeight(2);
+textSize(30);
 //Have it automatically center the text towards the bottom
 textAlign(CENTER,BOTTOM);
-text(s,250,400);
+text(t,250,450);
 
 }
 
