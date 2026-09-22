@@ -1,4 +1,4 @@
-# Emulation Gamestation
+# Confusion Gamestation
 
 SABRINA RATH
 
@@ -6,7 +6,7 @@ SABRINA RATH
 
 ## Description
 
-> *Emulation Gamastation* is a simulation experience that allows the user to play a game through a small screen of a Gameboy.
+> *Confusion Gamastation* is a simulation experience that allows the user to play a game through a small screen of a Gameboy.
 
 > The experience is controlled via the WASD and arrow keys allowing the user to manipulate movement within the game.
 
@@ -15,12 +15,12 @@ SABRINA RATH
 ## Screenshot(s)
 
 
-![Emulation Gamestation](./Assets/Emulation-Gamestation.png)
+![Confusion Gamestation](./Assets/Emulation-Gamestation.png)
 
 ## Attribution
 
 > - This project uses [p5.js](https://p5js.org).
-> - The image is a capture of *Emulation Gamestation* live on p5.js
+> - The image is a capture of *Confusion Gamestation* live on p5.js
 
 ## License
 > This project is licensed under a Creative Commons Attribution ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)) license with the exception of libraries and other components with their own licenses.
