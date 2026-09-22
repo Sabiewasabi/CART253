@@ -102,6 +102,11 @@ if (expressionIndex === 4){
     fill('#FC60A8');
     ellipse(250,300,12,12);
 
+    //Toungue
+    noStroke();
+    fill('#FFC0DB');
+    arc(250,315,25,20,PI,0);
+
   //Sleept mouth
   } else if (expressionIndex ===3){
     noStroke();
