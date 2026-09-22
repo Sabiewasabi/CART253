@@ -58,7 +58,7 @@ function draw() {
   fill(bird.fill);
   stroke(0);
   strokeWeight(2);
-  ellipse(mrFurious.x,mrFurious.y,mrFurious.size)
+  ellipse(bird.x,bird.y,bird.size)
 
 
 //Mr.Furious gets angrier
