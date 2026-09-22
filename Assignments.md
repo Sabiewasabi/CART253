@@ -6,3 +6,4 @@
 
 1. [Hello, World challenge](https://github.com/Sabiewasabi/CART253)
 2. [Instructions challenge](https://sabiewasabi.github.io/CART253/topics/landscape-challenge/)
+3. [Variable challenge](https://sabiewasabi.github.io/CART253/topics/variable-challenge/)
