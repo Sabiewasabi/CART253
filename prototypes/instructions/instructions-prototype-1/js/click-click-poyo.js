@@ -94,7 +94,14 @@ if (expressionIndex === 4){
     strokeWeight(4);
     nofill();
     arc(250,290,40,30,0,PI)
-    
+
+  //Wide "Poyo!" open mouth
+  } else if (expressionIndex ===2){
+    stroke('#503529');
+    atrokeWeight(3);
+    fill('#FC60A8');
+    ellipse(250,300,12,12);
+
   }
 
   //Draw blush
