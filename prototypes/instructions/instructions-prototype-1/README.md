@@ -2,7 +2,7 @@
 
 SABRINA RATH
 
-[View this project online](https://editor.p5js.org/Sabiewasabi/sketches/a4WdxFI8Q)
+[View this project online](https://sabiewasabi.github.io/CART253/prototypes/instructions/instructions-prototype-1/)
 
 ## Description
 
