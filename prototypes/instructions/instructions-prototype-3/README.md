@@ -2,7 +2,7 @@
 
 SABRINA RATH
 
-[View this project online](https://editor.p5js.org/Sabiewasabi/sketches/T_pwdkjFd)
+[View this project online](https://sabiewasabi.github.io/CART253/prototypes/instructions/instructions-prototype-3/)
 
 ## Description
 
@@ -23,3 +23,4 @@ SABRINA RATH
 > - The image is a capture of *Emulation Gamestation* live on p5.js
 
 ## License
+> This project is licensed under a Creative Commons Attribution ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)) license with the exception of libraries and other components with their own licenses.
