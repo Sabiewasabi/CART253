@@ -8,9 +8,9 @@ Here you can access and view all my prototypes created during the term.
 
 ![Click click Poyo!](./prototypes/instructions/instructions-prototype-1/Assets/Click-click-Poyo.png)
 
-2. [Emulation Gamestation](https://sabiewasabi.github.io/CART253/prototypes/instructions/instructions-prototype-2/)
+2. [Confusion Gamestation](https://sabiewasabi.github.io/CART253/prototypes/instructions/instructions-prototype-2/)
 
-
+![Confusion Gamestation](./prototypes/instructions/instructions-prototype-2/Assets/confusion-gamestation.png)
 
 3. [Geminomonom](https://sabiewasabi.github.io/CART253/prototypes/instructions/instructions-prototype-3/)
 
