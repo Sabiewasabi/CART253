@@ -2,7 +2,7 @@
 
 // Author:Sabrina Rath
 
-// This prototype intends to be able to play a game (maybe pong or a maze game) through the screen of a Gameboy.
+// This prototype intends to serve as a weird static image of a gameboy with a confused look. It does not have any other function.
 
 function setup() {
   createCanvas(600,600);

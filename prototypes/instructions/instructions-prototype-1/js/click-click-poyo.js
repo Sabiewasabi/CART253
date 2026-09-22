@@ -2,7 +2,7 @@
 
 //Authour:Sabrina Rath
 
-//An interactable Kirby face (also known as Poyo in Japanese) where each mouse click reveals a different expression of Kirby
+//This prototype is a representative art of an interactable Kirby face (also known as Poyo in Japanese) where each mouse click reveals a different expression of Kirby - my favorite character!
 
 //Variable
 // This variable holds the information for each different expressions 0 = Neutral 1 = Happy, 2 = Poyo!. 3 =Sleepy, 4 = Angry
