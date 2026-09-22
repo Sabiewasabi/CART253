@@ -53,18 +53,19 @@ function setup() {
  * Draw (and update) Mr. Furious
  */
 function draw() {
-  background(160, 180, 200);
+  background(sky.fill.r,sky.fill.g,sky.fill.b);
 
-  //Mr.Furious gets angrier
+//Mr.Furious gets angrier
 mrFurious.fill.r = mrFurious.fill.r + 1
 mrFurious.fill.g = mrFurious.fill.g - 1
 mrFurious.fill.b = mrFurious.fill.b - 1
 mrFurious.fill +1,-1,-1;
 
 //Make day turn night overtime
-sky.fill.r = sky.fill.r = -1
-sky.fill.g = sky.fill.g = -1
-sky.fill.b = sky.fill.b = -1
+sky.fill.r = sky.fill.r -1
+sky.fill.g = sky.fill.g -1
+sky.fill.b = sky.fill.b -1
+sky.fill -1,-1,-1;
 
   
   // Draw Mr. Furious as a coloured circle
@@ -80,6 +81,7 @@ sky.fill.b = sky.fill.b = -1
   stroke(0);
   strokeWeight(2);
   ellipse(bird.x,bird.y,bird.size)
+  bird.x = bird.x -1
   pop();
 
 
