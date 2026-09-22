@@ -24,10 +24,12 @@ let mrFurious = {
 //Draw annoying bird botering Mr.Furious
 //Using lerp will allow the bird the move back and forth on a linear path
 let bird = {
+//Colour
 fill: '#FAC05E',
-size:60,
 stroke:0,
 strokeWeight:2,
+//Position and size
+size:60,
 x:350,
 y:100,
 
@@ -53,6 +55,7 @@ function draw() {
   ellipse(mrFurious.x, mrFurious.y, mrFurious.size);
   pop();
 
+//Make annoying bird fly back and forth
 
 
 }
