@@ -2,7 +2,7 @@
  * Mr. Furious
  * Sabrina Rath, Konstantinos Christodoulakis Erica Gavez
  *
- * A guy who becomes visibly furious becuase of a darn annoting bird!
+ * A guy who becomes visibly furious becuase of a darn annoting bird! Mr.Furious becomes more red each second as a bird flies back and forth above his head.
  */
 
 "use strict";
