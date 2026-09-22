@@ -26,8 +26,6 @@ let mrFurious = {
 let bird = {
 //Colour
 fill: '#FAC05E',
-stroke:0,
-strokeWeight:2,
 //Position and size
 size:60,
 x:350,
@@ -55,7 +53,17 @@ function draw() {
   ellipse(mrFurious.x, mrFurious.y, mrFurious.size);
   pop();
 
-//Make annoying bird fly back and forth
+  //Draw annoying bird
+  push();
+  fill(bird.fill);
+  stroke(0);
+  strokeWeight(2);
+  ellipse(mrFurious.x,mrFurious.y,mrFurious.size)
 
+
+//Mr.Furious gets angrier
+mrFurious.fill = mrFurious.fill +1
+
+//Make annoying bird fly back and forth
 
 }
