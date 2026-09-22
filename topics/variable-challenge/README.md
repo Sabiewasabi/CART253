@@ -1,12 +1,16 @@
 # Mr. Furious gets FURIOUS!!!
 
-SABRINA RATH AND ERICA GAVEZ
+SABRINA RATH,KONSTANTINOS CHRISTODOULAKIS AND ERICA GAVEZ
 
-[View this project online](URL_FOR_THE_RUNNING_PROJECT)
+[View this project online](https://sabiewasabi.github.io/CART253/topics/variable-challenge/)
 
 ## Description
 
-This description should help the reader understand what the program is, anything they should know to be able to experience it (controls, special features, etc.), and what the desired user experience is. For example:
+A guy who becomes visibly furious becuase of a darn annoting bird! Mr.Furious becomes more red each second as a bird flies back and forth above his head.
+
+## Screenshot(s)
+
+![Mr.Furious](./assets/images/mr-furious.png)
 
 ## Attribution
 
