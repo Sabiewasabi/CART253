@@ -122,15 +122,20 @@ if (expressionIndex === 4){
   }
 
   //Draw blush
+  push();
   noStroke();
   fill('#F490A7');
   ellipse(170,295,60,30);
   ellipse(330,295,60,30);
+  pop();
 
 //Text for viewwers to know exactly how to interact with the projects
 let t = 'Click on Poyo!';
-textSize(20)
-text(s,250,300)
+fill(0);
+textSize(20);
+//Have it automatically center the text towards the bottom
+textAlign(CENTER,BOTTOM);
+text(s,250,400);
 
 }
 
