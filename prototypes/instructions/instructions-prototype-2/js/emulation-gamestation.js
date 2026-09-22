@@ -57,8 +57,11 @@ noFill();
 stroke(0);
 strokeWeight(4);
 beginShape();
-vertex(200,255);
+vertex(280,255);
 vertex(290,245);
+vertex(300,255);
+vertex(310,245);
+vertex(320,255);
 endShape();
 
 
