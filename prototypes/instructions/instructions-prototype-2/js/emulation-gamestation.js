@@ -27,13 +27,20 @@ function setup() {
   rect (300,220,200,150);
 
   //Draw silly face on screen
-  
-  //Draw left eye
+
+  //Draw left eye (normal eye)
   fill(0);
   ellipse(265,210,25,25);
   //White shine in the eyes
   fill(255);
   ellipse(268,207,8,8);
+
+//Draw right eye (bigger eye for that confused look)
+fill(0);
+ellipse(335,205,45,45);
+//Same white shine in the eyes
+fill(255);
+ellipse(342,200,12,12)
 
   // Buttons
   fill(0);
