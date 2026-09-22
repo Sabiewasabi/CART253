@@ -42,6 +42,15 @@ ellipse(335,205,45,45);
 fill(255);
 ellipse(342,200,12,12)
 
+//Eyebrows
+noFill();
+stroke(0);
+strokeWeight(3);
+//Slanted left eyebrow
+line(250,185,280,180);
+//Curved right eyebrow
+arc(335,175,40,20,0,PI);
+
   // Buttons
   fill(0);
   ellipse (400,370,35);
