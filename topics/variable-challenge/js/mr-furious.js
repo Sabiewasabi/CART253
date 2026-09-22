@@ -75,18 +75,21 @@ sky.fill -1,-1,-1;
   ellipse(mrFurious.x, mrFurious.y, mrFurious.size);
   pop();
 
-  //Draw annoying bird
+  //Draw annoying bird to fly back and forth
   push();
   fill(bird.fill);
   stroke(0);
   strokeWeight(2);
   ellipse(bird.x,bird.y,bird.size)
   bird.x = bird.x -1
+
+  if (bird.x ===0){
+    bird.x = bird.x = +1
+  } else if (bird.x === 400){
+bird.x = bird.x -1
+  
+
+}
   pop();
-
-
-
-
-//Make annoying bird fly back and forth
 
 }
