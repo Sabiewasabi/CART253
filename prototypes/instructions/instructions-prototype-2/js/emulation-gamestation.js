@@ -51,6 +51,11 @@ line(250,185,280,180);
 //Curved right eyebrow
 arc(335,175,40,20,0,PI);
 
+//Cute wiggly mouth (i love cute things!)
+//For the mouth, I am using vertex(); seen in the p5.js reference page. This will allow me to draw a custom shape with continuously until I endShape(); - meaing I stop the drawing.
+
+
+
   // Buttons
   fill(0);
   ellipse (400,370,35);
