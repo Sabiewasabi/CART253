@@ -16,7 +16,7 @@
 
 > The challenge was a great way to get me to practice and work my muscle memories becuase I will admit I forgot a little bit of all the dfferent functions that existed in p5.js, just like the forloop();.I hope that we get to do more of these as we progress to regain my sense of confort with p5.js to feel on top of my game.HOwever, it goes without saying that I will practice at home too.
 
-> I'd like to take of this class to be some sort of review class because I believe a few students are starting off as beginners as well. 😅
+> I'd like to think of this class to serve as some sort of review class because I believe a few students are starting off as beginners anyways. 😅
 
 - ### Variable challenge - **09/22/2026**
 
