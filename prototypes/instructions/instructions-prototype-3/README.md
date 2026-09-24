@@ -4,6 +4,8 @@ SABRINA RATH
 
 [View this project online](https://sabiewasabi.github.io/CART253/prototypes/instructions/instructions-prototype-3/)
 
+[View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/prototypes/instructions/instructions-prototype-3/js/geminomonom.js)
+
 ## Description
 
 > *Geminomonom* is a astract looping experience of a rotating gem with slightly illuminated edges that will then take on another shape every 5 seconds.

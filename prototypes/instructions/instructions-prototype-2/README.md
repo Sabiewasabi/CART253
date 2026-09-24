@@ -4,6 +4,8 @@ SABRINA RATH
 
 [View this project online](https://sabiewasabi.github.io/CART253/prototypes/instructions/instructions-prototype-2/)
 
+[View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/prototypes/instructions/instructions-prototype-2/js/confusion-gamestation.js)
+
 ## Description
 
 > *Confusion Gamastation* is a simulation experience that display an image of a gameboy with a silly face.

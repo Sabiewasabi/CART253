@@ -4,6 +4,8 @@ SABRINA RATH
 
 [View this project online](https://sabiewasabi.github.io/CART253/prototypes/instructions/instructions-prototype-1/)
 
+[View the code of this project](https://github.com/Sabiewasabi/CART253/blob/main/prototypes/instructions/instructions-prototype-1/js/click-click-poyo.js)
+
 ## Description
 
 > *Click click Poyo!* is a interactable experience that allows the user to change the expression of Poyo by clicking it.
