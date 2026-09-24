@@ -6,7 +6,7 @@ SABRINA RATH, KONSTANTINOS CHRISTODOULAKIS AND ERICA GAVEZ
 
 ## Description
 
-A guy who becomes visibly furious becuase of a darn annoting bird! Mr.Furious becomes more red each second as a bird flies back and forth above his head.
+> A guy who becomes visibly furious becuase of a darn annoting bird! Mr.Furious becomes more red each second as a bird flies back and forth above his head.
 
 ## Screenshot(s)
 
