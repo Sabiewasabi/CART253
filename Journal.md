@@ -10,7 +10,7 @@
 
 > The process of brainstorming 3 ideas for 3 distinctevely different prototypes we're a bit challenging ony because the ideas I had we're so broad and I did'nt know where to start. A managed to come up with 3 decent prototypes. My ideas are decent but yet original in a way because they are idaeas stemmed from things I personnaly enjoy or would love to experience if someone else had made the project a reality. I would love to entertain my ideas for prototype 2 and 3 more since the are projects I believe are mor unique.To say the least, I am very satisfied with what I got so far. Now making these actually work is another challenge I will tackle for another day.
 
-> **UPDATE - 09/22/2026** : I ended up working more on the *Click,clickmPoyo!* prototype, instead of it being a static image now it animates a different expression whenever you click on Kirby. I also reworked the second prototype for it to have a more weird aspect to the project in whole and so now it's called *Confusion Gamestation*. Instead of a text in the center of the gameboy screen, it now has a cute confused looking face.
+> <mark>**UPDATE - 09/22/2026**</mark> : I ended up working more on the *Click,clickmPoyo!* prototype, instead of it being a static image now it animates a different expression whenever you click on Kirby. I also reworked the second prototype for it to have a more weird aspect to the project in whole and so now it's called *Confusion Gamestation*. Instead of a text in the center of the gameboy screen, it now has a cute confused looking face.
 
 - ### Instruction challenge - **09/15/2026**
 
