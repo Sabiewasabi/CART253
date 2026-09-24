@@ -1,10 +1,10 @@
 [Home 🏠](README.md) / [Portfolio 💼](https://sabrinarath263.wixsite.com/srathdesigns) / [Reflective Journal 📓](Journal.md) / [Assignments&Challenges](Assignments.md) / [Prototypes 💻](Prototypes.md)
 
-# <mark>Prototypes 💻
+# Prototypes 💻
 
 > Here you can access and view all my prototypes created during the term.
 
-# Protoypes: instructions
+# <mark> Protoypes: instructions </mark>
 
 # **1.  Click click Poyo!**
 
