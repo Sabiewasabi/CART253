@@ -12,7 +12,7 @@
 
 SABRINA RATH AND ERICA GAVEZ
 
-[View this project online](https://sabiewasabi.github.io/CART253/topics/landscape-challenge/)
+[View the code of this project](https://github.com/Sabiewasabi/CART253/blob/main/topics/landscape-challenge/js/landscape.js)
 
 ## Description
 
@@ -35,7 +35,7 @@ SABRINA RATH AND ERICA GAVEZ
 
 SABRINA RATH, KONSTANTINOS CHRISTODOULAKIS AND ERICA GAVEZ
 
-[View this project online](https://sabiewasabi.github.io/CART253/topics/variable-challenge/)
+[View the code of this project](https://github.com/Sabiewasabi/CART253/blob/main/topics/variable-challenge/js/mr-furious.js)
 
 ## Description
 
