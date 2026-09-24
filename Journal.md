@@ -1,4 +1,4 @@
-[Home 🏠](README.md) / [Portfolio 💼](https://sabrinarath263.wixsite.com/srathdesigns) / [Reflective Journal 📓](Journal.md) / [Prototypes 💻](Prototypes.md)
+[Home 🏠](README.md) / [Portfolio 💼](https://sabrinarath263.wixsite.com/srathdesigns) / [Reflective Journal 📓](Journal.md) / [Assignments&Challenges](Assignments.md) / [Prototypes 💻](Prototypes.md)
 
 # **Reflective journal** 📝
 
