@@ -6,11 +6,13 @@
 
 ## 1. [Hello, World challenge](https://github.com/Sabiewasabi/CART253)
 
-## 2. [Landscape challenge](https://sabiewasabi.github.io/CART253/topics/landscape-challenge/)
+## 2. Landscape challenge
 
 ## **Overlook**
 
 SABRINA RATH AND ERICA GAVEZ
+
+[View this project online](https://sabiewasabi.github.io/CART253/topics/landscape-challenge/)
 
 [View the code of this project](https://github.com/Sabiewasabi/CART253/blob/main/topics/landscape-challenge/js/landscape.js)
 
@@ -30,11 +32,13 @@ SABRINA RATH AND ERICA GAVEZ
 ## License
 > This project is licensed under a Creative Commons Attribution ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)) license with the exception of libraries and other components with their own licenses.
 
-## 3. [Variable challenge](https://sabiewasabi.github.io/CART253/topics/variable-challenge/)
+## 3. Variable challenge
 
 ## **Mr. Furious gets FURIOUS!!!**
 
 SABRINA RATH, KONSTANTINOS CHRISTODOULAKIS AND ERICA GAVEZ
+
+[View this project online](https://sabiewasabi.github.io/CART253/topics/variable-challenge/)
 
 [View the code of this project](https://github.com/Sabiewasabi/CART253/blob/main/topics/variable-challenge/js/mr-furious.js)
 
