@@ -8,7 +8,7 @@
 
 ## 2. [Landscape challenge](https://sabiewasabi.github.io/CART253/topics/landscape-challenge/)
 
-## Overlook
+## **Overlook**
 
 SABRINA RATH AND ERICA GAVEZ
 
@@ -31,7 +31,7 @@ SABRINA RATH AND ERICA GAVEZ
 
 ## 3. [Variable challenge](https://sabiewasabi.github.io/CART253/topics/variable-challenge/)
 
-# Mr. Furious gets FURIOUS!!!
+## **Mr. Furious gets FURIOUS!!!**
 
 SABRINA RATH, KONSTANTINOS CHRISTODOULAKIS AND ERICA GAVEZ
 
