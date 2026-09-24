@@ -79,7 +79,7 @@ SABRINA RATH
 
 > The project is meant to for users to enjoy an alluring display of light and shadows morphing into different gem shapes which gives it a myserioous look.
 
-> NOTE: As for now, the gem does not morph or change colour as I am currently working on how do to so.
+> <mark>NOTE:</mark> As for now, the gem does not morph or change colour as I am currently working on how do to so.
 
 ## Screenshot(s)
 
