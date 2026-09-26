@@ -10,6 +10,7 @@
 
 //Variables
 let Mycircle = {
+//Drawing my circle to sit at the very center of the canvas
     x:300,
     y:300,
     size:300,
@@ -19,7 +20,7 @@ let Mycircle = {
     g: 266,
     b: 255,
     },  
-//Setting a target color for the circle to move towards
+//Setting target color for the circle to move towards
     nextColor: {
         r: 255,
         g:255,
@@ -28,11 +29,25 @@ let Mycircle = {
 }
 
 //Current colors of the gradient background
+let bgTopColor;
+let bgBottomColor;
 
+//Setting target color for the background to move towards
+let nextTopColor;
+let nextBottomColor;
 
 //creating a canvas with the proportions of 600x600
 function setup() {
 createCanvas (600,600);
+
+//My starting colors I picked from Coolor.co and how I always pick my colors
+bgTopColor = color("#8B2635");
+bgBottomColor = color("#DB2955");
+
+//Set initial target so it doesn't try to change color on load before 1 second
+targetTopColor = bgTopColor;
+targetBottomColor = bgBottomColor;
+
 }
 
 
