@@ -25,5 +25,10 @@ createCanvas (600,600);
 function draw() {
 background (255)
 
+//NOt using innerwidth and innerheight for accuracy
 let maxRadius = max(widht,height);
+
+//My 2 bases colors. In case you're wondering, I always pick my colors from Coolors.co
+baseCenter = color("#8B2635")
+baseOuter = color("#DB2955")
 }
