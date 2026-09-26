@@ -112,7 +112,7 @@ SABRINA RATH
 
 ## Screenshot(s)
 
-![Aura Dynamics](./assets/images/aura-dynamics.png)
+![Aura Dynamics](./prototypes/variables/variables-prototype-1/assets/images/aura-dynamics.png)
 
 ## Attribution
 
