@@ -6,8 +6,6 @@
 //Each second it changes color at random with a smooth transition using the lerp(); p5.js object. There is no meaning to this project but rather one that simply plays with the endlesss possibility of volors.
 
 
-
-
 //Variables
 let Mycircle = {
 //Drawing my circle to sit at the very center of the canvas
@@ -72,6 +70,23 @@ Mycircle.fill.r = lerp(Mycircle.fill.r, Mycircle.target.r, 0.05);
 Mycircle.fill.g = lerp(Mycircle.fill.g, Mycircle.target.g, 0.05);
 Mycircle.fill.b = lerp(Mycircle.fill.b, Mycircle.target.b, 0.05);
 
+//Draw gradient background and removeing the noticeable lines from the canvas
+noFill();
+//Putting it in a for loop so the lines never reappear
+for (let y = 0; y < height; y++) { 
+//Calculate the colorblend for each row (y/height)
+stroke(lerpColor(bgTopColor, bgBottomColor, y / height));
+    
+//Draw the horizontal line across the screen
+    line(0, y, width, y);
+}
+
+//Draw the circle\
+push();
+noStroke();
+fill(Mycircle.fill.r,Mycircle.fill.g,Mycircle.fill.b);
+ellipse(Mycircle.x, Mycircle.y,Mycircle.size);
+pop();
 
 
 }
