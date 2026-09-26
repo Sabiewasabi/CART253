@@ -3,6 +3,7 @@
 SABRINA RATH
 
 [View this project online](URL_FOR_THE_RUNNING_PROJECT)
+
 [View the code to this project](URL_FOR_THE_RUNNING_PROJECT)
 
 ## Description
@@ -10,6 +11,8 @@ SABRINA RATH
 > Description: This projects features a gradient background and an ellipse placed at the center of the canvas.Each second it changes color at random with a smooth transition using the lerp(); p5.js object. There is no meaning to this project but rather one that simply plays with the endlesss possibility of volors.
 
 ## Screenshot(s)
+
+![Aura Dynamics](./assets/images/aura-dynamics.png)
 
 ## Attribution
 
