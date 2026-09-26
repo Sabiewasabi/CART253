@@ -109,6 +109,7 @@ SABRINA RATH
 ## Description
 
 >This projects features a gradient background and an ellipse placed at the center of the canvas.Each second it changes color at random with a smooth transition using the lerp(); p5.js object.
+
 >This project has no controls but rather it is simply an experience which plays with the endlesss possibility of colors.
 
 ## Screenshot(s)
