@@ -35,11 +35,22 @@ if (frameCount % 120 === 1){
     colorOuter = color (random (255),random (255),random (255));
 }
 
-//If the timer has NOT reached 2 seconds then the colors don't change 
+//On start and If the timer has NOT reached 2 seconds, then the colors don't change 
 if (frameCount < 120){
     colorCenter = baseColor
     colorOUter = baseColor
 }
+
+//Draw gradient (loops from outside inward)
+//Used a for loop to repeat this line of code
+for (let r = maxRadius; r > 0; r-=2){
+    let inter = map(r,0,maxRadius,0,1);
+    let c = lerpColor(colorCenter,colorOUter,Inter);
+
+    stroke(c);
+    ellipse(width/2,height/2,r*2,r*2);
+}
+
 
 
 
