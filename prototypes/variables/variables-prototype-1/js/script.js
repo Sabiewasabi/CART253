@@ -13,14 +13,21 @@ let Mycircle = {
     x:300,
     y:300,
     size:300,
-//Color. Yhe colors will be updated inside draw
+//Current colors. Will update every second in draw
     fill: {
-    r: 0,
-    g: 0,
-    b: 0,
-
+    r: 255,
+    g: 266,
+    b: 255,
+    },  
+//Setting a target color for the circle to move towards
+    nextColor: {
+        r: 255,
+        g:255,
+        b:255,
     }
 }
+
+//Current colors of the gradient background
 
 
 //creating a canvas with the proportions of 600x600
