@@ -26,4 +26,4 @@
 
 > Not only am I bad at math but I am horrible with my directions...
 
-- ## Creating 3 variable oriented prototypes - **09/25/2026**
+- ### Creating 3 variable oriented prototypes - **09/25/2026**
