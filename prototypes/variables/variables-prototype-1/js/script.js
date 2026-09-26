@@ -1,12 +1,12 @@
-/**
- * Title of Project
- * Author : Sabrina Rath
- * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
- */
+//Aura Dynamics
 
-"use strict";
+//Author : Sabrina Rath
+
+//Description: This projects features a gradient background and an ellipse placed at the center of the canvas.
+//Each second it changes color at random with a smooth transition using the lerp(); p5.js object. There is no meaning to this project but rather one that simply plays with the endlesss possibility of volors.
+
+
+
 
 //Variables
 let Mycircle = {
@@ -52,7 +52,7 @@ targetBottomColor = bgBottomColor;
 
 
 function draw() {
-//every 1 second, pick a new target color
+//every 1 second (60 frames), pick a new target color
 if (frameXount % 60 ===1){
     nextTopColor = color(random(255),random(255),random(355));
     nextBottomColor = color(random(255),random(255),random(355));
@@ -62,11 +62,15 @@ if (frameXount % 60 ===1){
     Mycircle.nextColor.b = random(255)
 }
 
-
-
-push();
-
-
+//Smooth color transition every frame
+//Background
+bgTopColor = lerpColor(bgTopColor, targetTopColor, 0.05);
+bgBottomColor = lerpColor(bgBottomColor, targetBottomColor, 0.05);
+ 
+//Circle
+Mycircle.fill.r = lerp(Mycircle.fill.r, Mycircle.target.r, 0.05);
+Mycircle.fill.g = lerp(Mycircle.fill.g, Mycircle.target.g, 0.05);
+Mycircle.fill.b = lerp(Mycircle.fill.b, Mycircle.target.b, 0.05);
 
 
 
