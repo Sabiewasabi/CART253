@@ -2,8 +2,7 @@
 
 //Author : Sabrina Rath
 
-//Description: This projects features a gradient background and an ellipse placed at the center of the canvas.
-//Each second it changes color at random with a smooth transition using the lerp(); p5.js object. There is no meaning to this project but rather one that simply plays with the endlesss possibility of volors.
+//Description: This projects features a gradient background and an ellipse placed at the center of the canvas.Each second it changes color at random with a smooth transition using the lerp(); p5.js object. There is no meaning to this project but rather one that simply plays with the endlesss possibility of volors.
 
 
 //Variables
@@ -15,7 +14,7 @@ let Mycircle = {
 //Current colors. Will update every second in draw
     fill: {
     r: 255,
-    g: 266,
+    g: 255,
     b: 255,
     },  
 //Setting target color for the circle to move towards
@@ -43,17 +42,17 @@ bgTopColor = color("#8B2635");
 bgBottomColor = color("#DB2955");
 
 //Set initial target so it doesn't try to change color on load before 1 second
-targetTopColor = bgTopColor;
-targetBottomColor = bgBottomColor;
+nextTopColor = bgTopColor;
+nextBottomColor = bgBottomColor;
 
 }
 
 
 function draw() {
 //every 1 second (60 frames), pick a new target color
-if (frameXount % 60 ===1){
-    nextTopColor = color(random(255),random(255),random(355));
-    nextBottomColor = color(random(255),random(255),random(355));
+if (frameCount % 60 ===1){
+    nextTopColor = color(random(255),random(255),random(255));
+    nextBottomColor = color(random(255),random(255),random(255));
 
     Mycircle.nextColor.r = random(255)
     Mycircle.nextColor.g = random(255)
@@ -62,13 +61,13 @@ if (frameXount % 60 ===1){
 
 //Smooth color transition every frame
 //Background
-bgTopColor = lerpColor(bgTopColor, targetTopColor, 0.05);
-bgBottomColor = lerpColor(bgBottomColor, targetBottomColor, 0.05);
+bgTopColor = lerpColor(bgTopColor, nextTopColor, 0.05);
+bgBottomColor = lerpColor(bgBottomColor, nextBottomColor, 0.05);
  
 //Circle
-Mycircle.fill.r = lerp(Mycircle.fill.r, Mycircle.target.r, 0.05);
-Mycircle.fill.g = lerp(Mycircle.fill.g, Mycircle.target.g, 0.05);
-Mycircle.fill.b = lerp(Mycircle.fill.b, Mycircle.target.b, 0.05);
+Mycircle.fill.r = lerp(Mycircle.fill.r, Mycircle.nextColor.r, 0.05);
+Mycircle.fill.g = lerp(Mycircle.fill.g, Mycircle.nextColor.g, 0.05);
+Mycircle.fill.b = lerp(Mycircle.fill.b, Mycircle.nextColor.b, 0.05);
 
 //Draw gradient background and removeing the noticeable lines from the canvas
 noFill();
@@ -87,6 +86,5 @@ noStroke();
 fill(Mycircle.fill.r,Mycircle.fill.g,Mycircle.fill.b);
 ellipse(Mycircle.x, Mycircle.y,Mycircle.size);
 pop();
-
 
 }
