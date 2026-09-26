@@ -10,7 +10,7 @@
 
 //Variables
 let Mycircle = {
-    x:200,
+    x:300,
     y:300,
     size:300,
 //Color
@@ -32,5 +32,10 @@ createCanvas (600,600);
 function draw() {
 background (255)
 
+push(); 
+noStroke();
+fill(Mycircle.r,Mycircle.b,Mycircle.b);
+ellipse(Mycircle.x,Mycircle.y,Mycircle.size);
+pop();
 
 }
