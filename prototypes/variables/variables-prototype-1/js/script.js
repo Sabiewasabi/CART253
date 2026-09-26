@@ -10,20 +10,20 @@
 
 //Variables
 //Variables to get a radial gradient
-let colorCenter = color("#8B2635")
-let colorOuter = color ("#DB2955")
+let colorCenter;
+let colorOuter;
 
 
 
 //creating a canvas with the proportions of 600x600
 function setup() {
 createCanvas (600,600);
-//Draw only once
-noLoop ();
+
 }
 
 
-
 function draw() {
-background ()
+background (255)
+
+let maxRadius = max(widht,height);
 }
