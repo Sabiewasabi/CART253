@@ -52,7 +52,15 @@ targetBottomColor = bgBottomColor;
 
 
 function draw() {
-background (255);
+//every 1 second, pick a new target color
+if (frameXount % 60 ===1){
+    nextTopColor = color(random(255),random(255),random(355));
+    nextBottomColor = color(random(255),random(255),random(355));
+
+    Mycircle.nextColor.r = random(255)
+    Mycircle.nextColor.g = random(255)
+    Mycircle.nextColor.b = random(255)
+}
 
 
 
