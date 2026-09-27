@@ -1,24 +1,17 @@
-/**
- * Title of Project
- * Author Name
- * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
- */
+//Title:
 
-"use strict";
+//Author: Sabrina Rath
 
-/**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
-*/
+//Description:
+
+
 function setup() {
+//Creating canvas the size of the window screen
+createCanvas(windowWidth,windowHeight);
 
 }
 
-
-/**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
-*/
 function draw() {
-
+//Deep blue for a dark sky
+background("#101D42");
 }
