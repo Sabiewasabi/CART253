@@ -17,9 +17,9 @@ background("#101D42");
 
 //Set the noise level and scale
 
-//Controls how smooth or jagged the lines are
-let waveheight = 150;
 //Controls the height of the waves
+let waveheight = 150;
+//Controls how smooth or jagged the lines are
 let noiseScale = 0.002;
 
 //Center the wave vertically at the screen because the lines wont be noticeable
