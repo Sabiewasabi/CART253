@@ -16,11 +16,14 @@ function draw() {
 background("#101D42");
 
 //Set the noise level and scale
+
+//Controls how smooth or jagged the lines are
 let noiseLevel = 600;
-let moiseScale = 0.002;
+//Controls the height of the waves
+let noiseScale = 0.002;
 
 //Iterate from left to right
-for (let x = 0; x <100; x +=1){
+for (let x = 0; x <windowWidth; x +=1){
 //Scale input coordinates.
 let nx = noiseScale + x;
 let nt = noiseScale + frameCount;
