@@ -29,9 +29,10 @@ pop();
 
 //Mountains
 push();
-let mountainScale =
-let mountainHeight = 
-let mountainBaseline =
+let mountainScale =0.1;
+let mountainHeight = 100;
+//Setting my waves a bit higher than my waves
+let mountainBaseline = height *0.35 
 pop();
 
 //Set the noise level and scale
