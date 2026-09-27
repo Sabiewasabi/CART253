@@ -29,6 +29,9 @@ pop();
 
 //Mountains
 push();
+let mountainScale =
+let mountainHeight = 
+let mountainBaseline =
 pop();
 
 //Set the noise level and scale
