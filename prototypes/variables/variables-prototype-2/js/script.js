@@ -15,8 +15,10 @@ function draw() {
 //Deep blue for a dark sky
 background("#101D42");
 
-//Set the noise level and scale
+//Nice light blue wave color to contrast the dark blue sky
+stroke("#232ED1")
 
+//Set the noise level and scale
 //Controls the height of the waves
 let waveheight = 150;
 //Controls how smooth or jagged the lines are
@@ -30,7 +32,7 @@ for (let x = 0; x <windowWidth; x +=1){
 //Scale input coordinates by multiplying (* means multiply)
 let nx = x * noiseScale;
 //Smoother waves
-let nt = frameCount* 0.003;
+let nt = frameCount* 0.002;
 
 //Smooth noise value and scale it
 let yOffset = noise(nx,nt)*waveheight;
