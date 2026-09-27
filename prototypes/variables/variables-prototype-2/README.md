@@ -2,9 +2,9 @@
 
 SABRINA RATH
 
-[View this project online](URL_FOR_THE_RUNNING_PROJECT)
+[View this project online](https://sabiewasabi.github.io/CART253/prototypes/variables/variables-prototype-2/)
 
-[View the code to this project](URL_FOR_THE_RUNNING_PROJECT)
+[View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/prototypes/variables/variables-prototype-2/js/wavelengths.js)
 
 ## Description
 
