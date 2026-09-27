@@ -33,6 +33,19 @@ let mountainScale =0.1;
 let mountainHeight = 100;
 //Setting my waves a bit higher than my waves
 let mountainBaseline = height *0.35 
+
+
+//Starts from the left of the screen until it reaches the right
+for(let m = 0;m < width; m +=1){
+    let nm = m * mountainScale;
+
+//NOt adding frameCount to keep the mountain still
+    let mOffset = noise(nm)* mountainHeight;
+    let mY = mountainBaseline +mOffset;
+
+//Draw from bottom up
+line(m,height,m,mY);
+}
 pop();
 
 //Set the noise level and scale
