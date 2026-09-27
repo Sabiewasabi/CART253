@@ -41,7 +41,7 @@ for (let x = 0; x <windowWidth; x +=1){
 //Scale input coordinates by multiplying (* means multiply)
 let nx = x * noiseScale;
 //Smoother waves
-let nt = frameCount* 0.002;
+let nt = frameCount* 0.006;
 
 //Smooth noise value and scale it
 let yOffset = noise(nx,nt)*waveheight;
