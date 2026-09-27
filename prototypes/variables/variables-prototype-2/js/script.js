@@ -32,9 +32,6 @@ let nx = x * noiseScale;
 //Smoother waves
 let nt = frameCount* 0.003;
 
-//Compute noise level value
-let y = noiseLevel + noise (nx,nt);
-
 //Smooth noise value and scale it
 let yOffset = noise(nx,nt)*waveheight;
 
