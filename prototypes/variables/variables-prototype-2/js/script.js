@@ -23,7 +23,7 @@ push();
 noStroke();
 //Eggshell color for the moon
 fill("#F7F4EA")
-ellipse(150,150,150,150)
+ellipse(100,130,130,130)
 pop();
 
 
