@@ -29,6 +29,7 @@ pop();
 
 //Mountains
 push();
+stroke("#161B33")
 let mountainScale =0.1;
 let mountainHeight = 100;
 //Setting my waves a bit higher than my waves
