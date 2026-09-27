@@ -32,6 +32,9 @@ let nt = frameCount* 0.005;
 //Compute noise level value
 let y = noiseLevel + noise (nx,nt);
 
+//Smooth noise value and scale it
+let yOffset = noise(nx,nt)*waveheight
+
 //Draw the line
 line(x,windowHeight,x,y);
 }
