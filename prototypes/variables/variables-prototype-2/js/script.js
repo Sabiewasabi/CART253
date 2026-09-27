@@ -18,7 +18,7 @@ background("#101D42");
 //Set the noise level and scale
 
 //Controls how smooth or jagged the lines are
-let noiseLevel = 600;
+let noiseLevel = 150;
 //Controls the height of the waves
 let noiseScale = 0.002;
 
