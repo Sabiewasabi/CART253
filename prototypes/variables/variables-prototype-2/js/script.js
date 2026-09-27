@@ -1,8 +1,8 @@
-//WAvies
+//Wavelenghts
 
 //Author: Sabrina Rath
 
-//Description:
+//Description: A layered landscape featuring mountains and smooth waves at the foreground using noise. This project was created with intentions of giving the viewers a sense of calm,stillness and serenity while gazing at one of nature's delight - cascading waves with a view.
 
 
 function setup() {
