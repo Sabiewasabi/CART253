@@ -27,6 +27,10 @@ ellipse(100,130,130,130)
 pop();
 
 
+//Mountains
+push();
+pop();
+
 //Set the noise level and scale
 //Controls the height of the waves
 let waveheight = 150;
