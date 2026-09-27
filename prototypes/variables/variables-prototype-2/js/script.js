@@ -6,8 +6,8 @@
 
 
 function setup() {
-//Creating canvas the size of the window screen
-createCanvas(windowWidth,windowHeight);
+//Creating canvas the size of 600x600
+createCanvas(600,600);
 
 }
 
@@ -37,7 +37,7 @@ let noiseScale = 0.002;
 let yBaseline = height*0.5;
 
 //Iterate from left to right
-for (let x = 0; x <windowWidth; x +=1){
+for (let x = 0; x <width; x +=1){
 //Scale input coordinates by multiplying (* means multiply)
 let nx = x * noiseScale;
 //Smoother waves
@@ -51,7 +51,7 @@ let y = yBaseline + yOffset;
 
 
 //Draw the line
-line(x,windowHeight,x,y);
+line(x,height,x,y);
 }
 
 
