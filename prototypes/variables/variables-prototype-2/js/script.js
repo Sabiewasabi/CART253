@@ -30,10 +30,10 @@ pop();
 //Mountains
 push();
 stroke("#161B33")
-let mountainScale =0.1;
-let mountainHeight = 100;
+let mountainScale =0.02;
+let mountainHeight = 120;
 //Setting my waves a bit higher than my waves
-let mountainBaseline = height *0.35 
+let mountainBaseline = height *0.30 
 
 
 //Starts from the left of the screen until it reaches the right
