@@ -18,6 +18,15 @@ background("#101D42");
 //Nice light blue wave color to contrast the dark blue sky
 stroke("#232ED1")
 
+// Draw the moon
+push();
+noStroke();
+//Eggshell color for the moon
+fill("#F7F4EA")
+ellipse(150,150,50,50)
+pop();
+
+
 //Set the noise level and scale
 //Controls the height of the waves
 let waveheight = 150;
@@ -44,5 +53,6 @@ let y = yBaseline + yOffset;
 //Draw the line
 line(x,windowHeight,x,y);
 }
+
 
 }
