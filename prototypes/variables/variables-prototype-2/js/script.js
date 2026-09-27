@@ -24,15 +24,16 @@ let noiseScale = 0.002;
 
 //Iterate from left to right
 for (let x = 0; x <windowWidth; x +=1){
-//Scale input coordinates.
-let nx = noiseScale + x;
-let nt = noiseScale + frameCount;
+//Scale input coordinates by multiplying
+let nx = x*noiseScale
+//Smoother waves
+let nt = frameCount* 0.005;
 
 //Compute noise level value
 let y = noiseLevel + noise (nx,nt);
 
 //Draw the line
-line(x,0,x,y);
+line(x,windowHeight,x,y);
 }
 
 }
