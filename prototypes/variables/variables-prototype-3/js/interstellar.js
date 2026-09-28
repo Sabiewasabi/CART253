@@ -54,7 +54,7 @@ translate(width/2,height/2);
 rotate(-rotateAmount);
 
 ////Outerline color
-stroke("#F7AEF8");
+stroke("#72DDF7");
 noFill();
 ellipse(0,0,180);
 pop();
@@ -66,7 +66,7 @@ push();
 //The square will be drawn right at the center of my canvas
 rectMode(CENTER);
 ////Outerline color
-stroke("#B388EB");
+stroke("#8093F1");
 noFill();
 //New center point of canvas = 300,300
 translate(width/2,height/2);
@@ -83,7 +83,7 @@ translate(width/2,height/2);
 rotate(-rotateAmount);
 
 ////Outerline color
-stroke("#F7AEF8");
+stroke("#72DDF7");
 noFill();
 ellipse(0,0,350);
 pop();
@@ -105,6 +105,16 @@ rotate(rotateAmount*2);
 rect(0,0,500,500);
 pop();
 
+
+
+push();
+translate(width/2,height/2);
+rotate(-rotateAmount);
+
+////Outerline color
+fill("#72DDF7");
+ellipse(0,0,50);
+pop();
 
 rotateAmount +=1;
 
