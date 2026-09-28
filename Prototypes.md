@@ -136,7 +136,7 @@ SABRINA RATH
 
 ## Description
 
-> A layered landscape featuring mountains and smooth waves at the foreground using noise and a bright moon looking over the ocean.
+> This project is a layered landscape featuring mountains and smooth waves at the foreground using noise and a bright moon looking over the ocean.
 
 > This project was created with intentions of giving the viewers a sense of calm,stillness and serenity while gazing at one of nature's delight - cascading waves with a view.
 
