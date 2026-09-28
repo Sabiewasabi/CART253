@@ -18,7 +18,7 @@ background(0);
 //Center spinning square
 push();
 //The square will be drawn right at the center of my canvas
-rectMode(CENTER)
+rectMode(CENTER);
 stroke("#8093F1");
 noFill();
 
@@ -29,7 +29,7 @@ translate(width/2,height/2);
 rotate(rotateAmount);
 
 //Draw square
-rect(0,0,50,50)
+rect(0,0,50,50);
 
 //Incrementing the angle by 1 degree per frame to keep it spinning/rotating
 rotateAmount +=1;
