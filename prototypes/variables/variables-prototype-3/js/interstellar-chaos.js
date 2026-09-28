@@ -1,4 +1,4 @@
-//Interstellar chaos
+//Interstellar Chaos
 
 //Author: Sabrina Rath
 
