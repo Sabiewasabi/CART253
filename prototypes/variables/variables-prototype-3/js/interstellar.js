@@ -29,7 +29,7 @@ translate(width/2,height/2);
 rotate(rotateAmount);
 
 //Draw square
-rect(0,0,50,50);
+rect(0,0,100,100);
 
 //Incrementing the angle by 1 degree per frame to keep it spinning/rotating
 rotateAmount +=1;
