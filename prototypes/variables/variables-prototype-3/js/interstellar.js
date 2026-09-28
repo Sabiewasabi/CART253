@@ -55,10 +55,15 @@ translate(width/2,height/2);
 rotate(-rotateAmount);
 stroke("#F7AEF8");
 noFill();
-ellipse(0,0,290);
+ellipse(0,0,180);
 pop();
 
-
+push();
+translate(width/2,height/2);
+rotate(rotateAmount);
+fill(255);
+triangle(30,75,58,20,86,75);
+pop();
 
 
 
