@@ -68,17 +68,34 @@ translate(width/2,height/2);
 //Orbit around the center square 1.5x faster
 rotate(rotateAmount*1.5);
 //Move it onto its own orbit line
-translate(20,0);
+translate(180,0);
 //Rotating twice as fast
 rotate(rotateAmount*2)
 
 noFill();
 //Outerline color
 stroke(255);
-triangle(30,75,58,20,86,75);
+triangle(-28,27,28,27,0,-28);
 pop();
 
-rotateAmount +=1;
+
+//Second spinning/rotating triangle that rotates around the center and on its itself
+push();
+//New center point of canvas = 300,300
+translate(width/2,height/2);
+//Orbit around the center square 1.5x faster
+rotate(-rotateAmount*2);
+//Move it onto its own orbit line
+translate(180,0);
+//Rotating twice as fast
+rotate(rotateAmount*2)
+
+noFill();
+//Outerline color
+stroke(255);
+triangle(-28,27,28,27,0,-28);
+pop();
+
 
 
 
@@ -98,7 +115,7 @@ rect(0,0,300,300);
 pop();
 
 
-//Circle
+//Second circle
 push();
 translate(width/2,height/2);
 rotate(-rotateAmount);
@@ -108,5 +125,7 @@ stroke("#F7AEF8");
 noFill();
 ellipse(0,0,350);
 pop();
+
+rotateAmount +=1;
 
 }
