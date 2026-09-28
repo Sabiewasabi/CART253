@@ -53,8 +53,9 @@ pop();
 push();
 translate(width/2,height/2);
 rotate(-rotateAmount);
-fill("#F7AEF8");
-ellipse(100,100,70);
+stroke("#F7AEF8");
+noFill();
+ellipse(0,0,290);
 pop();
 
 
