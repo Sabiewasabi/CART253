@@ -19,10 +19,21 @@ background(0);
 push();
 //The square will be drawn right at the center of my canvas
 rectMode(CENTER)
+stroke("#8093F1");
+noFill();
 
+//New center point of canvas = 300,300
+translate(width/2,height/2);
 
+//Rotate the canvas clockwise my center point
+rotateAmount();
 
+//Draw square
+rect(0,0,50,50)
 
+//Incrementing the angle by 1 degree per frame to keep it spinning/rotating
+rotateAmount +=1;
+pop();
 
 
 
