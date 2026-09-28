@@ -2,7 +2,12 @@
 
 //Author: Sabrina Rath
 
-//Creation variable that i will then add +1 to for smooth rotation
+//Description: This project represents an interactive interstellar space simulation made of spinning shapes.
+//This experience is controlled by clicking and holding the mouse to have the shapes spin faster.When you release, the speed of the rotating shapes return to normal.
+//This project is inspired by a simple idea - bringing order back to chaos 
+
+
+//Creating variable that i will then add +1 to for smooth rotation
 let rotateAmount = 0;
 
 function setup() {
@@ -106,7 +111,7 @@ rect(0,0,450,450);
 pop();
 
 
-
+//Small center circle
 push();
 translate(width/2,height/2);
 rotate(-rotateAmount);

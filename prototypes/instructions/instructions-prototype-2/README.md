@@ -10,7 +10,7 @@ SABRINA RATH
 
 > *Confusion Gamastation* is a simulation experience that display an image of a gameboy with a silly face.
 
-> The experience has no controls.
+> This experience has no controls.
 
 > The project is meant to be a weird gameboy looking back at it's owner confused, is it sentient?.
 
