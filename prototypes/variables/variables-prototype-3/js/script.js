@@ -15,4 +15,19 @@ angleMode(DEGREES);
 function draw() {
 background(0);
 
+//Center spinning square
+push();
+//The square will be drawn right at the center of my canvas
+rectMode(CENTER)
+
+
+
+
+
+
+
+
+
+
+
 }
