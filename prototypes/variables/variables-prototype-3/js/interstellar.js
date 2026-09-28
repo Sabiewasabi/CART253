@@ -26,7 +26,7 @@ noFill();
 translate(width/2,height/2);
 
 //Rotate the canvas clockwise my center point
-rotateAmount();
+rotate(rotateAmount);
 
 //Draw square
 rect(0,0,50,50)
