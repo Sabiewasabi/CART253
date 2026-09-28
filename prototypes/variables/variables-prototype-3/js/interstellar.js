@@ -61,44 +61,6 @@ pop();
 
 
 
-//Spinning/rotating triangle that rotates around the center and on its itself
-push();
-//New center point of canvas = 300,300
-translate(width/2,height/2);
-//Orbit around the center square 1.5x faster
-rotate(rotateAmount*1.5);
-//Move it onto its own orbit line
-translate(180,0);
-//Rotating twice as fast
-rotate(rotateAmount*2)
-
-noFill();
-//Outerline color
-stroke(255);
-triangle(-28,27,28,27,0,-28);
-pop();
-
-
-//Second spinning/rotating triangle that rotates around the center and on its itself
-push();
-//New center point of canvas = 300,300
-translate(width/2,height/2);
-//Orbit around the center square 1.5x faster
-rotate(-rotateAmount*2);
-//Move it onto its own orbit line
-translate(180,0);
-//Rotating twice as fast
-rotate(rotateAmount*2)
-
-noFill();
-//Outerline color
-stroke(255);
-triangle(-28,27,28,27,0,-28);
-pop();
-
-
-
-
 //Second bigger spinning square
 push();
 //The square will be drawn right at the center of my canvas
@@ -125,6 +87,24 @@ stroke("#F7AEF8");
 noFill();
 ellipse(0,0,350);
 pop();
+
+
+
+//Third bigger spinning square
+push();
+//The square will be drawn right at the center of my canvas
+rectMode(CENTER);
+////Outerline color
+stroke("#B388EB");
+noFill();
+//New center point of canvas = 300,300
+translate(width/2,height/2);
+//Rotate the canvas counter-clockwise my center point
+rotate(rotateAmount*2);
+//Draw square
+rect(0,0,500,500);
+pop();
+
 
 rotateAmount +=1;
 
