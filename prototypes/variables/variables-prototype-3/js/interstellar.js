@@ -21,39 +21,45 @@ push();
 rectMode(CENTER);
 stroke("#8093F1");
 noFill();
-
 //New center point of canvas = 300,300
 translate(width/2,height/2);
-
 //Rotate the canvas clockwise my center point
 rotate(rotateAmount);
-
 //Draw square
 rect(0,0,100,100);
-
 //Incrementing the angle by 1 degree per frame to keep it spinning/rotating
 rotateAmount +=1;
 pop();
 
-//Center spinning square
+
+//Second bigger spinning square
 push();
 //The square will be drawn right at the center of my canvas
 rectMode(CENTER);
 stroke("#B388EB");
 noFill();
-
 //New center point of canvas = 300,300
 translate(width/2,height/2);
-
-//Rotate the canvas clockwise my center point
+//Rotate the canvas counter-clockwise my center point
 rotate(-rotateAmount);
-
 //Draw square
 rect(0,0,250,250);
-
 //Incrementing the angle by 1 degree per frame to keep it spinning/rotating
 rotateAmount +=1;
 pop();
+
+
+//Rotating 
+push();
+translate(width/2,height/2);
+rotate(-rotateAmount);
+fill("#F7AEF8");
+ellipse(100,100,70);
+pop();
+
+
+
+
 
 
 }
