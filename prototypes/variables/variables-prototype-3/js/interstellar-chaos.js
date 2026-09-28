@@ -119,7 +119,7 @@ pop();
 //Interactive mouse click
 //Click the mouse to make the interstellar move 3x faster for true CHAOS! Release to bring back order of balance.
 if (mouseIsPressed){
-    rotateAmount +=3;
+    rotateAmount +=4.5;
 } else {rotateAmount +=1;
 }
 
