@@ -27,8 +27,6 @@ translate(width/2,height/2);
 rotate(rotateAmount);
 //Draw square
 rect(0,0,100,100);
-//Incrementing the angle by 1 degree per frame to keep it spinning/rotating
-rotateAmount +=1;
 pop();
 
 
@@ -44,8 +42,6 @@ translate(width/2,height/2);
 rotate(-rotateAmount);
 //Draw square
 rect(0,0,250,250);
-//Incrementing the angle by 1 degree per frame to keep it spinning/rotating
-rotateAmount +=1;
 pop();
 
 
@@ -61,14 +57,14 @@ pop();
 push();
 translate(width/2,height/2);
 translate(120,0);
-rotate(rotateAmount *2);
-fill(255);
+rotate(rotateAmount);
+noFill();
+stroke(255);
 triangle(30,75,58,20,86,75);
 pop();
 
 rotateAmount +=1;
 
-pop();
 
 
 
