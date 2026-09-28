@@ -100,9 +100,9 @@ noFill();
 //New center point of canvas = 300,300
 translate(width/2,height/2);
 //Rotate the canvas counter-clockwise my center point
-rotate(rotateAmount*2);
+rotate(rotateAmount*2.5);
 //Draw square
-rect(0,0,500,500);
+rect(0,0,450,450);
 pop();
 
 
