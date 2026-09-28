@@ -1,24 +1,14 @@
-/**
- * Title of Project
- * Author Name
- * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
- */
+//Interstellar
 
-"use strict";
+//Author: Sabrina Rath
 
-/**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
-*/
 function setup() {
-
+//Creating a canvas the size of 600x600
+createCanvas (600,600);
+//Setting angle mode to DEGREES in order for angles to be measured in units of degrees
+angleMode(DEGREES)
 }
 
-
-/**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
-*/
 function draw() {
 
 }
