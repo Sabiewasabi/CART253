@@ -31,3 +31,6 @@
 > The more I work on these prototype building assignments the more I realize I am lacking ideas. It took a while for me to come up with something I wanted to create. I am very familiar with creating variables but I do admit that once the line of codes get longer, I can get pretty mixrd up or even yet rename my variable and forget to update the original one I had started the project with.However, I think I've developed a good habit of committing every and I mean EVERY changes I do which I once thought it to be very tedious.I really like the outcome of the first prototype but it was definetely one out of the 3 I struggled with because I really wanted to create this vision I had in my head. It turned out to be a painful joy ride of coding.
 
 > One thing i can say is I need to be more inspired to be able to create something unique or rather simply put - fun.
+
+- ### Conditional challenge - **09/29/2026**
+
