@@ -82,6 +82,31 @@ rotateAmount +=1;
 
 
 
+//Second bigger spinning square
+push();
+//The square will be drawn right at the center of my canvas
+rectMode(CENTER);
+////Outerline color
+stroke("#B388EB");
+noFill();
+//New center point of canvas = 300,300
+translate(width/2,height/2);
+//Rotate the canvas counter-clockwise my center point
+rotate(rotateAmount);
+//Draw square
+rect(0,0,300,300);
+pop();
 
+
+//Circle
+push();
+translate(width/2,height/2);
+rotate(-rotateAmount);
+
+////Outerline color
+stroke("#F7AEF8");
+noFill();
+ellipse(0,0,350);
+pop();
 
 }
