@@ -60,9 +60,14 @@ pop();
 
 push();
 translate(width/2,height/2);
-rotate(rotateAmount);
+translate(120,0);
+rotate(rotateAmount *2);
 fill(255);
 triangle(30,75,58,20,86,75);
+pop();
+
+rotateAmount +=1;
+
 pop();
 
 
