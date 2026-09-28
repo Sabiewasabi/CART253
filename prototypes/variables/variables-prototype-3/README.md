@@ -2,7 +2,8 @@
 
 SABRINA RATH
 
-[View this project online](https://sabiewasabi.github.io/CART253/prototypes/variables/variables-prototype3/)
+[View this project online](https://sabiewasabi.github.io/CART253/prototypes/variables/variables-prototype-3/)
+[View the code to this project](https://github.com/Sabiewasabi/CART253/tree/main/prototypes/variables/variables-prototype-3)
 
 ## Description
 
@@ -11,6 +12,10 @@ SABRINA RATH
 > This experience is controlled by clicking and holding the mouse to have the shapes spin faster.When you release, the speed of the rotating shapes return to normal.
 
 > This project is inspired by a simple idea - bringing order back to chaos.
+
+## Screenshot(s)
+
+![Interstellar Chaos](./assets/images/interstellar-chaos.png)
 
 ## Attribution
 
