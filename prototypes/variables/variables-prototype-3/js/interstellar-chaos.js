@@ -116,6 +116,11 @@ fill("#72DDF7");
 ellipse(0,0,50);
 pop();
 
-rotateAmount +=1;
+//Interactive mouse click
+//Click the mouse to make the interstellar move 3x faster for true CHAOS! Release to bring back order of balance.
+if (mouseIsPressed){
+    rotateAmount +=3;
+} else {rotateAmount +=1;
+}
 
 }
