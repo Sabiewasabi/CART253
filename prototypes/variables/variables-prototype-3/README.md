@@ -4,7 +4,7 @@ SABRINA RATH
 
 [View this project online](https://sabiewasabi.github.io/CART253/prototypes/variables/variables-prototype-3/)
 
-[View the code to this project](https://github.com/Sabiewasabi/CART253/tree/main/prototypes/variables/variables-prototype-3)
+[View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/prototypes/variables/variables-prototype-3/js/interstellar-chaos.js)
 
 ## Description
 
