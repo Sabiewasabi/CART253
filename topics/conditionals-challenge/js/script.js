@@ -5,8 +5,6 @@
  * This will be a program in which the user can push a circle
  * on the canvas using their own circle.
  */
-let target = 0;
-let checkTarget = 0;
 
 const targetCircle = {
   x: puck.x,
@@ -72,8 +70,14 @@ function moveUser() {
   user.y = mouseY;
 }
 
+//Calculte distance between both circle centres
 const d = dist(user.x, user.y, targetCircle.x, targetCircle.x);
 
+const onCollision = (d < user.size / 2 + targetCircle.size / 2);
+
+//Check if the distance is smaller than their two radial
+
+//Set fil depending if they are colliding or not
 if (onCollision) {
   targetCircle.fill = targetCircle.fills, onCollision;
 } else {
