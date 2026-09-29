@@ -8,7 +8,7 @@ const target = {
 const puck = {
   x: 200,
   y: 200,
-  size: 100,
+  size: 150,
   fill: "#ff0000"
 };
 
@@ -16,7 +16,7 @@ const user = {
   x: undefined, // will be mouseX
   y: undefined, // will be mouseY
   size: 75,
-  fill: "#000000"
+  fill: 255
 };
 
 /**
@@ -30,7 +30,7 @@ function setup() {
  * Move the user circle, check for overlap, draw the two circles
  */
 function draw() {
-  background("#aaaaaa");
+  background(0);
 
   // Move user circle
   moveUser();
@@ -115,5 +115,16 @@ function drawTarget() {
 
 
 function checkTarget() {
+
+  //const d = dist(user.x, user.y, target.x, target.y);
+
+  //const overlap = (d < user.size / 2 + target.size / 2);
+
+  //if (overlap) {
+  //target.fill = target.fill.overlap;
+  //}
+  //else {
+  // target.fill = target.fill.noOverlap;
+  //}
 
 }
