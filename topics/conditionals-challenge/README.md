@@ -4,7 +4,7 @@ SABRINA RATH, KONSTANTINOS CHRISTODOULAKIS AND ERICA GAVEZ
 
 [View this project online](https://sabiewasabi.github.io/CART253/topics/conditionals-challenge/)
 
-[View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/topics/conditionals-challenge/js/puck.jshttps://github.com/Sabiewasabi/CART253/blob/main/topics/conditionals-challenge/js/puck.js)
+[View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/topics/conditionals-challenge/js/puck.js)
 
 ## Description
 
