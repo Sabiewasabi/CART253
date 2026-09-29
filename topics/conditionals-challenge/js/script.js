@@ -1,19 +1,17 @@
-/**
- * Circle Master
- * Pippin Barr
- *
- * This will be a program in which the user can push a circle
- * on the canvas using their own circle.
- */
+//TOOK THIS CODE FROM THE OVERLAPPING CIRCLE EXAMPLE
 
-const puck = {
+let targetCircle = {
   x: 200,
   y: 200,
   size: 100,
-  fill: "#ff0000"
+  fill: "#ff0000", // red to start
+  fills: {
+    noOverlap: "#ff0000", // red for no overlap
+    overlap: "#00ff00" // green for overlap
+  }
 };
 
-const user = {
+let userCircle = {
   x: undefined, // will be mouseX
   y: undefined, // will be mouseY
   size: 75,
@@ -34,39 +32,35 @@ function draw() {
   background("#aaaaaa");
 
   // Move user circle
-  moveUser();
+  userCircle.x = mouseX;
+  userCircle.y = mouseY;
 
-  // Draw the user and puck
-  drawUser();
-  drawPuck();
-}
+  // Check overlap
 
-/**
- * Sets the user position to the mouse position
- */
-function moveUser() {
-  user.x = mouseX;
-  user.y = mouseY;
-}
+  // Calculate distance between circles' centres
+  let d = dist(userCircle.x, userCircle.y, targetCircle.x, targetCircle.y);
+  // Check if that distance is smaller than their two radii, 
+  // because if it is, they are overlapping by the amazing
+  // power of geometry!
+  let overlap = (d < userCircle.size / 2 + targetCircle.size / 2);
+  // Set fill based on whether they overlap
+  if (overlap) {
+    targetCircle.fill = targetCircle.fills.overlap;
+  }
+  else {
+    targetCircle.fill = targetCircle.fills.noOverlap;
+  }
 
-/**
- * Displays the user circle
- */
-function drawUser() {
+  // Draw the two circles
   push();
   noStroke();
-  fill(user.fill);
-  ellipse(user.x, user.y, user.size);
+  fill(targetCircle.fill);
+  ellipse(targetCircle.x, targetCircle.y, targetCircle.size);
   pop();
-}
 
-/**
- * Displays the puck circle
- */
-function drawPuck() {
   push();
   noStroke();
-  fill(puck.fill);
-  ellipse(puck.x, puck.y, puck.size);
+  fill(userCircle.fill);
+  ellipse(userCircle.x, userCircle.y, userCircle.size);
   pop();
 }
