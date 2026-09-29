@@ -3,12 +3,16 @@ const target = {
   y: 50,
   size: 100,
   fill: "#02A9EA"
+  fills: {
+    noOverlap: "#ff0000",
+    overlap: "#FF01FB"
+  }
 };
 
 const puck = {
   x: 200,
   y: 200,
-  size: 150,
+  size: 80,
   fill: "#ff0000"
 };
 
@@ -116,15 +120,15 @@ function drawTarget() {
 
 function checkTarget() {
 
-  //const d = dist(user.x, user.y, target.x, target.y);
+  const d = dist(user.x, user.y, target.x, target.y);
 
-  //const overlap = (d < user.size / 2 + target.size / 2);
+  const overlap = (d < user.size / 2 + target.size / 2);
 
-  //if (overlap) {
-  //target.fill = target.fill.overlap;
-  //}
-  //else {
-  // target.fill = target.fill.noOverlap;
-  //}
+  if (overlap) {
+    target.fill = target.fill.overlap;
+  }
+  else {
+    target.fill = target.fill.noOverlap;
+  }
 
 }
