@@ -1,4 +1,9 @@
-let target;
+const target = {
+  x: 350,
+  y: 50,
+  size: 100,
+  fill: "#02A9EA"
+};
 
 const puck = {
   x: 200,
@@ -30,8 +35,14 @@ function draw() {
   // Move user circle
   moveUser();
 
-  //MOve puck
+  //Move puck
   movePuck();
+
+  //Check target
+  checkTarget();
+
+  //Draw target
+  drawTarget();
 
   // Draw the user and puck
   drawUser();
@@ -84,8 +95,25 @@ function movePuck() {
     }
   }
 
+  if (overlap) {
+    if (user.y <= puck.y) {
+      puck.y += 1
+    }
+    if (user.y >= puck.y) {
+      puck.y += -1
+    }
+  }
 }
 
 function drawTarget() {
+  push();
+  noStroke();
+  fill(target.fill);
+  ellipse(target.x, target.y, target.size);
+  pop();
+}
+
+
+function checkTarget() {
 
 }
