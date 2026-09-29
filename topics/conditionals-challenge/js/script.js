@@ -1,6 +1,12 @@
-//TOOK THIS CODE FROM THE OVERLAPPING CIRCLE EXAMPLE
+/**
+ * Overlapping Circles
+ * Pippin Barr
+ *
+ * Demonstrates the code needed to check if two circles overlap.
+ * One is static, one is controlled by the user.
+ */
 
-let targetCircle = {
+const targetCircle = {
   x: 200,
   y: 200,
   size: 100,
@@ -11,7 +17,7 @@ let targetCircle = {
   }
 };
 
-let userCircle = {
+const userCircle = {
   x: undefined, // will be mouseX
   y: undefined, // will be mouseY
   size: 75,
@@ -35,17 +41,14 @@ function draw() {
   userCircle.x = mouseX;
   userCircle.y = mouseY;
 
-  //Move puck
-  movePuck();
-
   // Check overlap
 
   // Calculate distance between circles' centres
-  let d = dist(userCircle.x, userCircle.y, targetCircle.x, targetCircle.y);
+  const d = dist(userCircle.x, userCircle.y, targetCircle.x, targetCircle.y);
   // Check if that distance is smaller than their two radii, 
   // because if it is, they are overlapping by the amazing
   // power of geometry!
-  let overlap = (d < userCircle.size / 2 + targetCircle.size / 2);
+  const overlap = (d < userCircle.size / 2 + targetCircle.size / 2);
   // Set fill based on whether they overlap
   if (overlap) {
     targetCircle.fill = targetCircle.fills.overlap;
