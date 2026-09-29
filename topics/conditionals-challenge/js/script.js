@@ -47,17 +47,27 @@ function draw() {
   // Move user circle
   moveUser();
 
-  //Move puck when colliding with user's circle
-  movePuck();
-
   // Draw the user and puck
   drawUser();
   drawPuck();
-}
 
-//Calculate distance between the puck and the user to get the puck to change colors
-const collision = (d < user.size / 2 + targetCircle.size / 2);
-if (collision) {
+  //Move puck
+  movePuck();
+
+  //Calculate distance between the puck and the user to get the puck to change colors
+  //Calculte distance between both circle centres
+  const d = dist(user.x, user.y, targetCircle.x, targetCircle.x);
+
+  const onCollision = (d < user.size / 2 + targetCircle.size / 2);
+
+  //Check if the distance is smaller than their two radial
+
+  //Set fil depending if they are colliding or not
+  if (onCollision) {
+    targetCircle.fill = targetCircle.fills, onCollision;
+  } else {
+    targetCircle.fill = targetCircle.fills.noCollision;
+  }
 
 }
 
@@ -68,20 +78,6 @@ if (collision) {
 function moveUser() {
   user.x = mouseX;
   user.y = mouseY;
-}
-
-//Calculte distance between both circle centres
-const d = dist(user.x, user.y, targetCircle.x, targetCircle.x);
-
-const onCollision = (d < user.size / 2 + targetCircle.size / 2);
-
-//Check if the distance is smaller than their two radial
-
-//Set fil depending if they are colliding or not
-if (onCollision) {
-  targetCircle.fill = targetCircle.fills, onCollision;
-} else {
-  targetCircle.fill = targetCircle.fills.noCollision;
 }
 
 /**
@@ -104,4 +100,9 @@ function drawPuck() {
   fill(puck.fill);
   ellipse(puck.x, puck.y, puck.size);
   pop();
+
+}
+
+function movePuck() {
+
 }
