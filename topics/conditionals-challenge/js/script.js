@@ -7,21 +7,25 @@
  */
 let target = 0;
 let checkTarget = 0;
-let noCollision
-let Collision = 0;
+//If there is no collision,stay red
+let noCollision = {
+  x: puck.x,
+  y: puck.y,
+  size: puck.size,
+  fill: "#ff0000",
+}
+
+//If there is a collision tur green
+let Collision = {
+  x: puck.x,
+  y: puck.y,
+  size: puck.size,
+  fill: "#37DE00",
+}
+
 let fills = 0;
 
-const targetCircle = {
-  x: 200,
-  y: 200,
-  size: 100,
-  fill: "#ff0000"
-  fills: {
-    noCollision: "#ff0000",
-    Collision: "#37DE00"
-  }
-};
-
+const targetCircle = puck
 
 const puck = {
   x: 200,
@@ -61,6 +65,13 @@ function draw() {
   drawPuck();
 }
 
+//Calculate distance between the puck and the user to get the puck to change colors
+const collision = (d < user.size / 2 + targetCircle.size / 2);
+if (collision) {
+
+}
+
+
 /**
  * Sets the user position to the mouse position
  */
@@ -69,7 +80,7 @@ function moveUser() {
   user.y = mouseY;
 }
 
-const d = dist(user.x, user.y,)
+const d = dist(user.x, user.y, targetCircle.x, targetCircle.x);
 
 /**
  * Displays the user circle
