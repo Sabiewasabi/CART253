@@ -1,3 +1,5 @@
+let target;
+
 const puck = {
   x: 200,
   y: 200,
@@ -27,6 +29,9 @@ function draw() {
 
   // Move user circle
   moveUser();
+
+  //MOve puck
+  movePuck();
 
   // Draw the user and puck
   drawUser();
@@ -61,4 +66,26 @@ function drawPuck() {
   fill(puck.fill);
   ellipse(puck.x, puck.y, puck.size);
   pop();
+}
+
+function movePuck() {
+  const d = dist(user.x, user.y, puck.x, puck.y);
+  // Check if that distance is smaller than their two radii, 
+  // because if it is, they are overlapping by the amazing
+  // power of geometry!
+  const overlap = (d < user.size / 2 + puck.size / 2);
+  // Set fill based on whether they overlap
+  if (overlap) {
+    if (user.x <= puck.x) {
+      puck.x += 1
+    }
+    if (user.x >= puck.x) {
+      puck.x += -1
+    }
+  }
+
+}
+
+function drawTarget() {
+
 }
