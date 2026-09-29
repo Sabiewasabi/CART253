@@ -1,23 +1,11 @@
-/**
- * Overlapping Circles
- * Pippin Barr
- *
- * Demonstrates the code needed to check if two circles overlap.
- * One is static, one is controlled by the user.
- */
-
-const targetCircle = {
+const puck = {
   x: 200,
   y: 200,
   size: 100,
-  fill: "#ff0000", // red to start
-  fills: {
-    noOverlap: "#ff0000", // red for no overlap
-    overlap: "#00ff00" // green for overlap
-  }
+  fill: "#ff0000"
 };
 
-const userCircle = {
+const user = {
   x: undefined, // will be mouseX
   y: undefined, // will be mouseY
   size: 75,
@@ -38,35 +26,39 @@ function draw() {
   background("#aaaaaa");
 
   // Move user circle
-  userCircle.x = mouseX;
-  userCircle.y = mouseY;
+  moveUser();
 
-  // Check overlap
+  // Draw the user and puck
+  drawUser();
+  drawPuck();
+}
 
-  // Calculate distance between circles' centres
-  const d = dist(userCircle.x, userCircle.y, targetCircle.x, targetCircle.y);
-  // Check if that distance is smaller than their two radii, 
-  // because if it is, they are overlapping by the amazing
-  // power of geometry!
-  const overlap = (d < userCircle.size / 2 + targetCircle.size / 2);
-  // Set fill based on whether they overlap
-  if (overlap) {
-    targetCircle.fill = targetCircle.fills.overlap;
-  }
-  else {
-    targetCircle.fill = targetCircle.fills.noOverlap;
-  }
+/**
+ * Sets the user position to the mouse position
+ */
+function moveUser() {
+  user.x = mouseX;
+  user.y = mouseY;
+}
 
-  // Draw the two circles
+/**
+ * Displays the user circle
+ */
+function drawUser() {
   push();
   noStroke();
-  fill(targetCircle.fill);
-  ellipse(targetCircle.x, targetCircle.y, targetCircle.size);
+  fill(user.fill);
+  ellipse(user.x, user.y, user.size);
   pop();
+}
 
+/**
+ * Displays the puck circle
+ */
+function drawPuck() {
   push();
   noStroke();
-  fill(userCircle.fill);
-  ellipse(userCircle.x, userCircle.y, userCircle.size);
+  fill(puck.fill);
+  ellipse(puck.x, puck.y, puck.size);
   pop();
 }
