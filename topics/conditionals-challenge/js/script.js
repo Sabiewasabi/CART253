@@ -6,17 +6,6 @@
  * on the canvas using their own circle.
  */
 
-const targetCircle = {
-  x: puck.x,
-  y: puck.y,
-  size: puck, size
-fills: {
-    noCollision: "#ff0000",
-    onCollision: "#37DE00"
-  }
-};
-
-
 const puck = {
   x: 200,
   y: 200,
@@ -50,27 +39,7 @@ function draw() {
   // Draw the user and puck
   drawUser();
   drawPuck();
-
-  //Move puck
-  movePuck();
-
-  //Calculate distance between the puck and the user to get the puck to change colors
-  //Calculte distance between both circle centres
-  const d = dist(user.x, user.y, targetCircle.x, targetCircle.x);
-
-  const onCollision = (d < user.size / 2 + targetCircle.size / 2);
-
-  //Check if the distance is smaller than their two radial
-
-  //Set fil depending if they are colliding or not
-  if (onCollision) {
-    targetCircle.fill = targetCircle.fills, onCollision;
-  } else {
-    targetCircle.fill = targetCircle.fills.noCollision;
-  }
-
 }
-
 
 /**
  * Sets the user position to the mouse position
@@ -100,9 +69,4 @@ function drawPuck() {
   fill(puck.fill);
   ellipse(puck.x, puck.y, puck.size);
   pop();
-
-}
-
-function movePuck() {
-
 }
