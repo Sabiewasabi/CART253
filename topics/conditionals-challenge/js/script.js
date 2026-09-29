@@ -7,25 +7,17 @@
  */
 let target = 0;
 let checkTarget = 0;
-//If there is no collision,stay red
-let noCollision = {
+
+const targetCircle = {
   x: puck.x,
   y: puck.y,
-  size: puck.size,
-  fill: "#ff0000",
-}
+  size: puck, size
+fills: {
+    noCollision: "#ff0000",
+    onCollision: "#37DE00"
+  }
+};
 
-//If there is a collision tur green
-let Collision = {
-  x: puck.x,
-  y: puck.y,
-  size: puck.size,
-  fill: "#37DE00",
-}
-
-let fills = 0;
-
-const targetCircle = puck
 
 const puck = {
   x: 200,
@@ -81,6 +73,12 @@ function moveUser() {
 }
 
 const d = dist(user.x, user.y, targetCircle.x, targetCircle.x);
+
+if (onCollision) {
+  targetCircle.fill = targetCircle.fills, onCollision;
+} else {
+  targetCircle.fill = targetCircle.fills.noCollision;
+}
 
 /**
  * Displays the user circle
