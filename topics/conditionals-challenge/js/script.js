@@ -5,6 +5,23 @@
  * This will be a program in which the user can push a circle
  * on the canvas using their own circle.
  */
+let target = 0;
+let checkTarget = 0;
+let noCollision
+let Collision = 0;
+let fills = 0;
+
+const targetCircle = {
+  x: 200,
+  y: 200,
+  size: 100,
+  fill: "#ff0000"
+  fills: {
+    noCollision: "#ff0000",
+    Collision: "#37DE00"
+  }
+};
+
 
 const puck = {
   x: 200,
@@ -32,10 +49,13 @@ function setup() {
  */
 function draw() {
   background("#aaaaaa");
-  
+
   // Move user circle
   moveUser();
-  
+
+  //Move puck when colliding with user's circle
+  movePuck();
+
   // Draw the user and puck
   drawUser();
   drawPuck();
@@ -48,6 +68,8 @@ function moveUser() {
   user.x = mouseX;
   user.y = mouseY;
 }
+
+const d = dist(user.x, user.y,)
 
 /**
  * Displays the user circle
