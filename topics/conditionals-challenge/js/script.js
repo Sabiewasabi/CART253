@@ -35,6 +35,9 @@ function draw() {
   userCircle.x = mouseX;
   userCircle.y = mouseY;
 
+  //Move puck
+  movePuck();
+
   // Check overlap
 
   // Calculate distance between circles' centres
