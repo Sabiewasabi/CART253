@@ -47,11 +47,11 @@ function draw() {
   //Referenced from the p5.js reference page
   noStroke();
   //EmissiveMaterial makes a 3D shape "glow", referenced from the p5.js reference
-  emissiveMaterial('#91F291');
+  emissiveMaterial(145, 242, 145, 100);
   specularMaterial("#17bebb");
 
   //On the fill(); p5.js reference page it says that the 4th parameter set the transparency level
-  fill('#91F291', 100);
+  fill(145, 242, 145, 50);
 
   //NEW NEW NEW NEW NEW NEW NEW NEW NEW // 
   //Draw and switch/morph logic - 0 being the first shape,1 being the second and 2 being the last then return
