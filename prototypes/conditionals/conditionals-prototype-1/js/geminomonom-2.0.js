@@ -6,13 +6,11 @@
 //Roate the gem by clicking and holding the mouse in any direction
 
 
-//NEW NEW NEW NEW NEW NEW NEW NEW NEW //
+//NEW NEW NEW NEW NEW NEW NEW NEW NEW // Line 11 - 13
 //Varibles
 let switchTime = 0;
 //Keeps track of which shape is active
 let gemType = 0;
-
-//NEW NEW NEW NEW NEW NEW NEW NEW NEW //
 
 function setup() {
   //Create a canvas the same size a the monitor and create a 3D environement.
@@ -30,10 +28,10 @@ function draw() {
   //Enable orbit control with cursor
   orbitControl();
 
-  //NEW NEW NEW NEW NEW NEW NEW NEW NEW //
+  //NEW NEW NEW NEW NEW NEW NEW NEW NEW // Line 36 -40
 
   //Timer logic - switch/morph shapes every 5 seconds
-  //Consulted the millis (); p5 reference page to keep track of how long a sketch has been running in milliseconds
+  //Consulted the millis (); p5.js reference page to keep track of how long a sketch has been running in milliseconds
   //So 5 seconds = 5000 milliseconds
   if (millis() - switchTime > 5000) {
     //Cycles through 0,1,2
@@ -48,13 +46,23 @@ function draw() {
 
   //Draw diamond shape
   noStroke();
-  //On the fill(); p5 reference page it says that the 4th parameter set the transparency level
+  //On the fill(); p5.js reference page it says that the 4th parameter set the transparency level
   fill('#91F291', 100);
   ellipsoid(100, 100, 80, 4, 3);
-  pop();
 
   //Referenced from the p5.js reference page
   noStroke();
   specularMaterial("#17bebb");
 
+  //NEW NEW NEW NEW NEW NEW NEW NEW NEW // 
+  //Switch/morph logic - 0 being the first shape,1 being the second and 2 being the last then return
+  if (gemType === 0) {
+    ellipsoid(100, 100, 60, 4, 3);
+  } else if (gemTpe === 1) {
+    cone(30, 150, 4);
+  } else if (gemType === 2) {
+    cylinder(70, 120, 5);
+  }
+
+  pop();
 }
