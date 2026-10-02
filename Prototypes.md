@@ -189,9 +189,9 @@ SABRINA RATH
 
 SABRINA RATH
 
-[View this project online](https://sabiewasabi.github.io/CART253/prototypes/instructions/instructions-prototype-3/)
+[View this project online](https://sabiewasabi.github.io/CART253/prototypes/conditionals/conditionals-prototype-1/)
 
-[View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/prototypes/instructions/instructions-prototype-3/js/geminomonom.js)
+[View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/prototypes/conditionals/conditionals-prototype-1/js/geminomonom-2.0.js)
 
 ## Description
 
