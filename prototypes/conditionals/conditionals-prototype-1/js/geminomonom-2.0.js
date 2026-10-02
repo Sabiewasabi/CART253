@@ -35,7 +35,7 @@ function draw() {
   //So 5 seconds = 5000 milliseconds
   if (millis() - switchTime > 5000) {
     //Cycles through 0,1,2
-    gemType = (gemType + 1) & 3;
+    gemType = (gemType + 1) % 3;
     switchTime = millis();
   }
 
@@ -58,7 +58,7 @@ function draw() {
   //Switch/morph logic - 0 being the first shape,1 being the second and 2 being the last then return
   if (gemType === 0) {
     ellipsoid(100, 100, 60, 4, 3);
-  } else if (gemTpe === 1) {
+  } else if (gemType === 1) {
     cone(30, 150, 4);
   } else if (gemType === 2) {
     cylinder(70, 120, 5);
