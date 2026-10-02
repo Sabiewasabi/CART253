@@ -21,8 +21,6 @@ function draw() {
   //Allows you to rotate and zoom the caemra with your cursor
   orbitControl();
 
-
-  push();
   //Change colors
   if (mouseIsPressed) {
     ambientLight(25);
@@ -44,8 +42,11 @@ function draw() {
     rotateAmount += 1; //Slow and calm
   }
 
-  //Azure marine core
-  push();
+  //Translate shake variables
+  translate(shakeY, shakeX, shakeZ),
+
+    //Azure marine core
+    push();
   rotateY(rotateAmount * 0.01) //Slow
   rotateX(rotateAmount * 0.01) //Slow
 
@@ -66,7 +67,5 @@ function draw() {
     sphere(230, 10, 6)
     pop();
   }
-
-  pop();
 
 }
