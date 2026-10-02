@@ -42,14 +42,15 @@ function draw() {
 
     rotateAmount += 1; //Slow and calm
 
+    //NOTE: turns out you cant use text in WEBGL
     //Draw text ONLY in default state
-    push();
-    fill(255);
-    noStroke();
-    textSize(20);
-    textAlign(CENTER);
-    text('Do you desire to disrupt the core? Then reach for it...');
-    pop();
+    //push();
+    //fill(255);
+    //noStroke();
+    //textSize(20);
+    //textAlign(CENTER);
+    //text('Do you desire to disrupt the core? Then reach for it...', width / 2, 80);
+    //pop();
   }
 
   //Translate shake variables
