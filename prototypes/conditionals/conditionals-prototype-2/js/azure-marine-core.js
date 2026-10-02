@@ -2,7 +2,13 @@
 
 //Author:Sabrina Rath
 
+//Variables
+//Control rotation speed
 let rotateAmount = 0;
+//Shake on each axis
+let shakeY = 0;
+let shakeX = 0;
+let shakeZ = 0;
 
 function setup() {
   //Create a canvas the same size a the monitor and create a 3D environement.
