@@ -14,7 +14,6 @@ SABRINA RATH
 
 ## Screenshot(s)
 
-
 ![Geminomonom](./Assets/azure-marine-core.png)
 
 ## Attribution
