@@ -37,6 +37,7 @@ function draw() {
     //Go back to default state
     ambientLight(5);
     pointLight(0, 100, 200, 0, 0, 350);
+    emissiveMaterial(0)
     specularColor('#007cbe');
 
     rotateAmount += 1; //Slow and calm
