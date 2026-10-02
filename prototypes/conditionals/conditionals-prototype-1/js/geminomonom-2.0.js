@@ -44,18 +44,15 @@ function draw() {
   rotateY(frameCount * 0.010);
   rotateX(frameCount * 0.020);
 
-  //Draw diamond shape
-  noStroke();
   //On the fill(); p5.js reference page it says that the 4th parameter set the transparency level
   fill('#91F291', 100);
-  ellipsoid(100, 100, 80, 4, 3);
 
   //Referenced from the p5.js reference page
   noStroke();
   specularMaterial("#17bebb");
 
   //NEW NEW NEW NEW NEW NEW NEW NEW NEW // 
-  //Switch/morph logic - 0 being the first shape,1 being the second and 2 being the last then return
+  //Draw and switch/morph logic - 0 being the first shape,1 being the second and 2 being the last then return
   if (gemType === 0) {
     ellipsoid(100, 100, 60, 4, 3);
   } else if (gemType === 1) {
