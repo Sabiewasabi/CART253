@@ -16,7 +16,7 @@ function draw() {
 
   //Change colors
   if (mouseIsPressed) {
-    ambientLight(40);
+    ambientLight(25);
     pointLight(157, 78, 221, 0, 0, 350);
     specularColor('#5A189A');
 
