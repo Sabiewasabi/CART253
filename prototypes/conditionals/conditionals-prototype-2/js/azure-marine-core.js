@@ -14,11 +14,19 @@ function draw() {
   //Allows you to rotate and zoom the caemra with your cursor
   orbitControl();
 
+  //Change colors
   if (mouseIsPressed) {
     ambuentLight(40);
     pointLight();
     specularColor();
 
-    eotateAmount += 5;
+    //Go back to default state
+    eotateAmount += 5; // Fast 
+  } else {
+    ambientLight(40);
+    pointLight();
+    specularColor();
+
+    rotateAmount += 1; //Slow and calm
   }
 }
