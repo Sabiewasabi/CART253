@@ -42,6 +42,16 @@ function draw() {
   pop();
 
   //Outer disruptive core
+  if (mouseIsPressed) {
+    push();
+    rotateY(-rotateAmount * 0.005);
+    rotateX(-rotateAmount * 0.006);
+    stroke('#5A189A');
+    strokeWeight(0.5);
+    noFill();
+    sphere(200, 10, 5)
+    pop();
+  }
 
 
 
