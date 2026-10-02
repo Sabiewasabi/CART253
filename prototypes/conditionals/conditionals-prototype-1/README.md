@@ -1,4 +1,4 @@
-# Geminomonom
+# Geminomonom 2.0
 
 SABRINA RATH
 
@@ -8,18 +8,15 @@ SABRINA RATH
 
 ## Description
 
-> *Geminomonom* is a astract looping experience of a rotating gem with slightly illuminated edges that will then take on another shape every 5 seconds.
+> *Geminomonom 2.0* is a reworking project on the firs itteration *Geminomonom*.It is an astract looping experience of a rotating gem with slightly illuminated edges that will then take on another shape every 5 seconds.
 
 > The experience is controlled via dragging the gem with the cursor unveiling illuminating edges of the gem.
 
 > The project is meant to for users to enjoy an alluring display of light and shadows morphing into different gem shapes which gives it a myserioous look.
 
-> <mark>NOTE:</mark> As for now, the gem does not morph or change colour as I am currently working on how do to so.
-
 ## Screenshot(s)
 
-
-![Geminomonom](./Assets/Geminomonom.png)
+![Geminomonom 2.0](./Assets/geminomonom-2.0.png)
 
 ## Attribution
 
