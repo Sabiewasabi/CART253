@@ -41,7 +41,7 @@ function draw() {
   sphere(150);
   pop();
 
-
+  //Outer disruptive core
 
 
 
