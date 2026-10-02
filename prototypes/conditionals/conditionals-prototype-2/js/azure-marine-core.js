@@ -29,4 +29,18 @@ function draw() {
 
     rotateAmount += 1; //Slow and calm
   }
+
+  //Azure marine core
+  push();
+  rotateY(rotateAmount * 0.01) //Slow
+  rotateX(rotateAmount * 0.01) //Slow
+
+  noStroke();
+  //specularmaterial vs specualrcolor / Basecolor and highlight color
+  specularMaterial();
+  sphere(150);
+  pop();
+
+
+
 }
