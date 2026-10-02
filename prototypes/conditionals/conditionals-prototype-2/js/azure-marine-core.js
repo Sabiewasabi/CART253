@@ -8,6 +8,7 @@ let rotateAmount = 0;
 //Shake on each axis
 let shakeY = 0;
 let shakeX = 0;
+//Z axis only in 3D
 let shakeZ = 0;
 
 function setup() {
@@ -20,15 +21,22 @@ function draw() {
   //Allows you to rotate and zoom the caemra with your cursor
   orbitControl();
 
+
+  push();
   //Change colors
   if (mouseIsPressed) {
     ambientLight(25);
     pointLight(157, 78, 221, 0, 0, 350);
     emissiveMaterial('#5A189A');
 
-    //Go back to default state
+    //Shake out of control
+    shakeY = random(-10, 10);
+    shakeX = random(-10, 10);
+    shakeZ = random(-10, 10);
+
     rotateAmount += 5; // Fast 
   } else {
+    //Go back to default state
     ambientLight(5);
     pointLight(0, 100, 200, 0, 0, 350);
     specularColor('#007cbe');
@@ -59,6 +67,6 @@ function draw() {
     pop();
   }
 
-
+  pop();
 
 }
