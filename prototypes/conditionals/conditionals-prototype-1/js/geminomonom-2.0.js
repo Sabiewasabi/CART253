@@ -5,6 +5,11 @@
 //An emerald that rotates on both its X and Y axis that then morphs to another gem shape every 5 seconds.
 //Roate the gem by clicking and holding the mouse in any direction
 
+//Varibles
+let switchTim = 0;
+let gemType = 0;
+
+
 function setup() {
   //Create a canvas the same size a the monitor and create a 3D environement.
   createCanvas(windowWidth,windowHeight,WEBGL);
