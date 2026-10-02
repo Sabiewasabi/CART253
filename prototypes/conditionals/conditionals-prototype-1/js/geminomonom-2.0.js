@@ -5,10 +5,14 @@
 //An emerald that rotates on both its X and Y axis that then morphs to another gem shape every 5 seconds.
 //Roate the gem by clicking and holding the mouse in any direction
 
+
+                                  //NEW NEW NEW NEW NEW NEW NEW NEW NEW //
 //Varibles
-let switchTim = 0;
+let switchTime = 0;
+//Keeps track of which shape is active
 let gemType = 0;
 
+                                   //NEW NEW NEW NEW NEW NEW NEW NEW NEW //
 
 function setup() {
   //Create a canvas the same size a the monitor and create a 3D environement.
@@ -25,6 +29,12 @@ function draw() {
 
   //Enable orbit control with cursor
   orbitControl();
+
+                                   //NEW NEW NEW NEW NEW NEW NEW NEW NEW //
+
+//Timer logic - switch/morph shapes every 5 seconds
+
+
 
   push();
   //Rotates gems on both its X and Y axis
