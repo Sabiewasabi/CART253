@@ -44,12 +44,12 @@ function draw() {
   rotateY(frameCount * 0.010);
   rotateX(frameCount * 0.020);
 
-  //On the fill(); p5.js reference page it says that the 4th parameter set the transparency level
-  fill('#91F291', 100);
-
   //Referenced from the p5.js reference page
   noStroke();
   specularMaterial("#17bebb");
+
+  //On the fill(); p5.js reference page it says that the 4th parameter set the transparency level
+  fill('#91F291', 100);
 
   //NEW NEW NEW NEW NEW NEW NEW NEW NEW // 
   //Draw and switch/morph logic - 0 being the first shape,1 being the second and 2 being the last then return
