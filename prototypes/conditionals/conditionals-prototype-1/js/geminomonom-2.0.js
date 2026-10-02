@@ -22,7 +22,7 @@ function draw() {
 
   //Referenced from the p5.js reference page
   pointLight(255, 255, 255, 30, -20, 40);
-  ambientLight(25);
+  ambientLight(20);
   specularColor('#8CFBDE');
 
   //Enable orbit control with cursor
@@ -51,7 +51,7 @@ function draw() {
   specularMaterial("#17bebb");
 
   //On the fill(); p5.js reference page it says that the 4th parameter set the transparency level
-  fill(145, 242, 145, 50);
+  fill(145, 242, 145, 80);
 
   //NEW NEW NEW NEW NEW NEW NEW NEW NEW // 
   //Draw and switch/morph logic - 0 being the first shape,1 being the second and 2 being the last then return
