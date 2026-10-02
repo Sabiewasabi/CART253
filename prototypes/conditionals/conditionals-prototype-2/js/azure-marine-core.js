@@ -13,4 +13,12 @@ function draw() {
   background(0);
   //Allows you to rotate and zoom the caemra with your cursor
   orbitControl();
+
+  if (mouseIsPressed) {
+    ambuentLight(40);
+    pointLight();
+    specularColor();
+
+    eotateAmount += 5;
+  }
 }
