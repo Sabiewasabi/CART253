@@ -12,7 +12,7 @@ SABRINA RATH
 
 > The experience is controlled via dragging the gem with the cursor unveiling illuminating edges of the gem.
 
-> The project is meant to for users to enjoy an alluring display of light and shadows morphing into different gem shapes which gives it a myserioous look.
+> The project is meant for users to enjoy an alluring display of light and shadows morphing into different gem shapes which gives it a myserioous look.
 
 > <mark>NOTE:</mark> As for now, the gem does not morph or change colour as I am currently working on how do to so.
 
