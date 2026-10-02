@@ -16,14 +16,14 @@ function draw() {
 
   //Change colors
   if (mouseIsPressed) {
-    ambuentLight(40);
+    ambientLight(40);
     pointLight(157, 78, 221, 0, 0, 350);
     specularColor('#5A189A');
 
     //Go back to default state
-    eotateAmount += 5; // Fast 
+    rotateAmount += 5; // Fast 
   } else {
-    ambientLight(40);
+    ambientLight(5);
     pointLight(0, 100, 200, 0, 0, 350);
     specularColor('#007cbe');
 
@@ -40,6 +40,8 @@ function draw() {
   specularMaterial('#17bebb');
   sphere(150);
   pop();
+
+
 
 
 
