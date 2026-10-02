@@ -18,7 +18,7 @@ function draw() {
   if (mouseIsPressed) {
     ambientLight(25);
     pointLight(157, 78, 221, 0, 0, 350);
-    specularColor('#5A189A');
+    emissiveMaterial('#5A189A');
 
     //Go back to default state
     rotateAmount += 5; // Fast 
@@ -47,9 +47,9 @@ function draw() {
     rotateY(-rotateAmount * 0.005);
     rotateX(-rotateAmount * 0.006);
     stroke('#5A189A');
-    strokeWeight(0.5);
+    strokeWeight(2);
     noFill();
-    sphere(200, 10, 5)
+    sphere(230, 10, 6)
     pop();
   }
 
