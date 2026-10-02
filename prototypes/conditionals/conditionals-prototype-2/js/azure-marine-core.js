@@ -2,6 +2,10 @@
 
 //Author:Sabrina Rath
 
+//Description:This interactive 3D project uses an if/else blocks to manage two distinct environmental states.
+//In its default calm state, the sphere drifts slowly with deep blue point-lighting and a glowing textual prompt.
+//The experience is controlled via your cursor. When you click and holds the mouse, the code jitters erratically.
+
 //Variables
 //Control rotation speed
 let rotateAmount = 0;
