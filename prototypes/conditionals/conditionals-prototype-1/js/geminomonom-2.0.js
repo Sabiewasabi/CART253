@@ -56,7 +56,7 @@ function draw() {
   if (gemType === 0) {
     ellipsoid(100, 100, 60, 4, 3);
   } else if (gemType === 1) {
-    cone(30, 150, 4);
+    cone(80, 150, 4, 5);
   } else if (gemType === 2) {
     cylinder(70, 120, 5);
   }
