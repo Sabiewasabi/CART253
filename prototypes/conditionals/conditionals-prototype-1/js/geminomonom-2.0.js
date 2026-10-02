@@ -22,7 +22,7 @@ function draw() {
 
   //Referenced from the p5.js reference page
   pointLight(255, 255, 255, 30, -20, 40);
-  ambientLight(15);
+  ambientLight(25);
   specularColor('#8CFBDE');
 
   //Enable orbit control with cursor
