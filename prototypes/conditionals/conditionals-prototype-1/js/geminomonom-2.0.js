@@ -47,9 +47,9 @@ function draw() {
   rotateX(frameCount * 0.020);
 
   //Draw diamond shape
-  stroke(255);
-  strokeWeight(.5);
-  fill('#91F291')
+  noStroke();
+  //On the fill(); p5 reference page it says that the 4th parameter set the transparency level
+  fill('#91F291', 100);
   ellipsoid(100, 100, 80, 4, 3);
   pop();
 
