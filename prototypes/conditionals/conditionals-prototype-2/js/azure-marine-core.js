@@ -41,13 +41,22 @@ function draw() {
     specularColor('#007cbe');
 
     rotateAmount += 1; //Slow and calm
+
+    //Draw text ONLY in default state
+    push();
+    fill(255);
+    noStroke();
+    textSize(20);
+    textAlign(CENTER);
+    text('Do you desire to disrupt the core? Then reach for it...');
+    pop();
   }
 
   //Translate shake variables
-  translate(shakeY, shakeX, shakeZ),
+  translate(shakeY, shakeX, shakeZ);
 
-    //Azure marine core
-    push();
+  //Azure marine core
+  push();
   rotateY(rotateAmount * 0.01) //Slow
   rotateX(rotateAmount * 0.01) //Slow
 
@@ -68,5 +77,6 @@ function draw() {
     sphere(230, 10, 6)
     pop();
   }
+
 
 }
