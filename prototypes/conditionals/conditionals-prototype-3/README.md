@@ -2,7 +2,7 @@
 
 SABRINA RATH
 
-[View this project online](https://sabiewasabi.github.io/CART253/prototypes/conditionals/contionals-prototype-3/)
+[View this project online](https://sabiewasabi.github.io/CART253/prototypes/conditionals/conditionals-prototype-3/)
 
 [View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/prototypes/conditionals/conditionals-prototype-3/js/gradient-barcode.js)
 
@@ -17,7 +17,7 @@ SABRINA RATH
 ## Screenshot(s)
 
 
-![Geminomonom](./Assets/gradient-barcode.png)
+![Gradient Barcode](./Assets/gradient-barcode.png)
 
 ## Attribution
 
