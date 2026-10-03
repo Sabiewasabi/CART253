@@ -16,8 +16,8 @@ function draw() {
   //Start by drawing the circle in the size of 580 and decrease the size by 20 until it is 5px small
   for (let size = 580; size > 5; size -= 20) {
     noStroke();
-    circle(width / 2, height / 2, size);
     fill(217, 237, 147, 20);
+    circle(width / 2, height / 2, size);
   }
 
   //Right about here I lack creative inspiration and I randomly thought to myself, why not make something that kin of looks like a barcode.
@@ -35,13 +35,13 @@ function draw() {
       strokeWeight(4);
 
       //Default short lines
-      line(y, baselineY - 150, x, baselineY + 150);
+      line(x, baselineY - 150, x, baselineY + 150);
 
     } else {
       stroke(24, 78, 119);
       strokeWeight(2);
 
-      line(y, baselineY - 20, x, baselineY + 20);
+      line(x, baselineY - 20, x, baselineY + 20);
     }
   }
 
