@@ -26,6 +26,23 @@ function draw() {
 
   //Loop accross the screen grom left to right, leaving spaces
   for (let x = 0; x < width; x += 10) {
+    //Calculate how close the mouse is to this specific x line
+    let mouseDistance = dist(mouseX, 0, x, 0);
 
+    //When the mouse touches the lines,make them tall
+    if (mouseDistance < 80) {
+      stroke(22, 138, 173);
+      strokeWeight(4);
+
+      //Default short lines
+      line(y, baselineY - 150, x, baselineY + 150);
+
+    } else {
+      stroke(24, 78, 119);
+      strokeWeight(2);
+
+      line(y, baselineY - 20, x, baselineY + 20);
+    }
   }
+
 }
