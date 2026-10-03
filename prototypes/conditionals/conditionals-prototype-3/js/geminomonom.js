@@ -1,7 +1,10 @@
-//Title:Geminomonom
+//Title: Gradient Barcode
 
 //Author:Sabrina Rath
 
+//Description: This project is an interactive barcode drawn on top of a gradient background.
+//THe experience is controlled by moving your mouse along the short verticalk lines to make them stretch out and get slightly thivker to create a wave.
+// This project intends to capture the feeling of scanning a barcode.
 
 function setup() {
   //Creating canvas the size of 600x600
@@ -31,7 +34,7 @@ function draw() {
 
     //When the mouse touches the lines,make them tall
     if (mouseDistance < 80) {
-      stroke(22, 138, 173);
+      stroke(3, 4, 94);
       strokeWeight(4);
 
       //Default short lines
