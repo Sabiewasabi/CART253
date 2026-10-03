@@ -20,5 +20,12 @@ function draw() {
     fill(217, 237, 147, 20);
   }
 
+  //Right about here I lack creative inspiration and I randomly thought to myself, why not make something that kin of looks like a barcode.
+  //Not a litteral barcode but close enough ???
+  let baselineY = height * 0.5;
 
+  //Loop accross the screen grom left to right, leaving spaces
+  for (let x = 0; x < width; x += 10) {
+
+  }
 }
