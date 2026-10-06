@@ -30,6 +30,11 @@ function draw() {
 
     //Calling my lose function
     lose();
+
+    //If ANY key is pressed, you lose
+    if (keysIsPressed === true) {
+        lose();
+    }
 }
 
 /**
@@ -60,5 +65,10 @@ function displayScore() {
 }
 
 function lose() {
-
+    push();
+    fill(255, 0, 0);
+    textSize(50);
+    textStyle(BOLD);
+    textAlign(CENTER, CENTER)
+    text('YOU LOSE....BOOHOO')
 }
