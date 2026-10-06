@@ -8,7 +8,7 @@ SABRINA RATH
 
 ## Description
 
-> *Geminomonom 2.0* is a reworking project on the firs itteration *Geminomonom*. It is an astract looping experience of a rotating gem with slightly illuminated edges that will then take on another shape every 5 seconds.
+> *Geminomonom 2.0* is a reworking project on the first itteration *Geminomonom*. It is an astract looping experience of a rotating gem with slightly illuminated edges that will then take on another shape every 5 seconds.
 
 > The experience is controlled via dragging the gem with the cursor unveiling illuminating edges of the gem.
 
