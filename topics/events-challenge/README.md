@@ -8,9 +8,9 @@ SABRINA RATH, ERICA GAVEZ
 
 ## Description
 
-> This project is meant for you to do .....well..absolutely nothing.
+> This project is meant for you to do .....well.....absolutely nothing.
 
-> The experience is controlled via keyboard and mouse where every press and click makes you lose.
+> The experience is controlled via keyboard and mouse where every key pressed and mouse clicks results in a game over.
 
 ## Screenshot(s)
 
@@ -23,4 +23,4 @@ SABRINA RATH, ERICA GAVEZ
 
 ## License
 
-> This project is licensed under a Creative Commons Attribution ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)) license with the exception of libraries and other components with their own licenses.
+> This project is licensed under a Creative Commons Attribution ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)) license with the exception of libraries and other components with their own licenses.p
