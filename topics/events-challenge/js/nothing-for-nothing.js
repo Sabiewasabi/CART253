@@ -66,7 +66,7 @@ function displayScore() {
 }
 
 function mouseMoved() {
-    if (mouseMoved > 1) {
+    if (mouseMoved > 10) {
         gemeOver === true
     }
 }
