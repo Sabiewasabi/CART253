@@ -1,6 +1,6 @@
 //The Only Move Is Not To Play
 
-//Author: Sabrina Rath
+//Author: Erica Galvez & Sabrina Rath
 
 // Current score
 let score = 0;
@@ -19,7 +19,7 @@ function setup() {
  * Update the score and display the UI
  */
 function draw() {
-    background("#87ceeb");
+    background("#3adb3d");
 
     // Only increase the score if the game is not over
     if (!gameOver) {
@@ -27,24 +27,16 @@ function draw() {
         score += 0.05;
     }
     displayUI();
-
-    //Calling my lose function
-    lose();
-
-    //Calling my mouseMoved function
-    mouseMoved();
-
-    //If ANY key is pressed, you lose
-    //keyIsPressed === true;
-
 }
+
 /**
  * Show the game over message if needed, and the current score
  */
+
 function displayUI() {
     if (gameOver) {
         push();
-        textSize(48);
+        textSize(28);
         textStyle(BOLD);
         textAlign(CENTER, CENTER);
         text("YOU LOSE....BOOHOO", width / 2, height / 3);
@@ -65,20 +57,27 @@ function displayScore() {
     pop();
 }
 
-function mouseMoved() {
-    if (mouseMoved > 10) {
-        gemeOver = true
-    }
-}
-
-function mouseIsPressed() {
-    if (mouseIsPressed === true) {
-        gameOver = true;
-    }
-}
-
 function lose() {
-    if (keyIsPressed === true) {
-        gameOver = true;
-    }
+    gameOver = true;
+}
+
+//All mouse events that make you lose
+function mouseMoved() {
+    lose();
+}
+
+function mousePressed() {
+    lose();
+}
+
+function mouseDragged() {
+    lose();
+}
+
+function mouseClicked() {
+    lose();
+}
+
+function mouseWheel() {
+    lose();
 }
