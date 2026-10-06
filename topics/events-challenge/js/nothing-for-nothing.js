@@ -67,7 +67,7 @@ function displayScore() {
 
 function mouseMoved() {
     if (mouseMoved > 10) {
-        gemeOver === true
+        gemeOver = true
     }
 }
 
@@ -79,6 +79,6 @@ function mouseIsPressed() {
 
 function lose() {
     if (keyIsPressed === true) {
-        gameOver === true;
+        gameOver = true;
     }
 }
