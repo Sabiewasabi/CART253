@@ -32,7 +32,7 @@ function draw() {
     lose();
 
     //If ANY key is pressed, you lose
-    keyIsPressed === true
+    keyIsPressed === false;
 
 }
 /**
@@ -44,7 +44,7 @@ function displayUI() {
         textSize(48);
         textStyle(BOLD);
         textAlign(CENTER, CENTER);
-        text("You lose!", width / 2, height / 3);
+        text("YOU LOSE....BOOHOO", width / 2, height / 3);
         pop();
     }
     displayScore();
@@ -63,16 +63,7 @@ function displayScore() {
 }
 
 function lose() {
-    if (keyIsPressed === true) {
-        push();
-        fill(255, 0, 0);
-        textSize(50);
-        textStyle(BOLD);
-        textAlign(CENTER, CENTER)
-        text('YOU LOSE....BOOHOO')
-        pop();
-    } else {
-        displayScore();
+    if (keyIspressed === true) {
+        gameOver === true;
     }
-
 }
