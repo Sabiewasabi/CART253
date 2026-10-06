@@ -19,7 +19,7 @@ SABRINA RATH AND ERICA GAVEZ
 ## Attribution
 
 > - This project uses [p5.js](https://p5js.org).
-> - The image is a capture of *Loser regardless* live on p5.js
+> - The image is a capture of *Loser Regardless* live on p5.js
 
 ## License
 
