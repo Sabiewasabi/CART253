@@ -32,7 +32,7 @@ function draw() {
     lose();
 
     //calling my mouseMoved function
-    mouseMove();
+    mouseMoved();
 
     //If ANY key is pressed, you lose
     //keyIsPressed === true;
@@ -65,8 +65,8 @@ function displayScore() {
     pop();
 }
 
-function mouseMove() {
-    if (mouseMOved > 1) {
+function mouseMoved() {
+    if (mouseMoved > 1) {
         gemeOver === true
     }
 }
