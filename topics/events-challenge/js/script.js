@@ -32,7 +32,7 @@ function draw() {
     lose();
 
     //If ANY key is pressed, you lose
-    keyIsPressed === false;
+    //keyIsPressed === true;
 
 }
 /**
@@ -63,7 +63,11 @@ function displayScore() {
 }
 
 function lose() {
-    if (keyIspressed === true) {
+    if (keyIsPressed === true) {
+        gameOver === true;
+    }
+
+    if (mouseMoved === true) {
         gameOver === true;
     }
 }
