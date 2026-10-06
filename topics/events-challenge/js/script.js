@@ -1,11 +1,6 @@
-/**
- * The Only Move Is Not To Play
- * Pippin Barr
- *
- * A game where your score increases so long as you do nothing.
- */
+//The Only Move Is Not To Play
 
-"use strict";
+//Author: Sabrina Rath
 
 // Current score
 let score = 0;
@@ -32,6 +27,9 @@ function draw() {
         score += 0.05;
     }
     displayUI();
+
+    //Calling my lose function
+    lose();
 }
 
 /**
@@ -59,4 +57,8 @@ function displayScore() {
     textAlign(CENTER, CENTER);
     text(floor(score), width / 2, height / 2);
     pop();
+}
+
+function lose() {
+
 }
