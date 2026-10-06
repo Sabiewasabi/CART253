@@ -36,6 +36,7 @@ function draw() {
 function displayUI() {
     if (gameOver) {
         push();
+        //On lose change background from green to red
         background(255, 0, 0);
         textSize(28);
         textStyle(BOLD);
