@@ -36,9 +36,11 @@ function draw() {
 function displayUI() {
     if (gameOver) {
         push();
+        background(255, 0, 0);
         textSize(28);
         textStyle(BOLD);
         textAlign(CENTER, CENTER);
+        //Changed text to be a little funnier but not too rude
         text("YOU LOSE....BOOHOO", width / 2, height / 3);
         pop();
     }
