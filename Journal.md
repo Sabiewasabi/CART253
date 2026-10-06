@@ -33,9 +33,11 @@
 > One thing i can say is I need to be more inspired to be able to create something unique or rather simply put - fun.
 
 - ### Conditional challenge - **09/29/2026**
+
 > The challenge was quite fun to do because it could be seen as a preview or rough mockup to a air hockey game project. I learned today that we can put an if statement inside another if statement which made it more confusing for me but its good to know for the future (thank you Micheal!).After trying desperately to get the puck moving,everything else was pretty much to follow the logic of the *Overlapping Circles* example. I realized that I make a lot of typos writing code and its becoming one of the main isues for my code to not function which is slightly annoying because I might not see the typo right away expecially when theres so many lines of code. I also think its important to share but I'm also getting the hang of asking for help if it might seem like im asking the wrong questions of stupid ones at that but I'm usually the type of student that shys away from help and hide in a corner. 
 
 > I think the proffessor does an amazing job with creating a safe environment for learning (that's you sir Pippin,thank you!!)
 
 - ### Creating 3 conditional oriented prototypes - **10/02/2026**
+
 > I had a lot of fun with this set of prototypes because I created 2 in WEBGL which I absolutely love working in. It's so cool and addicting to create a 3D shape that is able to glow and rotate on all both axis. The one I enjoyed creating the most was *Azure Marine Core* because the idea behind it was as if you had access to a powerful ancient marine core that corrupts itself and jitters out of control when being dealt with. The last prototype is visibly the one where I had no idea what I wanted to create anymore but I was filddling around with my belongs and thought "ohhh barcode, why not make that?". It DID NOT turn out to be an actual barcode, you know black and white and you scan it with a red light. I guess I took a more artistic approach (in others words just made it colorful) However, I did got the chance to create a nice gradient background, I thought interesting.At last, my second prototype is my favorite.
