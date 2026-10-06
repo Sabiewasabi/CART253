@@ -1,6 +1,6 @@
 # Loser Regardless
 
-SABRINA RATH, ERICA GAVEZ
+SABRINA RATH AND ERICA GAVEZ
 
 [View this project online](https://sabiewasabi.github.io/CART253/topics/events-challenge/)
 

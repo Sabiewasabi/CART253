@@ -8,7 +8,7 @@
 
 ## 2. Landscape challenge
 
-## **Overlook**
+# **Overlook**
 
 SABRINA RATH AND ERICA GAVEZ
 
@@ -34,7 +34,7 @@ SABRINA RATH AND ERICA GAVEZ
 
 ## 3. Variable challenge
 
-## **Mr. Furious gets FURIOUS!!!**
+# **Mr. Furious gets FURIOUS!!!**
 
 SABRINA RATH, KONSTANTINOS CHRISTODOULAKIS AND ERICA GAVEZ
 
@@ -61,7 +61,7 @@ SABRINA RATH, KONSTANTINOS CHRISTODOULAKIS AND ERICA GAVEZ
 
 ## 4. Conditionals challenge
 
-## **Puck**
+# **Puck**
 
 SABRINA RATH, KONSTANTINOS CHRISTODOULAKIS AND ERICA GAVEZ
 
@@ -90,7 +90,7 @@ This bit should attribute any code, assets or other elements used taken from oth
 
 > This project is licensed under a Creative Commons Attribution ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)) license with the exception of libraries and other components with their own licenses.
 
-## **Loser Regardless**
+# **Loser Regardless**
 
 SABRINA RATH, ERICA GAVEZ
 
