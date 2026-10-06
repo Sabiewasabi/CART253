@@ -8,6 +8,10 @@ SABRINA RATH, ERICA GAVEZ
 
 ## Description
 
+> This project is meant for you do do .....well..absolutely nothing.
+
+> The experience is controlled via keyboard and mouse where every press and click makes you lose.
+
 ## Screenshot(s)
 
 ![Loser regardless](./assets/images/loser-regardless.png)
