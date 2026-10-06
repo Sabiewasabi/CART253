@@ -31,6 +31,9 @@ function draw() {
     //Calling my lose function
     lose();
 
+    //calling my mouseMoved function
+    mouseMove();
+
     //If ANY key is pressed, you lose
     //keyIsPressed === true;
 
@@ -62,12 +65,15 @@ function displayScore() {
     pop();
 }
 
+function mouseMove() {
+    if (mouseMOved > 1) {
+        gemeOver === true
+    }
+}
+
+
 function lose() {
     if (keyIsPressed === true) {
-        gameOver === true;
-    }
-
-    if (mouseMoved === true) {
         gameOver === true;
     }
 }
