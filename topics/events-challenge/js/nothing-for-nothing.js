@@ -31,8 +31,11 @@ function draw() {
     //Calling my lose function
     lose();
 
-    //calling my mouseMoved function
+    //Calling my mouseMoved function
     mouseMoved();
+
+    //Calling my mouseIsPressed function
+    mouseIsPressed();
 
     //If ANY key is pressed, you lose
     //keyIsPressed === true;
@@ -71,6 +74,11 @@ function mouseMoved() {
     }
 }
 
+function mouseIsPressed() {
+    if (mouseIsPressed === true) {
+        gameOver();
+    }
+}
 
 function lose() {
     if (keyIsPressed === true) {
