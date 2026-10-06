@@ -76,7 +76,7 @@ function mouseMoved() {
 
 function mouseIsPressed() {
     if (mouseIsPressed === true) {
-        gameOver();
+        gameOver === true;
     }
 }
 
