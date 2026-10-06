@@ -1,6 +1,9 @@
-//The Only Move Is Not To Play
+//Loser Regardless
 
 //Author: Erica Galvez & Sabrina Rath
+
+//Description: Do nothing.....litterally!
+//Don't move,dont press any keys but honestly, you'll run out of patience.
 
 // Current score
 let score = 0;
