@@ -32,11 +32,9 @@ function draw() {
     lose();
 
     //If ANY key is pressed, you lose
-    if (keysIsPressed === true) {
-        lose();
-    }
-}
+    keyIsPressed === true
 
+}
 /**
  * Show the game over message if needed, and the current score
  */
@@ -65,10 +63,16 @@ function displayScore() {
 }
 
 function lose() {
-    push();
-    fill(255, 0, 0);
-    textSize(50);
-    textStyle(BOLD);
-    textAlign(CENTER, CENTER)
-    text('YOU LOSE....BOOHOO')
+    if (keyIsPressed === true) {
+        push();
+        fill(255, 0, 0);
+        textSize(50);
+        textStyle(BOLD);
+        textAlign(CENTER, CENTER)
+        text('YOU LOSE....BOOHOO')
+        pop();
+    } else {
+        displayScore();
+    }
+
 }
