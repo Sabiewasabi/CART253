@@ -12,12 +12,21 @@ let clickSound; // A vvariable sound to hold the sound effect when we click the 
 
 
 //creating a canvas with the proportions of 600x600
-function setup() {
+async function setup() {
     createCanvas(600, 600);
     background('#EEF9FF') // Coolors.co as always
     imagemode(CENTER) // The very center of the image will be the point of origin when I click on the canvas
 
+    // Load all the images into the array
+    stampImages = await loadImages();
+    stampImages = await loadImages();
+    stampImages = await loadImages();
+    stampImages = await loadImages();
+    stampImages = await loadImages();
 
+
+    // Load the sound effect for when we click the mouse
+    clickSound = await loadSound('assets/sounds/click.mp3');
 }
 
 
