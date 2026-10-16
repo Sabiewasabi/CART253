@@ -6,20 +6,22 @@
 
 //Variables
 let mysteryBox;
+let prizes = []; //An array to hold all my prizes
 let currentPrizer = 0; // Keeps track of which prize we are using currently to display
 let isBoxOpen = false; // Keeps track of whether the box is open or closed
 
 function setup() {
     //Creating canvas the size of 600x600
     createCanvas(600, 600);
-    background('#C6B4E8')
-
 
     //Load all the images
     mysteryBox = loadImage('assets/images/mystery-box.png');
 }
 
 function draw() {
+    background('#C6B4E8'); // Coolors.co is the absolute best for color palettes, I love it so much
+
+
     textSize(30);
     textAlign(CENTER, CENTER);
     fill('#F2F2F2');
