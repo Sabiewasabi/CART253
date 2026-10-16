@@ -2,25 +2,26 @@
 
 SABRINA RATH
 
-[View this project online](https://sabiewasabi.github.io/CART253/prototypes/variables/variables-prototype-1/)
+[View this project online](https://sabiewasabi.github.io/CART253/prototypes/events/events-prototype-1/)
 
 [View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/prototypes/variables/variables-prototype-1/js/aura-dynamics.js)
 
 ## Description
 
->This projects features a gradient background and an ellipse placed at the center of the canvas.Each second it changes color at random with a smooth transition using the lerp(); p5.js object.
+>This project is a simple stamp tool that allows the user to click on the canvas and stamp different images onto it. Each time the user clicks, a sound effect will play and the next image in the array will be stamped onto the canvas at the mouse position. The images will loop back to the first one after the last image is used.
 
->This project has no controls but rather it is simply an experience which plays with the endlesss possibility of colors.
+>The experience is controlled via mouse clicks, and the user can create a fun and interactive experience by stamping different images onto the canvas.
+
 
 ## Screenshot(s)
 
-![Aura Dynamics](./assets/images/aura-dynamics.png)
+![Mofusand Mayhem](./assets/images/mofusand-mayhem.png)
 
 ## Attribution
 
 > - This project uses [p5.js](https://p5js.org).
-> - The clown image is a capture *Aura Dynamics* live on p5.js
-
+> - The image is a capture of *Aura Dynamics* live on p5.js
+> - The meowing sound effect is *Cat Meow 8 FX* by *SOUND GARAGE* from pixabay.com
 
 ## License
 

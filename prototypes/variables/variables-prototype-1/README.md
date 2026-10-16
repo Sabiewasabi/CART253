@@ -19,7 +19,7 @@ SABRINA RATH
 ## Attribution
 
 > - This project uses [p5.js](https://p5js.org).
-> - The clown image is a capture *Aura Dynamics* live on p5.js
+> - The image is a capture of *Aura Dynamics* live on p5.js
 
 
 ## License
