@@ -1,9 +1,10 @@
-//Mofusand Party
+//Mofusand Mayhem
 
 //Author : Sabrina Rath
 
-//Description: 
+//Description: This project is a simple stamp tool that allows the user to click on the canvas and stamp different images onto it. Each time the user clicks, a sound effect will play and the next image in the array will be stamped onto the canvas at the mouse position. The images will loop back to the first one after the last image is used.
 
+// The experience is controlled via mouse clicks, and the user can create a fun and interactive experience by stamping different images onto the canvas.
 
 "use strict";
 
@@ -26,10 +27,11 @@ async function setup() {
     stampImages[2] = await loadImage('assets/images/image3.png');
     stampImages[3] = await loadImage('assets/images/image4.png');
     stampImages[4] = await loadImage('assets/images/image5.png');
+    stampImages[5] = await loadImage('assets/images/image6.png');
 
 
     // Load the sound effect for when we click the mouse
-    clickSound = await loadSound('./sounds/meow.mp3');
+    clickSound = await loadSound('assets/sounds/meow.mp3');
 }
 
 
@@ -41,7 +43,7 @@ function draw() {
 
 function mousePressed() {
     // Check if the sound is loaded and if the images are loaded
-    if (clickSound && stampImages.length === 5) {
+    if (clickSound && stampImages.length === 6) {
         //Play the sound effect when the mouse is clicked
         clickSound.play();
 
