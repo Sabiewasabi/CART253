@@ -1,10 +1,10 @@
-# Aura Dynamics
+# Mofusand Mayhem
 
 SABRINA RATH
 
 [View this project online](https://sabiewasabi.github.io/CART253/prototypes/events/events-prototype-1/)
 
-[View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/prototypes/variables/variables-prototype-1/js/aura-dynamics.js)
+[View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/prototypes/events/events-prototype-1/js/mofusand-mayhem.js)
 
 ## Description
 
