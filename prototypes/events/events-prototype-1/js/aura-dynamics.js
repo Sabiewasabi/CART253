@@ -5,6 +5,8 @@
 //Description: 
 
 
+"use strict";
+
 //Variables
 let stampImages = []; //An array to hold all my images
 let currentStamp = 0; // Keeps track of which image we are using currently to stamp
@@ -27,7 +29,7 @@ async function setup() {
 
 
     // Load the sound effect for when we click the mouse
-    clickSound = await loadSound('assets/sounds/meow.mp3');
+    clickSound = await loadSound('./sounds/meow.mp3');
 }
 
 
