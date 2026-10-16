@@ -26,7 +26,7 @@ function draw() {
 
     push();
     textSize(30);
-    text('What fantastic prize will you get?', 300, 100);
+    text('What is your RNG today?', 300, 100);
     pop();
 
     push();
