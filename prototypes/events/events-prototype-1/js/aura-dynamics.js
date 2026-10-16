@@ -18,15 +18,15 @@ async function setup() {
     imagemode(CENTER) // The very center of the image will be the point of origin when I click on the canvas
 
     // Load all the images into the array
-    stampImages = await loadImages();
-    stampImages = await loadImages();
-    stampImages = await loadImages();
-    stampImages = await loadImages();
-    stampImages = await loadImages();
+    stampImages = await loadImages('assets/images/image1.png');
+    stampImages = await loadImages('assets/images/image2.png');
+    stampImages = await loadImages('assets/images/image3.png');
+    stampImages = await loadImages('assets/images/image4.png');
+    stampImages = await loadImages('assets/images/image5.png');
 
 
     // Load the sound effect for when we click the mouse
-    clickSound = await loadSound('assets/sounds/click.mp3');
+    clickSound = await loadSound('assets/sounds/meow.mp3');
 }
 
 
