@@ -24,6 +24,13 @@ function setup() {
 function draw() {
     background('#C6B4E8'); // Coolors.co is the absolute best for color palettes, I love it so much
 
+    //Properties for both the texts
+    textAlign(CENTER, CENTER);
+    fill('#F2F2F2');
+    stroke('#37245e');
+    strokeWeight(2);
+
+
     push();
     textSize(30);
     text('What is your RNG today?', 300, 100);
@@ -33,10 +40,5 @@ function draw() {
     textSize(20);
     text('Dev struggles edition', 300, 150);
     pop();
-
-    textAlign(CENTER, CENTER);
-    fill('#F2F2F2');
-    stroke('#37245e');
-    strokeWeight(2);
 
 }
