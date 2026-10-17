@@ -18,7 +18,10 @@ function setup() {
 
 
     //Load all the images
-    mysteryBox = loadImage('assets/images/mystery-box.png');
+    mysteryBox = loadImage('assets/images/question-block.png');
+
+    prizes[0] = loadImage('assets/images/mug.png');
+    prizes[1] = loadImage('assets/images/rubber-ducky.png');
 }
 
 function draw() {
