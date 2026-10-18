@@ -33,6 +33,11 @@ let shockwaveSize = 0;
 let shockwaveX = 0;
 let shockwaveY = 0;
 
+
+//Carrot direction variables
+let carrotDirectionX = 'right';
+let carrotDirectionY = 'down';
+
 //Score
 let score = 0;
 let gameTimer = 30; //Game timer in seconds
@@ -121,6 +126,12 @@ function draw() {
 
     //Calling game over function
     gameOver();
+
+    //Draw carrot
+    image(carrotImg, carrotX, carrotY, carrotWidth, carrotHeight);
+
+    //Draw player (bunny)
+    image(bunnyImg, mouseX, mouseY, playerSize, playerSize);
 }
 
 
