@@ -1,4 +1,4 @@
-# What's your RNG today? Dev struggles edition
+# What's Your RNG Today? Dev Struggles Edition
 
 SABRINA RATH
 
@@ -20,7 +20,7 @@ SABRINA RATH
 ## Attribution
 
 > - This project uses [p5.js](https://p5js.org).
-> - The image is a capture of *What's your RNG today? Dev struggles edition* live on p5.js.
+> - The image is a capture of *What's Your RNG Today? Dev Struggles Edition* live on p5.js.
 > - The meowing sound effect is *Achievement Badge Pop Sound #3* by *Vadim_Makes_Sound* from pixabay.com
 
 ## License
