@@ -209,7 +209,7 @@ function gameOver() {
     push();
     fill('#1A2D42')
     textSize(40);
-    text("TIME\'S UP! 🐰 ", width / 2, height / 2 - 40);
+    text("TIME\'S UP!", width / 2, height / 2 - 40);
     pop();
 
     push();
