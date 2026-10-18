@@ -188,7 +188,7 @@ function drawUI() {
     textSize(25);
 
     fill('#1A2D42')
-    text("CARROT: " + score, width / 4, 20); //Collected carrot counter
+    text("CARROT 🥕 : " + score, width / 4, 20); //Collected carrot counter
 
 
     //Timer
@@ -209,7 +209,7 @@ function gameOver() {
     push();
     fill('#1A2D42')
     textSize(40);
-    text("TIME\'S UP!", width / 2, height / 2 - 40);
+    text("TIME\'S UP! 🐰 ", width / 2, height / 2 - 40);
     pop();
 
     push();
@@ -218,5 +218,10 @@ function gameOver() {
     text("Total carrots Eaten: " + score, width / 2, height / 2 + 15);
     pop();
 
+    push();
+    fill('#683700')
+    textSize(20);
+    text("Referesh the browser to play again ", 300, 500)
+    pop();
 
 }
