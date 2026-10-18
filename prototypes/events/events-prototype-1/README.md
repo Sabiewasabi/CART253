@@ -22,6 +22,7 @@ SABRINA RATH
 > - This project uses [p5.js](https://p5js.org).
 > - The image is a capture of *Aura Dynamics* live on p5.js
 > - The meowing sound effect is *Cat Meow 8 FX* by *SOUND GARAGE* from pixabay.com
+> - The cat images are from *@mofusand_official* on *Instagram*
 
 ## License
 
