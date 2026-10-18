@@ -2,6 +2,7 @@
 
 
 # <mark> Protoypes: instructions </mark>
+## [Reflective Journal](Journal.md)
 
 # **1.  Click click Poyo!**
 

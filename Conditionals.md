@@ -2,6 +2,7 @@
 
 
 # <mark>Prototype: conditionals </mark>
+## [Reflective Journal](Journal.md)
 
 # **1. Geminomonom 2.0**
 

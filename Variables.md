@@ -2,6 +2,7 @@
 
 
 # <mark> Prototypes: variables </mark>
+## [Reflective Journal](Journal.md)
 
 # **1. Aura Dynamics**
 
