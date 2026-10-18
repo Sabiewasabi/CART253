@@ -50,22 +50,50 @@ async function setup() {
 
 function draw() {
     background('#abd2fa')
-}
+    noCursor(); // Hide the cursor
 
-function gameOver() {
-    textAlign(CENTER, CENTER);
-    textStyle(BOLD);
 
+    //Gameplay state
+    if (gameTimer > 0) {
+        //Copunting down the game timer
+        if (frameCount % 60 == 0) {
+            gameTimer--; // Decrease the game timer every second
+        }
+    }
+
+    //Soft glow following the bunny
     push();
-    fill('#1A2D42')
-    textSize(40);
-    text("TIME\'S UP!", width / 2, height / 2 - 40);
+    for (let size = 90; size > 5; size -= 10) {
+        noStroke();
+        fill(255, 255, 255, 12); // Set a low opacity for the glow effect
+        circle(mousex, mouseY, size); // Draw a circle at the mouse position with decreasing size and opacity
+    }
     pop();
 
-    push();
-    textSize(20);
-    text("Total carrots Eaten: " + score, width / 2, height / 2 + 15);
-    pop();
+    //Draw the shockwave effect when a carrot is caught
+    if (shockwaveSize > 0) {
+        push();
+        noFill();
+        circle(shockwaveX, shockwaveY, shockwaveSize);
+        pop();
+
+        shockwaveSize -= 5; // Decrease the size of the shockwave
+    }
+
+    function gameOver() {
+        textAlign(CENTER, CENTER);
+        textStyle(BOLD);
+
+        push();
+        fill('#1A2D42')
+        textSize(40);
+        text("TIME\'S UP!", width / 2, height / 2 - 40);
+        pop();
+
+        push();
+        textSize(20);
+        text("Total carrots Eaten: " + score, width / 2, height / 2 + 15);
+        pop();
 
 
-}
+    }
