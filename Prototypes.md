@@ -301,7 +301,7 @@ SABRINA RATH
 
 > This project is licensed under a Creative Commons Attribution ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)) license with the exception of libraries and other components with their own licenses.
 
-## **2. What's your RNG today? Dev struggles edition**
+# **2. What's your RNG today? Dev struggles edition**
 
 SABRINA RATH
 
