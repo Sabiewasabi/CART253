@@ -11,6 +11,9 @@
 let bunnyImg;
 let carrotImg;
 
+//Eat carrot sound effect 
+let carrotEaten;
+
 //Player dimension (bunny)
 let playerSize = 100;
 
@@ -52,13 +55,16 @@ async function setup() {
     bunnyImg = await loadImage("assets/images/bunny.png");
     carrotImg = await loadImage("assets/images/carrot.png");
 
+    //Load sound
+    carrotEaten = await loadSound("assets/sounds/crunch.mp3");
+
     //Carrot start at a random position
     carrotX = random(50, 550);
     carrotY = random(50, 550);
 }
 
 function draw() {
-    background('#abd2fa')
+    background('#fad5ab')
     noCursor(); // Hide the cursor
 
 
@@ -137,7 +143,8 @@ function draw() {
         image(carrotImg, carrotX, carrotY, carrotWidth, carrotHeight);
 
         //Draw player (bunny)
-        image(bunnyImg, mouseX, mouseY, playerSize, playerSize);
+        let bunnyHeight = playerSize * bunnyImg.height / bunnyImg.width;
+        image(bunnyImg, mouseX, mouseY, playerSize, bunnyHeight);
     }
     else {
         cursor();// Bring back the normal cursor 
