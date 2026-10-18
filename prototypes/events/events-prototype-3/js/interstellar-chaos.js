@@ -158,6 +158,24 @@ function checkCollision() {
     }
 }
 
+function drawUI() {
+    push();
+    textAlign(CENTER, CENTER);
+    textStyle(BOLD);
+
+    textSize(25);
+    fill('#1A2D42')
+    text("CARROT: " + score, width / 4, 20); //Collected carrot counter
+
+
+    //Timer
+    if (gameOver <= 5) {
+        fill(255, 0, 0);
+        text("TIME: " + gameTimer + "s"(width / 4 * 3, 20));
+        pop();
+    }
+}
+
 function gameOver() {
     textAlign(CENTER, CENTER);
     textStyle(BOLD);
