@@ -181,7 +181,7 @@ function drawUI() {
     //Timer
     if (gameTimer <= 5) {
         fill(255, 0, 0);
-        text("TIME: " + gameTimer + "s", (width / 4 * 3, 20));
+        text("TIME: " + gameTimer + "s", (width / 4 * 3, 30));
     }
     pop();
 }
