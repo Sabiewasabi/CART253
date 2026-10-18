@@ -86,7 +86,7 @@ function draw() {
         circle(shockwaveX, shockwaveY, shockwaveSize);
         pop();
 
-        shockwaveSize -= 6; // Decrease the size of the shockwave
+        shockwaveSize += 6; // Decrease the size of the shockwave
     }
 
     //Switch carrot direction (LEFT AND RIGHT)
