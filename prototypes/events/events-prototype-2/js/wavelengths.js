@@ -48,6 +48,28 @@ function draw() {
     text('Dev struggles edition', 300, 150);
     pop();
 
+    //Draw box
+    if (isBoxOpen === false) {
+        image(mysteryBox, 300, 300, 200, 200);
+    } else {
+        //Hollow light behind the prize to make it look like it's glowing
+        push();
+        fill('#F2F2F2');
+        stroke('#37245e');
+        strokeWeight(2);
+        ellipse(300, 300, 250, 250);
+        pop();
+
+        //Display random prize
+        image(currentPrize, 300, 300, 200, 200);
+
+        push();
+        textSize(20);
+        noStroke();
+        text('Click the box to try again!', 300, 500);
+        pop();
+    }
+
 }
 
 function mousePressed() {
