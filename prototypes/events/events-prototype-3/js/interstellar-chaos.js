@@ -86,21 +86,21 @@ function draw() {
     carrotY += ySpeed;
 
     //Bounce the carrot off the edges of the canvas (LEFT AND RIGHT)
-    if (carrotDirection === 'left') {
+    if (carrotDirectionX === 'left') {
         carrotX = carrotX - 3; // Move left by 3 pixels
     }
 
-    if (carrotDirection === 'right') {
+    if (carrotDirectionX === 'right') {
         carrotX = carrotX + 3; // Move right by 3 pixels
     }
 
 
     //Bounce the carrot off the edges of the canvas (TOP AND BOTTOM)
-    if (carrotDirection === 'up') {
+    if (carrotDirectionY === 'up') {
         carrotY = carrotY - 2; // Move up by 3 pixels
     }
 
-    if (carrotDirection === 'down') {
+    if (carrotDirectionY === 'down') {
         carrotY = carrotY + 2; // Move down by 3 pixels
     }
 
