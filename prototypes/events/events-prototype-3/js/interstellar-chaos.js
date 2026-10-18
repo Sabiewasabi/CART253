@@ -80,6 +80,11 @@ function draw() {
         shockwaveSize -= 5; // Decrease the size of the shockwave
     }
 
+
+    //Move the target carrot around the screen
+    carrotX += xSpeed;
+    carrotY += ySpeed;
+
     function gameOver() {
         textAlign(CENTER, CENTER);
         textStyle(BOLD);
