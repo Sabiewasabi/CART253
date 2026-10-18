@@ -83,6 +83,8 @@ function draw() {
     if (shockwaveSize > 0) {
         push();
         noFill();
+        stroke(255, 255, 255, 250);
+        strokeWeight(3);
         circle(shockwaveX, shockwaveY, shockwaveSize);
         pop();
 
