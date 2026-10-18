@@ -51,6 +51,10 @@ async function setup() {
     //Loading images
     bunnyImg = await loadImage("assets/bunny.png");
     carrotImg = await loadImage("assets/carrot.png");
+
+    //Carrot start at a random position
+    carrotX = random(50, 550);
+    carrotY = random(50, 550);
 }
 
 function draw() {
