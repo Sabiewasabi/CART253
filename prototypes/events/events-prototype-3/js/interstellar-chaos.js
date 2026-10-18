@@ -123,6 +123,9 @@ function draw() {
 
     //Check collision between the bunny and the carrot
     checkCollision();
+
+    //Calling game over function
+    gameOver();
 }
 
 
