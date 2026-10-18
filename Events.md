@@ -1,7 +1,7 @@
 [Home 🏠](README.md) / [Portfolio 💼](https://sabrinarath263.wixsite.com/srathdesigns) / [Reflective Journal 📓](Journal.md) / [Challenges](Challenges.md) / [Prototypes 💻](Prototypes.md)
 
 
-# <mark> Events Prototypes </mark>
+# <mark> Prototypes: events </mark>
 
 
 # **1.  Mofusand Mayhem**
