@@ -68,76 +68,82 @@ function draw() {
         if (frameCount % 60 == 0) {
             gameTimer--; // Decrease the game timer every second
         }
-    }
 
-    //Soft glow following the bunny
-    push();
-    for (let size = 90; size > 5; size -= 10) {
-        noStroke();
-        fill(255, 255, 255, 12); // Set a low opacity for the glow effect
-        circle(mouseX, mouseY, size); // Draw a circle at the mouse position with decreasing size and opacity
-    }
-    pop();
-
-    //Draw the shockwave effect when a carrot is caught
-    if (shockwaveSize > 0) {
+        //Soft glow following the bunny
         push();
-        noFill();
-        stroke(255, 255, 255, 250);
-        strokeWeight(3);
-        circle(shockwaveX, shockwaveY, shockwaveSize);
+        for (let size = 90; size > 5; size -= 10) {
+            noStroke();
+            fill(255, 255, 255, 12); // Set a low opacity for the glow effect
+            circle(mouseX, mouseY, size); // Draw a circle at the mouse position with decreasing size and opacity
+        }
         pop();
 
-        shockwaveSize += 6; // Inccrease the size of the shockwave
+        //Draw the shockwave effect when a carrot is caught
+        if (shockwaveSize > 0) {
+            push();
+            noFill();
+            stroke(255, 255, 255, 250);
+            strokeWeight(3);
+            circle(shockwaveX, shockwaveY, shockwaveSize);
+            pop();
+
+            shockwaveSize += 6; // Inccrease the size of the shockwave
+        }
+
+        //Switch carrot direction (LEFT AND RIGHT)
+        if (carrotDirectionX === 'left') {
+            carrotX = carrotX - 3; // Move left by 3 pixels
+        }
+
+        if (carrotDirectionX === 'right') {
+            carrotX = carrotX + 3; // Move right by 3 pixels
+        }
+
+        //Switch carrot direction (TOP AND BOTTOM)
+        if (carrotDirectionY === 'up') {
+            carrotY = carrotY - 2; // Move up by 3 pixels
+        }
+
+        if (carrotDirectionY === 'down') {
+            carrotY = carrotY + 2; // Move down by 3 pixels
+        }
+
+
+        //Check walls/edges of canvas for the carrot and change direction if it hits an edge
+        if (carrotX >= 575) {
+            carrotDirectionX = 'left';
+        }
+
+        if (carrotX <= 25) {
+            carrotDirectionX = 'right';
+        }
+
+        if (carrotY >= 575) {
+            carrotDirectionY = 'up';
+        }
+
+        if (carrotY <= 25) {
+            carrotDirectionY = 'down';
+        }
+
+        //Check collision between the bunny and the carrot
+        checkCollision();
+
+        //Draw UI
+        drawUI();
+
+        //Draw carrot
+        image(carrotImg, carrotX, carrotY, carrotWidth, carrotHeight);
+
+        //Draw player (bunny)
+        image(bunnyImg, mouseX, mouseY, playerSize, playerSize);
+    }
+    else {
+        cursor();// Bring back the normal cursor 
+        gameOver(); // Show the final score
     }
 
-    //Switch carrot direction (LEFT AND RIGHT)
-    if (carrotDirectionX === 'left') {
-        carrotX = carrotX - 3; // Move left by 3 pixels
-    }
 
-    if (carrotDirectionX === 'right') {
-        carrotX = carrotX + 3; // Move right by 3 pixels
-    }
-
-    //Switch carrot direction (TOP AND BOTTOM)
-    if (carrotDirectionY === 'up') {
-        carrotY = carrotY - 2; // Move up by 3 pixels
-    }
-
-    if (carrotDirectionY === 'down') {
-        carrotY = carrotY + 2; // Move down by 3 pixels
-    }
-
-
-    //Check walls/edges of canvas for the carrot and change direction if it hits an edge
-    if (carrotX >= 575) {
-        carrotDirectionX = 'left';
-    }
-
-    if (carrotX <= 25) {
-        carrotDirectionX = 'right';
-    }
-
-    if (carrotY >= 575) {
-        carrotDirectionY = 'up';
-    }
-
-    if (carrotY <= 25) {
-        carrotDirectionY = 'down';
-    }
-
-    //Check collision between the bunny and the carrot
-    checkCollision();
-
-    //Draw UI
-    drawUI();
-
-    //Draw carrot
-    image(carrotImg, carrotX, carrotY, carrotWidth, carrotHeight);
-
-    //Draw player (bunny)
-    image(bunnyImg, mouseX, mouseY, playerSize, playerSize);
 }
 
 
