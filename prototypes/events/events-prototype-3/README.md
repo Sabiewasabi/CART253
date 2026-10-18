@@ -8,11 +8,9 @@ SABRINA RATH
 
 ## Description
 
-> This project represents an interactive interstellar space simulation made of spinning shapes.
+> This project is a simple interactive game where the player guides a bunny around the screen to catch a bouncing carrot. Each carrot caught adds to the score, and the goal is to eat as many as possible before the 30-second timer runs out.
 
-> This experience is controlled by clicking and holding the mouse to have the shapes spin faster.When you release, the speed of the rotating shapes return to normal.
-
-> This project is inspired by a simple idea - bringing order back to chaos.
+> This experience is controlled via mouse movement, and the bunny follows the cursor with a soft glow behind it. The carrot bounces off the edges of the canvas, and catching it sets off a shockwave ripple where it was eaten, then sends it to a new random spot. The timer turns red in the final 10 seconds, and when time's up, the game displays the total number of carrots eaten. The project also includes a crunch sound effect that plays whenever a carrot is caught.
 
 ## Screenshot(s)
 
@@ -21,8 +19,9 @@ SABRINA RATH
 ## Attribution
 
 > - This project uses [p5.js](https://p5js.org).
-> - The clown image is a capture of *Interstellar Chaos* live on p5.js
+> - The image is a capture of *Bunbun Wants Carrots* live on p5.js
 > - All images are from google images using the creative doamin search tool
+
 
 ## License
 
