@@ -33,7 +33,7 @@ async function setup() {
     prizes[6] = await loadImage('assets/images/pc.png'); // PC UPGRADE!
 
     //Load prize acquired sound effect
-    prizeAcquired = await loadSound('assets/sounds/prize-sound.mp3');
+    prizeAcquired = await loadSound('assets/sounds/prize-acquired.mp3');
 }
 
 function draw() {
