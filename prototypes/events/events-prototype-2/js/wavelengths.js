@@ -26,6 +26,7 @@ async function setup() {
     prizes[3] = await loadImage('assets/images/pizza.png'); // Because pizza is life
     prizes[4] = await loadImage('assets/images/energy-drink.png'); // Because energy drinks are life too
     prizes[5] = await loadImage('assets/images/grey-hoodie.png'); // TYpical dev attire, a grey hoodie
+    prizes[6] = await loadImage('assets/images/pc.png'); // TYpical dev attire, a grey hoodie
 }
 
 function draw() {
@@ -74,7 +75,7 @@ function draw() {
 
 function mousePressed() {
     //Check if the mouse is pressed within the bounds of the box
-    if (prizes.length === 6) {
+    if (prizes.length === 7) {
         if (isBoxOpen === false) {
             let randomIndex = floor(random(0, prizes.length)); // Get a random index from the prizes array
             currentPrize = prizes[randomIndex]; // Set the current prize to the randomly selected prize
