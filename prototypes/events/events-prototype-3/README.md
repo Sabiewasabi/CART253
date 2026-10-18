@@ -21,6 +21,7 @@ SABRINA RATH
 > - This project uses [p5.js](https://p5js.org).
 > - The image is a capture of *Bunbun Wants Carrots* live on p5.js
 > - All images are from google images using the creative doamin search tool
+> - The crunch sound effect is *Bone Crack 3* by *Universfield* from pixabay.com
 
 
 ## License
