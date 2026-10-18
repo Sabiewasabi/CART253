@@ -164,10 +164,15 @@ function checkCollision() {
         //Increase the score
         score++;
 
-        //Emit a shockwave effect
+        //Emite a shockwave effect
         shockwaveSize = 1;
         shockwaveX = carrotX;
         shockwaveY = carrotY;
+
+        //Check if sound loaded before playing
+        if (carrotEaten) {
+            carrotEaten.play();
+        }
 
         //Reset the carrot position
         carrotX = random(50, width - 50);
