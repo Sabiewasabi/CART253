@@ -59,9 +59,9 @@ function draw() {
     } else {
         //Hollow gradient glow behind ther prize using a for loop();
         push();
-        for (let size = 260; size > 5; size -= 15) {
+        for (let size = 300; size > 10; size -= 5) {
             noStroke();
-            fill(242, 242, 242, 15); // White with low opacity
+            fill(255, 255, 255, 12); // white with low opacity
             ellipse(300, 300, size);
         }
 
@@ -74,7 +74,7 @@ function draw() {
         //Draw the matching name of the prize
         push();
         textSize(20);
-        text(currentName, 300, 450);
+        text(currentName, 300, 480);
         pop();
 
         push();
