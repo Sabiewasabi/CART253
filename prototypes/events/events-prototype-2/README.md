@@ -1,25 +1,27 @@
-# Wavelengths
+# What's your RNG today? Dev struggles edition
 
 SABRINA RATH
 
-[View this project online](https://sabiewasabi.github.io/CART253/prototypes/variables/variables-prototype-2/)
+[View this project online](https://sabiewasabi.github.io/CART253/prototypes/events/events-prototype-2/)
 
-[View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/prototypes/variables/variables-prototype-2/js/wavelengths.js)
+[View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/prototypes/events/events-prototype-2/js/rng.js)
 
 ## Description
 
-> This project is a layered landscape featuring mountains and smooth waves at the foreground using noise and a bright moon looking over the ocean.
+> This project is a simple interactive experience that allows the user to click on a mystery box to reveal a random prize. The prizes are all related to common struggles that developers face, such as debugging, coding, and staying energized.
 
-> This project was created with intentions of giving the viewers a sense of calm,stillness and serenity while gazing at one of nature's delight - cascading waves with a view.
+> This experience is controlled via mouse clicks, and the user can click on the box to reveal a prize, and then click again to close the box and try again. The prizes are displayed with a hollow gradient glow behind them, and the name of the prize is displayed below the image. The project also includes a sound effect that plays when a prize is revealed.
+
 
 ## Screenshhot(s)
 
-![Wavelenghts](./assets/images/wavelenghts.png)
+![What's your RNG today? Dev struggles edition](./assets/images/rng.png)
 
 ## Attribution
 
 > - This project uses [p5.js](https://p5js.org).
-> - The clown image is a capture of *Wavelengths* live on p5.js.
+> - The clown image is a capture of *What's your RNG today? Dev struggles edition* live on p5.js.
+> - The meowing sound effect is *Achievement Badge Pop Sound #3* by *Vadim_Makes_Sound* from pixabay.com
 
 ## License
 
