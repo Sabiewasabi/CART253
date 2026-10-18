@@ -33,10 +33,19 @@ let shockwaveSize = 0;
 let shockwaveX = 0;
 let shockwaveY = 0;
 
+//Score
+let score = 0;
+let gameTimer = 30; //Game timer in seconds
 
-function setup() {
+
+async function setup() {
     //Creating a canvas the size of 600x600
     createCanvas(600, 600);
+    imageMode(CENTER);
+
+    //Loading images
+    bunnyImg = await loadImage("assets/bunny.png");
+    carrotImg = await loadImage("assets/carrot.png");
 }
 
 function draw() {
