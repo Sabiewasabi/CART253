@@ -85,20 +85,30 @@ function draw() {
     carrotX += xSpeed;
     carrotY += ySpeed;
 
-    function gameOver() {
-        textAlign(CENTER, CENTER);
-        textStyle(BOLD);
-
-        push();
-        fill('#1A2D42')
-        textSize(40);
-        text("TIME\'S UP!", width / 2, height / 2 - 40);
-        pop();
-
-        push();
-        textSize(20);
-        text("Total carrots Eaten: " + score, width / 2, height / 2 + 15);
-        pop();
-
-
+    //Bounce the carrot off the edges of the canvas
+    if (carrotX > width - carrotWidth / 2 || carrotX < carrotWidth / 2) {
+        xSpeed *= -1; // Reverse the x direction
     }
+
+    if (carrotY > height - carrotHeight / 2 || carrotY < carrotHeight / 2) {
+        ySpeed *= -1; // Reverse the y direction
+    }
+}
+
+function gameOver() {
+    textAlign(CENTER, CENTER);
+    textStyle(BOLD);
+
+    push();
+    fill('#1A2D42')
+    textSize(40);
+    text("TIME\'S UP!", width / 2, height / 2 - 40);
+    pop();
+
+    push();
+    textSize(20);
+    text("Total carrots Eaten: " + score, width / 2, height / 2 + 15);
+    pop();
+
+
+}
