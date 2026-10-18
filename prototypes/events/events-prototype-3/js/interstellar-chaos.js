@@ -51,3 +51,21 @@ async function setup() {
 function draw() {
 
 }
+
+function gameOver() {
+    textAlign(CENTER, CENTER);
+    textStyle(BOLD);
+
+    push();
+    fill('#1A2D42')
+    textSize(40);
+    text("TIME\'S UP!", width / 2, height / 2 - 40);
+    pop();
+
+    push();
+    textSize(20);
+    text("Total carrots Eaten: " + score, width / 2, height / 2 + 15);
+    pop();
+
+
+}
