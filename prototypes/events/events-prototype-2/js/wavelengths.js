@@ -31,6 +31,9 @@ async function setup() {
     prizes[4] = await loadImage('assets/images/energy-drink.png'); // Because energy drinks are life too
     prizes[5] = await loadImage('assets/images/grey-hoodie.png'); // TYpical dev attire, a grey hoodie
     prizes[6] = await loadImage('assets/images/pc.png'); // PC UPGRADE!
+
+    //Load prize acquired sound effect
+    prizeAcquired = await loadSound('assets/sounds/prize-sound.mp3');
 }
 
 function draw() {
@@ -96,6 +99,7 @@ function mousePressed() {
             currentName = prizeNames[randomIndex]; // Set the current name to the randomly selected prize name
 
             isBoxOpen = true; // Set the box to open
+            prizeAcquired.play(); // Play the prize acquired sound effect
         } else {
             isBoxOpen = false; // Set the box to closed
         }
