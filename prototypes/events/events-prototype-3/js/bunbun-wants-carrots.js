@@ -2,7 +2,8 @@
 
 //Author: Sabrina Rath
 
-//Description:
+//Description:> This project is a simple interactive game where the player guides a bunny around the screen to catch a bouncing carrot. Each carrot caught adds to the score, and the goal is to eat as many as possible before the 30-second timer runs out.
+//This experience is controlled via mouse movement, and the bunny follows the cursor with a soft glow behind it.The carrot bounces off the edges of the canvas, and catching it sets off a shockwave ripple where it was eaten, then sends it to a new random spot.The timer turns red in the final 10 seconds, and when time's up, the game displays the total number of carrots eaten. The project also includes a crunch sound effect that plays whenever a carrot is caught.
 
 
 //Variables
