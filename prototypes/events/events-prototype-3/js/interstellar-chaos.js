@@ -200,6 +200,7 @@ function gameOver() {
     pop();
 
     push();
+    fill('#1A2D42')
     textSize(20);
     text("Total carrots Eaten: " + score, width / 2, height / 2 + 15);
     pop();
