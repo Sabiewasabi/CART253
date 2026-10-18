@@ -45,12 +45,12 @@ function draw() {
 
     push();
     textSize(30);
-    text('What is your RNG today?', 300, 100);
+    text('What is your RNG today?', 300, 70);
     pop();
 
     push();
     textSize(20);
-    text('Dev struggles edition', 300, 150);
+    text('Dev struggles edition', 300, 120);
     pop();
 
     //Draw box
@@ -69,10 +69,16 @@ function draw() {
         //Display random prize
         image(currentPrize, 300, 300, 200, 200);
 
+        //Draw the matching name of the prize
+        push();
+        textSize(20);
+        text(currentName, 300, 450);
+        pop();
+
         push();
         textSize(20);
         noStroke();
-        text('Click anywhere to try again!', 300, 500);
+        text('Click anywhere to try again!', 300, 550);
         pop();
     }
 
@@ -84,6 +90,7 @@ function mousePressed() {
         if (isBoxOpen === false) {
             let randomIndex = floor(random(0, prizes.length)); // Get a random index from the prizes array
             currentPrize = prizes[randomIndex]; // Set the current prize to the randomly selected prize
+            currentName = prizeNames[randomIndex]; // Set the current name to the randomly selected prize name
 
             isBoxOpen = true; // Set the box to open
         } else {
