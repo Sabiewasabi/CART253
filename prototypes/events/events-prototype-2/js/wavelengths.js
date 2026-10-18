@@ -11,7 +11,7 @@ let currentPrize = 0; // Keeps track of which prize we are using currently to di
 let isBoxOpen = false; // Keeps track of whether the box is open or closed
 
 //An array to hold the names of the prizes, so that I can display them when the box is opened
-let prizeNames = ['A mug that is dev appropriate', 'The only way to debug code is to talk to a rubber ducky, right?', 'Because keyboards are essential for coding', 'Because pizza is life', 'Because energy drinks are life too', 'Typical dev attire, a grey hoodie', 'A PC because you need one to code!'];
+let prizeNames = ['A mug that is dev appropriate', 'The only way to debug code is to talk to a rubber ducky, right?', 'Because keyboards are essential for coding', 'Because pizza is life', 'Because energy drinks are life too', 'Typical dev attire, a grey hoodie', 'PC UPGRADE!'];
 let currentName = 0; // Keeps track of which prize name we are using currently to display
 
 async function setup() {
@@ -76,6 +76,7 @@ function draw() {
         pop();
 
         push();
+        fill('#190042');
         textSize(20);
         noStroke();
         text('Click anywhere to try again!', 300, 550);
