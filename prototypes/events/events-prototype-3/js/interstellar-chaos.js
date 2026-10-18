@@ -66,7 +66,7 @@ function draw() {
     for (let size = 90; size > 5; size -= 10) {
         noStroke();
         fill(255, 255, 255, 12); // Set a low opacity for the glow effect
-        circle(mousex, mouseY, size); // Draw a circle at the mouse position with decreasing size and opacity
+        circle(mouseX, mouseY, size); // Draw a circle at the mouse position with decreasing size and opacity
     }
     pop();
 
