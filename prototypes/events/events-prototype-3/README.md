@@ -22,6 +22,7 @@ SABRINA RATH
 
 > - This project uses [p5.js](https://p5js.org).
 > - The clown image is a capture of *Interstellar Chaos* live on p5.js
+> - All images are from google images using the creative doamin search tool
 
 ## License
 
