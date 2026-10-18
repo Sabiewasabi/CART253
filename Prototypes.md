@@ -96,7 +96,6 @@ SABRINA RATH
 
 
 # <mark> Prototypes: variables </mark>
- To come very shortly,please anticipate the arrival!
 
 # **1. Aura Dynamics**
 
