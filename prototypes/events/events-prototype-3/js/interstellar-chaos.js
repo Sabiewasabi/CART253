@@ -85,30 +85,42 @@ function draw() {
     carrotX += xSpeed;
     carrotY += ySpeed;
 
-    //Bounce the carrot off the edges of the canvas
-    if (carrotX > width - carrotWidth / 2 || carrotX < carrotWidth / 2) {
-        xSpeed *= -1; // Reverse the x direction
+    //Bounce the carrot off the edges of the canvas (LEFT AND RIGHT)
+    if (carrotDirection === 'left') {
+        carrotX = carrotX - 3; // Move left by 3 pixels
     }
 
-    if (carrotY > height - carrotHeight / 2 || carrotY < carrotHeight / 2) {
-        ySpeed *= -1; // Reverse the y direction
+    if (carrotDirection === 'right') {
+        carrotX = carrotX + 3; // Move right by 3 pixels
     }
-}
-
-function gameOver() {
-    textAlign(CENTER, CENTER);
-    textStyle(BOLD);
-
-    push();
-    fill('#1A2D42')
-    textSize(40);
-    text("TIME\'S UP!", width / 2, height / 2 - 40);
-    pop();
-
-    push();
-    textSize(20);
-    text("Total carrots Eaten: " + score, width / 2, height / 2 + 15);
-    pop();
 
 
-}
+    //Bounce the carrot off the edges of the canvas (TOP AND BOTTOM)
+    if (carrotDirection === 'up') {
+        carrotY = carrotY - 2; // Move up by 3 pixels
+    }
+
+    if (carrotDirection === 'down') {
+        carrotY = carrotY + 2; // Move down by 3 pixels
+    }
+
+
+
+
+    function gameOver() {
+        textAlign(CENTER, CENTER);
+        textStyle(BOLD);
+
+        push();
+        fill('#1A2D42')
+        textSize(40);
+        text("TIME\'S UP!", width / 2, height / 2 - 40);
+        pop();
+
+        push();
+        textSize(20);
+        text("Total carrots Eaten: " + score, width / 2, height / 2 + 15);
+        pop();
+
+
+    }
