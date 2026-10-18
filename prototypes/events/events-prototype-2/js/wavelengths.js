@@ -81,7 +81,7 @@ function mousePressed() {
 
             isBoxOpen = true; // Set the box to open
         } else {
-
+            isBoxOpen = false; // Set the box to closed
         }
     }
 }
