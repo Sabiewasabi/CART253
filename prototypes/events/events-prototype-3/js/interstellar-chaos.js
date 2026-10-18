@@ -127,6 +127,9 @@ function draw() {
     //Calling game over function
     gameOver();
 
+    //Draw UI
+    drawUI();
+
     //Draw carrot
     image(carrotImg, carrotX, carrotY, carrotWidth, carrotHeight);
 
