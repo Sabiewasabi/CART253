@@ -79,7 +79,8 @@ function draw() {
         pop();
 
         //Draw the shockwave effect when a carrot is caught
-        if (shockwaveSize > 0) {
+        //Only draw and expand the shockwave if its smaller than 120
+        if (shockwaveSize > 0 && shockwaveSize < 120) {
             push();
             noFill();
             stroke(255, 255, 255, 250);
