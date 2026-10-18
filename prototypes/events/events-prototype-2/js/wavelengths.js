@@ -57,14 +57,16 @@ function draw() {
     if (isBoxOpen === false) {
         image(mysteryBox, 300, 300, 200, 200);
     } else {
-
-        //Hollow light behind the prize to make it look like it's glowing
+        //Hollow gradient glow behind ther prize using a for loop();
         push();
-        fill('#F2F2F2');
-        stroke('#37245e');
-        strokeWeight(2);
-        ellipse(300, 300, 250, 250);
+        for (let size = 260; size > 5; size -= 15) {
+            noStroke();
+            fill(242, 242, 242, 15); // White with low opacity
+            ellipse(300, 300, size);
+        }
+
         pop();
+
 
         //Display random prize
         image(currentPrize, 300, 300, 200, 200);
