@@ -10,7 +10,7 @@ let prizes = []; //An array to hold all my prizes
 let currentPrize = 0; // Keeps track of which prize we are using currently to display
 let isBoxOpen = false; // Keeps track of whether the box is open or closed
 
-function setup() {
+async function setup() {
     //Creating canvas the size of 600x600
     createCanvas(600, 600);
     // The very center of the image will be the point of origin when I click on the canvas
@@ -18,14 +18,14 @@ function setup() {
 
 
     //Load all the images
-    mysteryBox = loadImage('assets/images/question-block.png');
+    mysteryBox = await loadImage('assets/images/question-block.png');
 
-    prizes[0] = loadImage('assets/images/mug.png');
-    prizes[1] = loadImage('assets/images/rubber-ducky.png');
-    prizes[2] = loadImage('assets/images/keyboard.png');
-    prizes[3] = loadImage('assets/images/pizza.png');
-    prizes[4] = loadImage('assets/images/energy-drink.png');
-    prizes[5] = loadImage('assets/images/grey-hoodie.png');
+    prizes[0] = await loadImage('assets/images/mug.png'); // A mug that's dev appropriate
+    prizes[1] = await loadImage('assets/images/rubber-ducky.png'); // The only way to debug code is to talk to a rubber ducky, right?
+    prizes[2] = await loadImage('assets/images/keyboard.png'); // Because keyboards are essential for coding
+    prizes[3] = await loadImage('assets/images/pizza.png'); // Because pizza is life
+    prizes[4] = await loadImage('assets/images/energy-drink.png'); // Because energy drinks are life too
+    prizes[5] = await loadImage('assets/images/grey-hoodie.png'); // TYpical dev attire, a grey hoodie
 }
 
 function draw() {
