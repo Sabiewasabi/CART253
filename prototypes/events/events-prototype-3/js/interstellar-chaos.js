@@ -49,7 +49,7 @@ async function setup() {
 }
 
 function draw() {
-
+    background('#abd2fa')
 }
 
 function gameOver() {
