@@ -1,10 +1,10 @@
-# Interstellar Chaos
+# Bunbun Wants Carrots
 
 SABRINA RATH
 
-[View this project online](https://sabiewasabi.github.io/CART253/prototypes/variables/variables-prototype-3/)
+[View this project online](https://sabiewasabi.github.io/CART253/prototypes/events/events-prototype-3/)
 
-[View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/prototypes/variables/variables-prototype-3/js/interstellar-chaos.js)
+[View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/prototypes/events/events-prototype-3/js/bunbun-wants-carrots.js)
 
 ## Description
 
@@ -14,7 +14,7 @@ SABRINA RATH
 
 ## Screenshot(s)
 
-![Interstellar Chaos](./assets/images/interstellar-chaos.png)
+![Bunbun Wants Carrots](./assets/images/bunbun-wants-carrots.png)
 
 ## Attribution
 
