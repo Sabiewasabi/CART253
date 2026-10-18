@@ -171,6 +171,7 @@ function checkCollision() {
 
         //Check if sound loaded before playing
         if (carrotEaten) {
+            carrotEaten.amp(0.2);
             carrotEaten.play();
         }
 
