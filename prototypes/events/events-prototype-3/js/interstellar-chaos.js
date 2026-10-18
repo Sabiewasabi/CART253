@@ -49,8 +49,8 @@ async function setup() {
     imageMode(CENTER);
 
     //Loading images
-    bunnyImg = await loadImage("assets/bunny.png");
-    carrotImg = await loadImage("assets/carrot.png");
+    bunnyImg = await loadImage("assets/images/bunny.png");
+    carrotImg = await loadImage("assets/images/carrot.png");
 
     //Carrot start at a random position
     carrotX = random(50, 550);
