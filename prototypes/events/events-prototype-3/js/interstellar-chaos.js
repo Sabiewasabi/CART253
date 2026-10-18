@@ -120,6 +120,9 @@ function draw() {
     if (carrotY <= 25) {
         carrotDirectionY = 'down';
     }
+
+    //Check collision between the bunny and the carrot
+    checkCollision();
 }
 
 
