@@ -172,17 +172,20 @@ function drawUI() {
     push();
     textAlign(CENTER, CENTER);
     textStyle(BOLD);
-
     textSize(25);
+
     fill('#1A2D42')
     text("CARROT: " + score, width / 4, 20); //Collected carrot counter
 
 
     //Timer
-    if (gameTimer <= 5) {
+    if (gameTimer <= 10) {
         fill(255, 0, 0);
-        text("TIME: " + gameTimer + "s", (width / 4 * 3, 30));
+    } else {
+        fill('#1A2D42')
     }
+    text("TIME: " + gameTimer + "s", width / 4 * 3, 20);
+
     pop();
 }
 
