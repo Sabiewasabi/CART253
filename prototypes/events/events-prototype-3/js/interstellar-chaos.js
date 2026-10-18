@@ -28,6 +28,11 @@ let carrotY;
 let xSpeed = 3;
 let ySpeed = 3;
 
+//Shockwave variables - when catching a carrot, emite a shoockwave animation
+let shockwaveSize = 0;
+let shockwaveX = 0;
+let shockwaveY = 0;
+
 
 function setup() {
     //Creating a canvas the size of 600x600
