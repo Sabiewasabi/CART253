@@ -126,6 +126,26 @@ function draw() {
 }
 
 
+function checkCollision() {
+    //Calculate the distance between the bunny and the carrot
+    let distance = dist(mouseX, mouseY, carrotX, carrotY);
+
+    //If the distance is less than the sum of their radii, they are colliding
+    if (distance < 35) {
+        //Increase the score
+        score++;
+
+        //Reset the carrot position
+        carrotX = random(50, width - 50);
+        carrotY = random(50, height - 50);
+
+        //Emit a shockwave effect
+        shockwaveSize = 1;
+        shockwaveX = carrotX;
+        shockwaveY = carrotY;
+    }
+}
+
 function gameOver() {
     textAlign(CENTER, CENTER);
     textStyle(BOLD);
