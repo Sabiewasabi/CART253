@@ -1,4 +1,4 @@
-[Home 🏠](README.md) / [Portfolio 💼](https://sabrinarath263.wixsite.com/srathdesigns) / [Reflective Journal 📓](Journal.md) / [Challenges](Challenges.md) / [Prototypes 💻](Prototypes.md)
+[Home 🏠](README.md) / [Portfolio 💼](https://sabrinarath263.wixsite.com/srathdesigns) / [Challenges](Challenges.md) / [Prototypes 💻](Prototypes.md)
 
 
 # <mark> Protoypes: instructions </mark>
