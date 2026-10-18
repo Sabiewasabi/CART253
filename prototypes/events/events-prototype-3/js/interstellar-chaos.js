@@ -12,15 +12,15 @@ let bunnyImg;
 let carrotImg;
 
 //Player dimension (bunny)
-let playerSize = 50;
+let playerSize = 100;
 
 //Player position (bunny)
 let playerX;
 let playerY;
 
 //Target carrot
-let carrotWidth = 40;
-let carrotHeight = 40;
+let carrotWidth = 80;
+let carrotHeight = 80;
 let carrotX;
 let carrotY;
 
@@ -157,14 +157,14 @@ function checkCollision() {
         //Increase the score
         score++;
 
-        //Reset the carrot position
-        carrotX = random(50, width - 50);
-        carrotY = random(50, height - 50);
-
         //Emit a shockwave effect
         shockwaveSize = 1;
         shockwaveX = carrotX;
         shockwaveY = carrotY;
+
+        //Reset the carrot position
+        carrotX = random(50, width - 50);
+        carrotY = random(50, height - 50);
     }
 }
 
