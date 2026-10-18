@@ -80,11 +80,6 @@ function draw() {
         shockwaveSize -= 5; // Decrease the size of the shockwave
     }
 
-
-    //Move the target carrot around the screen
-    carrotX += xSpeed;
-    carrotY += ySpeed;
-
     //Switch carrot direction (LEFT AND RIGHT)
     if (carrotDirectionX === 'left') {
         carrotX = carrotX - 3; // Move left by 3 pixels
