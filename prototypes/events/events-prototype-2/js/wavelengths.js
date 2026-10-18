@@ -49,3 +49,17 @@ function draw() {
     pop();
 
 }
+
+function mousePressed() {
+    //Check if the mouse is pressed within the bounds of the box
+    if (prizes.length === 6) {
+        if (isBoxOpen === false) {
+            let randomIndex = floor(random(0, prizes.length)); // Get a random index from the prizes array
+            currentPrize = prizes[randomIndex]; // Set the current prize to the randomly selected prize
+
+            isBoxOpen = true; // Set the box to open
+        } else {
+
+        }
+    }
+}
