@@ -22,6 +22,10 @@ function setup() {
 
     prizes[0] = loadImage('assets/images/mug.png');
     prizes[1] = loadImage('assets/images/rubber-ducky.png');
+    prizes[2] = loadImage('assets/images/keyboard.png');
+    prizes[3] = loadImage('assets/images/pizza.png');
+    prizes[4] = loadImage('assets/images/energy-drink.png');
+    prizes[5] = loadImage('assets/images/grey-hoodie.png');
 }
 
 function draw() {
