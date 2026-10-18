@@ -86,7 +86,7 @@ function draw() {
         circle(shockwaveX, shockwaveY, shockwaveSize);
         pop();
 
-        shockwaveSize -= 5; // Decrease the size of the shockwave
+        shockwaveSize -= 6; // Decrease the size of the shockwave
     }
 
     //Switch carrot direction (LEFT AND RIGHT)
@@ -127,9 +127,6 @@ function draw() {
 
     //Check collision between the bunny and the carrot
     checkCollision();
-
-    //Calling game over function
-    gameOver();
 
     //Draw UI
     drawUI();
