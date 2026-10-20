@@ -2,7 +2,8 @@
 
 // SABRINA RATH & ERICA GAVEZ
 
-// Description: 
+// Description:This project contains two balls that bounce at different velocities that bounces on a paddle that the user controls
+//The experience is controlled via both left and right arrow keys that move the paddle in which both of the balls collides with it that makes it bounce.
 
 "use strict";
 
