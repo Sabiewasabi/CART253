@@ -58,3 +58,7 @@
 ![Line of code](./images/line-of-code2.png)
 
 > It turned out to be a really cute little game but I think it could benefit more aesthetically.
+
+- ### Functions challenge - **10/20/2026
+
+> This challenge was really fun because it reminds me a lot about the pong game. I will admit I hate using const and over simplifying my code byt using functions to kind of "group" things together" but I understand that It's more professional and makes your code neater. I'm the kind of person that likes to changes things constanstly and having my code written flat out in front of me makes it more convinient to look into without worrying about my code breaking when chagning attributes in my functions are const variables.
