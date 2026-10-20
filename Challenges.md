@@ -6,7 +6,7 @@
 
 ## 1. [Hello, World challenge](https://github.com/Sabiewasabi/CART253)
 
-## 2. Landscape challenge
+## 2. <mark>Landscape challenge </mark>
 
 # **Overlook**
 
@@ -32,7 +32,7 @@ SABRINA RATH AND ERICA GAVEZ
 ## License
 > This project is licensed under a Creative Commons Attribution ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)) license with the exception of libraries and other components with their own licenses.
 
-## 3. Variable challenge
+## 3. <mark> Variable challenge </mark>
 
 # **Mr. Furious gets FURIOUS!!!**
 
@@ -59,7 +59,7 @@ SABRINA RATH, KONSTANTINOS CHRISTODOULAKIS AND ERICA GAVEZ
 
 > This project is licensed under a Creative Commons Attribution ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)) license with the exception of libraries and other components with their own licenses.
 
-## 4. Conditionals challenge
+## 4. <mark> Conditionals challenge </mark>
 
 # **Puck**
 
@@ -90,6 +90,8 @@ This bit should attribute any code, assets or other elements used taken from oth
 
 > This project is licensed under a Creative Commons Attribution ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)) license with the exception of libraries and other components with their own licenses.
 
+## 5. <mark>Events challenge </mark>
+
 # **Loser Regardless**
 
 SABRINA RATH AND ERICA GAVEZ
@@ -116,6 +118,8 @@ SABRINA RATH AND ERICA GAVEZ
 ## License
 
 > This project is licensed under a Creative Commons Attribution ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)) license with the exception of libraries and other components with their own licenses.
+
+## 6. <mark> Functions challenge </mark>
 
 # **Paddle Buddy**
 
