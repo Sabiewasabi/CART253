@@ -77,7 +77,7 @@ function drawPaddle(paddle) {
     push();
     rectMode(CENTER);
     noStroke();
-    fill("pink");
+    fill("#300097");
     rect(paddle.x, paddle.y, paddle.width, paddle.height);
     pop();
 }
@@ -89,7 +89,7 @@ function drawBall(ball) {
     push();
     rectMode(CENTER);
     noStroke();
-    fill("pink");
+    fill("#300097");
     rect(ball.x, ball.y, ball.width, ball.height);
     pop();
 }
