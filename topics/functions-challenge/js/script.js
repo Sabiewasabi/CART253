@@ -1,4 +1,4 @@
-//
+//Paddle Buddy
 
 // SABRINA RATH & ERICA GAVEZ
 
@@ -53,7 +53,14 @@ function draw() {
  * Moves the paddle
  */
 function movePaddle(paddle) {
-
+    //Self explanatory, left arrow key down, move left
+    if (keyIsDown(LEFT_ARROW) === true) {
+        paddle.x += -2;
+    }
+    //Self explanatory, right arrow key down, move right
+    if (keyIsDown(RIGHT_ARROW) === true) {
+        paddle.x += 2;
+    }
 }
 
 /**
