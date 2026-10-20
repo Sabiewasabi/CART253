@@ -55,11 +55,11 @@ function draw() {
 function movePaddle(paddle) {
     //Self explanatory, left arrow key down, move left
     if (keyIsDown(LEFT_ARROW) === true) {
-        paddle.x += -2;
+        paddle.x += -3; // Slightly faster than just having it move by 1
     }
     //Self explanatory, right arrow key down, move right
     if (keyIsDown(RIGHT_ARROW) === true) {
-        paddle.x += 2;
+        paddle.x += 3;
     }
 }
 
@@ -67,7 +67,6 @@ function movePaddle(paddle) {
  * Moves the ball passed in as a parameter
  */
 function moveBall(ball) {
-
 }
 
 /**
