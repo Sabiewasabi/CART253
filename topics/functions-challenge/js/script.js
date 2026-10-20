@@ -1,10 +1,8 @@
-/**
- * Bouncy Ball Ball Bonanza
- * Pippin Barr
- * 
- * The starting point for a ball-bouncing experience of
- * epic proportions!
- */
+//
+
+// SABRINA RATH & ERICA GAVEZ
+
+// Description: 
 
 "use strict";
 
