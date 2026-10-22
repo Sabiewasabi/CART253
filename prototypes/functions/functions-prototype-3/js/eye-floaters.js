@@ -13,6 +13,10 @@ const floaters = {
     posX: [],
     posY: [],
     color: 'blue',
+
+    //Leaving this here for now because I plan to have each floaters randmly have different size and colors
+    //floatersSize:[],
+    //floatersColor:[],
 }
 
 
