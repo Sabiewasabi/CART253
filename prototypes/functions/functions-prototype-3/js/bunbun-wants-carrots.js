@@ -7,8 +7,8 @@
 //Variables
 
 async function setup() {
-    //Creating a canvas the size of 600x600
-    createCanvas(600, 600);
+    //Creating a canvas the same size as the window width and height
+    createCanvas(windowWidth, windowHeight);
 
 }
 
