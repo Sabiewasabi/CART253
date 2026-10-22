@@ -24,4 +24,14 @@ async function setup() {
 
 function draw() {
     background('#070038')
+
+    //Calling my new function I created
+    moveFloaters();
+}
+
+function moveFloaters(x, y) {
+    x += random(-5, 5);
+    y += random(-5, 5);
+
+    return { x: x, y: y };
 }
