@@ -23,7 +23,7 @@ function setup() {
 }
 
 function draw() {
-    background('#070038')
+    background('#04001f')
 
     //Starts counting floaters until 149 to check all 150 of them
     for (let counter = 0; counter < totalFloaters; counter++) {
