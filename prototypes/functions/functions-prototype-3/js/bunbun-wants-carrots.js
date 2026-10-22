@@ -25,8 +25,17 @@ function setup() {
 function draw() {
     background('#070038')
 
-    //Calling my new function I created
-    moveFloaters();
+    //Starts counting floaters until 149 to check all 150 of them
+    for (let counter = 0; counter < totalFloaters; counter++) {
+        //Updates the new randomly changed positions inside newPos
+        const newPos = moveFloaters(floaters.posX[counter], floaters.posY[counter]);
+
+        //Updates values for position x
+        floaters.posX[counter] = newPos.x;
+
+        //Updates values for position y
+        floaters.posY[counter] = newPos.y;
+    }
 }
 
 function moveFloaters(x, y) {
