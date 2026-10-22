@@ -20,6 +20,12 @@ function setup() {
     //Creating a canvas the same size as the window width and height
     createCanvas(windowWidth, windowHeight);
 
+    //Give each floater a random starting position
+    for (let counter = 0; counter < totalFloaters; counter++) {
+        floaters.posX[counter] = random(width);
+        floaters.posY[counter] = random(height);
+    }
+
 }
 
 function draw() {
