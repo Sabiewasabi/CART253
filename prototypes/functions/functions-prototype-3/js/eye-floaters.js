@@ -2,7 +2,10 @@
 
 //Author: Sabrina Rath
 
-//Description:
+//Description: This projects is a simulation of the annoying eye floaters you you tend to see after you ru your eyes or stand up too quick. 
+// The twist is that these floasters randomly change colors.
+
+// The experience has no control
 
 //Variables
 //For my floaters, I want to have roughly around 100-150.For now I'll go with 150 and test that out.
