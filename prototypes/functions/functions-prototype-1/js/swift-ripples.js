@@ -2,7 +2,8 @@
 
 //Author : Sabrina Rath
 
-//Description: This project 
+//Description: This project is an interactive experience where moving your mouse generates colorful, expanding rain ripples across the canvas.
+//The experience has no click controls; it is controlled entirely via mouse hovering,
 
 //Variables
 //List of ripple
