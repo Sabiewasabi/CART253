@@ -1,4 +1,4 @@
-//Eye Floaters
+//Eye Floaters Frenzy
 
 //Author: Sabrina Rath
 
