@@ -14,7 +14,7 @@ SABRINA RATH
 
 ## Description
 
-> This project is a simulation of the annoying eye floaters you you tend to see after you rub your eyes or stand up too quick. 
+> This project is a simulation of the annoying eye floaters you tend to see after you rub your eyes or stand up too quick. 
 
 > The experience has no control
 

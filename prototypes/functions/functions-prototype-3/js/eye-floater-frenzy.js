@@ -33,7 +33,7 @@ function setup() {
         //Floaters get their own unqie size and color
         floaters.floatersSize[counter] = random(5, 30);
         //If I wanted a rainbow color range of floaters - still debating on it
-        //floaters.floatersColor[counter] = color(random(255),random(255),random(255);
+        //floaters.floatersColor[counter] = color(random(255), random(255), random(255))
         floaters.floatersColor[counter] = color(random(10, 255), random(10, 255), 255)
 
     }
