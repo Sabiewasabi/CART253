@@ -9,13 +9,15 @@
 const rippleList = [];
 
 //creating a canvas with the proportions of 600x600
-async function setup() {
+//Removed async because I want the project to boot up qquickly since I am not loading any images or sounds
+function setup() {
     createCanvas(600, 600);
-    background('#ffffff') // Started to use the color picker instead of Coolors
 }
 
 
 function draw() {
+    //Draw background here so it clears old circle rings every frame whereas in draw the circle rings never vanish
+    background(255);
     //A loop to draw,move and update ripples
     for (let counter = rippleList.length - 1; counter >= 0; counter--) {
         //Grab data infor from our array container
