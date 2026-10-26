@@ -4,15 +4,17 @@ SABRINA RATH
 
 [View this project online](https://sabiewasabi.github.io/CART253/prototypes/functions/functions-prototype-1/)
 
-[View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/prototypes/functions/functions-prototype-1/js/swift-ripplies.js)
+[View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/prototypes/functions/functions-prototype-1/js/swift-ripples.js)
 
 ## Description
 
+> This project is an interactive experience where moving your mouse generates colorful, expanding rain ripples across the canvas.
 
+> The experience has no click controls; it is controlled entirely via mouse hovering,
 
 ## Screenshot(s)
 
-![Mofusand Mayhem](./assets/images/mofusand-mayhem.png)
+![Swift Ripples](./assets/images/swift-ripples.png)
 
 ## Attribution
 
