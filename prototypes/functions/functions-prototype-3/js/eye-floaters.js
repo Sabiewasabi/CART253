@@ -15,11 +15,10 @@ let totalFloaters = 150;
 const floaters = {
     posX: [],
     posY: [],
-    color: 'blue',
 
-    //Leaving this here for now because I plan to have each floaters randmly have different size and colors
-    //floatersSize:[],
-    //floatersColor:[],
+    //Variables to randomly change color and size of floaters
+    floatersSize: [],
+    floatersColor: [],
 }
 
 
