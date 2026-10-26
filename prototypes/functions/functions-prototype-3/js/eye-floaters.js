@@ -30,6 +30,11 @@ function setup() {
     for (let counter = 0; counter < totalFloaters; counter++) {
         floaters.posX[counter] = random(width);
         floaters.posY[counter] = random(height);
+
+        //Floaters get their own unqie size and color
+        floaters.floatersSize[counter] = random(5, 25);
+        floaters.floatersColor[counter] = color(random(100, 255), random(100, 255), 255)
+
     }
 
 }
@@ -40,7 +45,12 @@ function draw() {
     //Starts counting floaters until 149 to check all 150 of them
     for (let counter = 0; counter < totalFloaters; counter++) {
         //Updates the new randomly changed positions inside newPos
-        const newPos = moveFloaters(floaters.posX[counter], floaters.posY[counter]);
+        const newPos = moveFloaters(
+            floaters.posX[counter],
+            floaters.posY[counter],
+            floaters.floatersSize[counter],
+            floaters.floatersColor[counter],
+        );
 
         //Updates values for position x
         floaters.posX[counter] = newPos.x;
