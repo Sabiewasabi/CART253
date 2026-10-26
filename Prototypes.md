@@ -8,3 +8,4 @@
 ## 2. [Variables](Variables.md)
 ## 3. [Conditionals](Conditionals.md)
 ## 4. [Events](Events.md)
+## 5. [Functions](Functions.md)
