@@ -1,5 +1,4 @@
-# What's Your RNG Today? Dev Struggles Edition
-
+# Candy Galore
 SABRINA RATH
 
 [View this project online](https://sabiewasabi.github.io/CART253/prototypes/events/events-prototype-2/)
@@ -11,12 +10,12 @@ SABRINA RATH
 
 ## Screenshhot(s)
 
-![What's your RNG today? Dev struggles edition](./assets/images/rng.png)
+![Candy Galore]()
 
 ## Attribution
 
 > - This project uses [p5.js](https://p5js.org).
-> - The image is a capture of *What's Your RNG Today? Dev Struggles Edition* live on p5.js.
+> - The image is a capture of *Candy Galore* live on p5.js.
 > - The meowing sound effect is *Achievement Badge Pop Sound #3* by *Vadim_Makes_Sound* from pixabay.com
 
 ## License

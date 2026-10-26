@@ -15,6 +15,6 @@ async function setup() {
 }
 
 function draw() {
-    background('#C6B4E8'); // Coolors.co is the absolute best for color palettes, I love it so much
+    background('#07004b'); // Coolors.co is the absolute best for color palettes, I love it so much
 
 }
