@@ -8,10 +8,6 @@ SABRINA RATH
 
 ## Description
 
-> This project is a simple interactive experience that allows the user to click on a mystery box to reveal a random prize. The prizes are all related to common struggles that developers face, such as debugging, coding, and staying energized.
-
-> This experience is controlled via mouse clicks, and the user can click on the box to reveal a prize, and then click again to close the box and try again. The prizes are displayed with a hollow gradient glow behind them, and the name of the prize is displayed below the image. The project also includes a sound effect that plays when a prize is revealed.
-
 
 ## Screenshhot(s)
 
