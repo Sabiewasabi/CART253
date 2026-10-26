@@ -34,6 +34,14 @@ function draw() {
     }
 }
 
+function mouseMoved() {
+    //Calling my new function I created here - drawRipple
+    //Temporary variable to draw a ripple
+    const newRipple = drawRipple(mouseX, mouseY);
+    //Sending data to our main array storage container ripplesList
+    ripplesList.push(newRipple);
+}
+
 //Function for drawing ripple
 function drawRipple(spawnX, spawnY) {
     return {
