@@ -1,4 +1,4 @@
-# Swift Ripplies
+# Swift Ripples
 
 SABRINA RATH
 
