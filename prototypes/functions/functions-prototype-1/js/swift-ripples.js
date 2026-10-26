@@ -55,7 +55,7 @@ function drawRipple(spawnX, spawnY) {
         y: spawnY,
         size: 5,
         //Sets a random growth rate
-        expansionSpeed: random(1, 3),
+        expansionSpeed: random(1, 5),
         //Sets ripple size to randomly be between the min of 30px and max of 300px
         maxSize: random(30, 300),
         //Pick a random color at full RBG range
