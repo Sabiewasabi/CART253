@@ -32,8 +32,8 @@ function setup() {
         floaters.posY[counter] = random(height);
 
         //Floaters get their own unqie size and color
-        floaters.floatersSize[counter] = random(5, 25);
-        floaters.floatersColor[counter] = color(random(100, 255), random(100, 255), 255)
+        floaters.floatersSize[counter] = random(5, 30);
+        floaters.floatersColor[counter] = color(random(10, 255), random(10, 255), 255)
 
     }
 
@@ -60,17 +60,18 @@ function draw() {
     }
 }
 
-function moveFloaters(x, y) {
+function moveFloaters(x, y, size, floaterColor) {
     //Add parameters to update their x and y position and return the values.
     x += random(-5, 5);
     y += random(-5, 5);
 
     //Draw floaters
-    //Taking the color from my const 
-    fill(floaters.color);
+    //Grabs a unique color for each floaters
+    fill(floaterColor);
     //I dont need a stroke because it will look so ugly 
     noStroke();
-    circle(x, y, 10)
+    //Added a "size" parameter for the code to know how big to make the circles
+    circle(x, y, size)
 
     return { x: x, y: y };
 }
