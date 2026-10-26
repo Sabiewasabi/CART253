@@ -5,6 +5,9 @@
 //Description:
 
 //Variables
+let score = 0;
+let gameTimer = 60;
+let gameOver = false;
 
 async function setup() {
     //Creating canvas the size of 600x600
