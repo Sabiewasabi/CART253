@@ -1,4 +1,4 @@
-# Eye Floaters
+# Eye Floater Frenzy
 
 SABRINA RATH
 
@@ -8,15 +8,18 @@ SABRINA RATH
 
 ## Description
 
+> This projects is a simulation of the annoying eye floaters you you tend to see after you rub your eyes or stand up too quick. 
+
+> The experience has no control
 
 ## Screenshot(s)
 
-![Eye Floaters]()
+![Eye Floaters Frenzy](./assets/images/eye-floater-frenzy.png)
 
 ## Attribution
 
 > - This project uses [p5.js](https://p5js.org).
-> - The image is a capture of *Eye Floaters* live on p5.js
+> - The image is a capture of *Eye Floater Frenzy* live on p5.js
 
 ## License
 

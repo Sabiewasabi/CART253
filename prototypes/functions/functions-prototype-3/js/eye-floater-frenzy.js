@@ -3,7 +3,6 @@
 //Author: Sabrina Rath
 
 //Description: This projects is a simulation of the annoying eye floaters you you tend to see after you rub your eyes or stand up too quick. 
-// The twist is that these floasters randomly change colors.
 
 // The experience has no control
 
