@@ -17,7 +17,7 @@ async function setup() {
 
 function draw() {
     //A loop to draw,move and update ripples
-    for (let counter = ripplesList.length - 1; counter >= 0; counter--) {
+    for (let counter = rippleList.length - 1; counter >= 0; counter--) {
         //Grab data infor from our array container
         let currentRipple = rippleList[counter];
         //Make the ripple grow bigger over time with expansionSpeed
@@ -31,6 +31,10 @@ function draw() {
         strokeWeight(2);
         circle(currentRipple.x, currentRipple.y, currentRipple.size);
 
+        //If the ripple grows past the max size limit, delete it
+        if (currentRipple.size > currentRipple.maxSize) { //MAx size which is 300px
+            rippleList.splice(counter, 1);
+        }
     }
 }
 
@@ -39,7 +43,7 @@ function mouseMoved() {
     //Temporary variable to draw a ripple
     const newRipple = drawRipple(mouseX, mouseY);
     //Sending data to our main array storage container ripplesList
-    ripplesList.push(newRipple);
+    rippleList.push(newRipple);
 }
 
 //Function for drawing ripple
