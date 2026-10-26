@@ -33,6 +33,8 @@ function setup() {
 
         //Floaters get their own unqie size and color
         floaters.floatersSize[counter] = random(5, 30);
+        //If I wanted a rainbow color range of floaters - still debating on it
+        //floaters.floatersColor[counter] = color(random(255),random(255),random(255);
         floaters.floatersColor[counter] = color(random(10, 255), random(10, 255), 255)
 
     }
@@ -60,14 +62,14 @@ function draw() {
     }
 }
 
-function moveFloaters(x, y, size, floaterColor) {
+function moveFloaters(x, y, size, flColor) {
     //Add parameters to update their x and y position and return the values.
     x += random(-5, 5);
     y += random(-5, 5);
 
     //Draw floaters
     //Grabs a unique color for each floaters
-    fill(floaterColor);
+    fill(flColor);
     //I dont need a stroke because it will look so ugly 
     noStroke();
     //Added a "size" parameter for the code to know how big to make the circles
