@@ -227,3 +227,18 @@ function collectedCandy(currentCandy, userBucket) {
         resetCandyPos(currentCandy);
     }
 }
+
+//Draw candy
+function drawCandy(currentCandy) {
+    push();
+    imageMode(CENTER);
+
+    //Pick a random image from our array container
+    let activeImage = candies[currentCandy.imageIndex];
+
+    //Draw the image onto the coordiantes
+    if (activeImage) {
+        image(activeImage, currentCandy.x, currentCandy.y, currentCandy.width, currentCandy.height);
+        pop();
+    }
+}
