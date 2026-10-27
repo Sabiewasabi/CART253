@@ -69,24 +69,23 @@ async function setup() {
     candy2.velocity.y = random(2, 5);
 
     //Loading sound
-    collectSound = loadSound('collect.mp3');
+    collectSound = loadSound('assets/sounds/collect.mp3');
 
     //Loading background image
-    backgroundImg = await loadImage('background.jpg');
+    backgroundImg = await loadImage('assets/images/background.jpg');
 
     //Loading candy images
-    candies[0] = await loadImage('candy1.png');
-    candies[1] = await loadImage('candy2.png');
-    candies[2] = await loadImage('candy3.png');
-    candies[3] = await loadImage('candy4.png');
-    candies[4] = await loadImage('candy5.png');
-    candies[5] = await loadImage('candy6.png');
-    candies[6] = await loadImage('candy7.png');
-    candies[7] = await loadImage('candy8.png');
-    candies[8] = await loadImage('candy9.png');
+    candies[0] = await loadImage('assets/images/candy1.png');
+    candies[1] = await loadImage('assets/images/candy2.png');
+    candies[2] = await loadImage('assets/images/candy3.png');
+    candies[3] = await loadImage('assets/images/candy4.png');
+    candies[4] = await loadImage('assets/images/candy5.png');
+    candies[5] = await loadImage('assets/images/candy6.png');
+    candies[6] = await loadImage('assets/images/candy7.png');
+    candies[7] = await loadImage('assets/images/candy8.png');
 
     //Loading candy bucket image
-    bucketImg = await loadImage('candy-bucket.png')
+    bucketImg = await loadImage('assets/images/candy-bucket.png')
 
 }
 
@@ -216,7 +215,7 @@ function resetCandyPos(currentCandy) {
     //Pick a random candy image from our imageIndex for the next fall
     //int() converts values to integers. Integers are positive or negative numbers without decimals.
     //Referenced from the p5.js reference page
-    currentCandy.imageIndex = int(random(0, 9));
+    currentCandy.imageIndex = int(random(0, 7));
 
     //Gives the candy a new random speed
     currentCandy.velocity.y = random(2, 5);
