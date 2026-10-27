@@ -7,16 +7,21 @@ SABRINA RATH
 
 ## Description
 
+> This project is an interactive Halloween themed catching game where the user moves a trick-or-treat bucket to catch 8 different types of falling candy images
+
+> This experience is controlled via the left and right arrow keys to move the trick-or-treat bucket to collect as many candies as you can before the timre runs out.
 
 ## Screenshhot(s)
 
-![Candy Galore]()
+![Candy Galore](./assets/images/candy-galore.png)
 
 ## Attribution
 
 > - This project uses [p5.js](https://p5js.org).
 > - The image is a capture of *Candy Galore* live on p5.js.
-> - The meowing sound effect is *Achievement Badge Pop Sound #3* by *Vadim_Makes_Sound* from pixabay.com
+> - The collect sound effect is *3 down fast 3* by *3 down fast 3
+Leszek_Szary (Freesound)* from pixabay.com
+> - All images are from google images using the creative domain search tool
 
 ## License
 
