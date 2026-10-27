@@ -175,6 +175,7 @@ function draw() {
         fill('#ffffff');
         textSize(20);
         text('Final Candy Count: ' + score, width / 2, height / 2 + 25);
+        pop();
     }
 }
 
@@ -215,7 +216,7 @@ function resetCandyPos(currentCandy) {
     //Pick a random candy image from our imageIndex for the next fall
     //int() converts values to integers. Integers are positive or negative numbers without decimals.
     //Referenced from the p5.js reference page
-    currentCandy.imageIndex = int(random(0, 7));
+    currentCandy.imageIndex = int(random(0, 8));
 
     //Gives the candy a new random speed
     currentCandy.velocity.y = random(2, 5);
@@ -228,6 +229,7 @@ function collectedCandy(currentCandy, userBucket) {
         score += 1;
         //Play sound on collect
         collectSound.play();
+
 
         //Reset candy to a random top position for the next fall
         resetCandyPos(currentCandy);
