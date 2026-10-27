@@ -128,4 +128,48 @@ function draw() {
     //Calling created draw bucket function
     drawBucket(bucket);
 
+
+    //HUD
+    //Display score
+    push();
+    //Halloween orange kind of color
+    stroke('#ebac00');
+    strokeWeight(3);
+    textSize(20);
+    fill('#ffffff');
+    text('Candy: ' + score, 15, 15);
+
+    //Display timer
+    //Timer
+    if (gameTimer <= 10) {
+        fill('#ff0000');
+    } else {
+        fill('#ffffff');
+    }
+    //Draw timer to the top right corner of the canvas
+    text("Timer: " + gameTimer + "s", width - 120, 25);
+    pop();
+
+
+    //Draw game over screen
+    if (gameOver === true) {
+        push();
+        //Draw a dark overlay to darken the canvas/game
+        fill(0, 0, 0, 150);
+        rect(0, 0, width, height);
+
+        //Draw game over text on dark overlay screen
+        fill('#ffffff');
+        stroke('#ebac00');
+        strokeWeight(3);
+        textSize(50);
+        textAlign(CENTER, CENTER);
+        text('TIME IS UP', width / 2, height / 2 - 20);
+
+
+        //Draw final score below 
+        fill('#ffffff');
+        textSize(20);
+        text('Final Candy Count: ' + score, width / 2, height / 2 + 25);
+    }
 }
