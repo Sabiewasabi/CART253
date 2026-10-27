@@ -21,7 +21,7 @@ function draw() {
     background(255);
     //A loop to draw,move and update ripples
     for (let counter = rippleList.length - 1; counter >= 0; counter--) {
-        //Grab data infor from our array container
+        //Grab data info from our array container
         let currentRipple = rippleList[counter];
         //Make the ripple grow bigger over time with expansionSpeed
         currentRipple.size += currentRipple.expansionSpeed;
