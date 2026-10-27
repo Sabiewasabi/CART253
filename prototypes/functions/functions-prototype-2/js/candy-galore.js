@@ -61,8 +61,8 @@ const bucket = {
 };
 
 async function setup() {
-    //Creating canvas the size of 600x600
-    createCanvas(600, 600);
+    //Creating canvas the size of 800x500 - a wider horizontal canvas
+    createCanvas(800, 500);
     // The very center of the image will be the point of origin when I click on the canvas
     imageMode(CENTER);
 
@@ -89,6 +89,11 @@ async function setup() {
 }
 
 function draw() {
-    background('#07004b'); // Coolors.co is the absolute best for color palettes, I love it so much
-
+    //Draw my background image and scale it to my canvas size of 800x500
+    if (backgroundImg) {
+        image(backgroundImg, 0, 0, width, height);
+    } else {
+        //If image fails to load, show this background color instead
+        background('#07004b');
+    }
 }
