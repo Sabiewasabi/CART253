@@ -1,4 +1,5 @@
 # Candy Galore
+
 SABRINA RATH
 
 [View this project online](https://sabiewasabi.github.io/CART253/prototypes/functions/functions-prototype-2/)
