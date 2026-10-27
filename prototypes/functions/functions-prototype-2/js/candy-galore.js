@@ -12,7 +12,7 @@ let gameTimer = 60;
 let gameOver = false;
 
 //Catching/collect sound
-let catchSound;
+let collectSound;
 
 //Background image 
 let backgroundImg;
@@ -21,7 +21,7 @@ let backgroundImg;
 let bucketImg;
 
 //Array container to hold all my candy images
-let candyImages = [];
+let candies = [];
 
 
 //Candies falling from the sky
@@ -38,7 +38,7 @@ const candy = {
         //Random speed each time it falls
         y: random(1, 5)
     }
-}
+};
 
 const candy2 = {
     x: 100,
@@ -51,20 +51,40 @@ const candy2 = {
         x: 300,
         y: random(1, 5),
     }
-}
+};
 
 const bucket = {
     x: 300,
     y: 280,
     width: 100,
     height: 15,
-}
+};
 
 async function setup() {
     //Creating canvas the size of 600x600
     createCanvas(600, 600);
     // The very center of the image will be the point of origin when I click on the canvas
     imageMode(CENTER);
+
+    //Loading sound
+    catchSound = loadSound('collect.mps');
+
+    //Loading background image
+    backgroundImg = await loadImage('background.png');
+
+    //Loading candy images
+    candies[0] = await loadImage('candy1.png');
+    candies[1] = await loadImage('candy2.png');
+    candies[2] = await loadImage('candy3.png');
+    candies[3] = await loadImage('candy4.png');
+    candies[4] = await loadImage('candy5.png');
+    candies[5] = await loadImage('candy6.png');
+    candies[6] = await loadImage('candy7.png');
+    candies[7] = await loadImage('candy8.png');
+    candies[8] = await loadImage('candy9.png');
+
+    //Loading candy bucket image
+    bucketImg = await loadImage('candy-bucket.png')
 
 }
 
