@@ -69,7 +69,7 @@ async function setup() {
     candy2.velocity.y = random(2, 5);
 
     //Loading sound
-    collectSound = loadSound('assets/sounds/collect.mp3');
+    collectSound = await loadSound('assets/sounds/collect.mp3');
 
     //Loading background image
     backgroundImg = await loadImage('assets/images/background.jpg');
@@ -227,9 +227,8 @@ function collectedCandy(currentCandy, userBucket) {
         //Adds a point to score
         score += 1;
         //Play sound on collect
-        if (collectSound && collectSound.isPlaying() === false) {
-            collectSound.play();
-        }
+        collectSound.play();
+
         //Reset candy to a random top position for the next fall
         resetCandyPos(currentCandy);
     }
