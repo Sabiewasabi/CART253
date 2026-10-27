@@ -1,9 +1,8 @@
-/**
- * Boingo
- * Pippin Barr
- *
- * A ball that bounces around on the canvas
- */
+//Boingo
+
+// SABRINA RATH AND ERICA GAVEZ
+
+//Description: 
 
 let ball1 = undefined; // Will create it with createBall()
 
