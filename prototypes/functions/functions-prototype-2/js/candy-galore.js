@@ -189,3 +189,15 @@ function moveBucket(userBucket) {
     //Stops bucket from going off the canvas
     userBucket.x = constrain(userBucket.x, userBucket.width / 2, width - userBucket.width / 2);
 }
+
+
+//Moves the candy downwards and resets it position when it reaches the bottom
+function moveCandy(currentCandy) {
+    currentCandy.y += currentCandy.velocity.y;
+
+    //Bootom of canvas detection - if candy reaches the ground you missed it
+    if (currentCandy.y - currentCandy.height / 2 > height) {
+        //A new function that I will create to reset the candy's position when it reaches the bottom
+        resetCandyPos{ cureentCandy }; //Send it back to the top
+    }
+}
