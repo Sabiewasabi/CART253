@@ -4,6 +4,7 @@
 
 //Description: This project is an interactive Halloween themed catching game where the user moves a trick-or-treat bucket to catch 8 different types of falling candy images.
 // This experience is controlled via the left and right arrow keys to move the trick-or-treat bucket to collect as many candies as you can before the timre runs out.
+//> This project was inspired by Halloween being right around the corner of this week.
 
 //Variables
 let score = 0;
