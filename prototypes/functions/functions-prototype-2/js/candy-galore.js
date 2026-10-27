@@ -201,3 +201,15 @@ function moveCandy(currentCandy) {
         resetCandyPos{ cureentCandy }; //Send it back to the top
     }
 }
+
+//Resting candy position
+function resetCandyPos(currentCandy) {
+    //Reappear at a random position accross the top of the canvas 
+    currentCandy.x = random(30 / width - 30);
+    currentCandy.y = random(-150, 30); //Stagger
+
+    //Pick a random candy image from our imageIndex for the next fall
+    //int() converts values to integers. Integers are positive or negative numbers without decimals.
+    //Referenced from the p5.js reference page
+    currentCandy.imageIndex = int(random(0, 8));
+}
