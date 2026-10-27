@@ -1,9 +1,9 @@
 # Candy Galore
 SABRINA RATH
 
-[View this project online](https://sabiewasabi.github.io/CART253/prototypes/events/events-prototype-2/)
+[View this project online](https://sabiewasabi.github.io/CART253/prototypes/functions/functions-prototype-2/)
 
-[View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/prototypes/events/events-prototype-2/js/rng.js)
+[View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/prototypes/functions/functions-prototype-2/js/rng.js)
 
 ## Description
 
