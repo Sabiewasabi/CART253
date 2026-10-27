@@ -96,4 +96,29 @@ function draw() {
         //If image fails to load, show this background color instead
         background('#07004b');
     }
+
+    //Timer
+    if (gameOver === false) {
+        //Coountdown
+        if (frameCount % 60 === 0 && gameTimer > 0) {
+            gameTimer = gameTimer - 1;
+        }
+    }
+
+    //Game overwhen time runs out
+    if (gameTimer < -0) {
+        gameOver = true;
+    }
+
+    //Calling created bucket function
+    moveBucket();
+
+    //Calling created move candy function for candy 1 and 2
+    //Candy 1
+    moveCandy(candy);
+    catchCandy(candy, bucket);
+    //Candy 2
+    movecandy(candy2);
+    catchCandy(candy2, bucket);
+
 }
