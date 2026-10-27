@@ -1,7 +1,7 @@
 [Home 🏠](README.md) / [Portfolio 💼](https://sabrinarath263.wixsite.com/srathdesigns) / [Challenges](Challenges.md) / [Prototypes 💻](Prototypes.md)
 
 
-# <mark> Protoypes: funtions </mark>
+# <mark> Protoypes: functions </mark>
 ## [Reflective Journal](Journal.md)
 
 # **1. Swift Ripples**
