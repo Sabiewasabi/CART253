@@ -7,7 +7,7 @@
 //Variables
 let score = 0;
 //Start with 60 seconds
-let gameTimer = 60;
+let gameTimer = 20;
 //Tracks if the game is actively running or over
 let gameOver = false;
 
@@ -141,7 +141,7 @@ function draw() {
     strokeWeight(3);
     textSize(20);
     fill('#ffffff');
-    text('Candy: ' + score, 15, 15);
+    text('Candy: ' + score, 15, 25);
 
     //Display timer
     //Timer
