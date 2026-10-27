@@ -36,7 +36,7 @@ const candy = {
     velocity: {
         x: 0,
         //Random speed each time it falls
-        y: random(1, 5)
+        y: 0
     }
 };
 
@@ -48,29 +48,31 @@ const candy2 = {
     height: 50,
     imageIndex: 1,
     velocity: {
-        x: 300,
-        y: random(1, 5),
+        x: 0,
+        y: 0
     }
 };
 
 const bucket = {
     x: 300,
-    y: 280,
+    y: 450,
     width: 100,
-    height: 15,
+    height: 80,
 };
 
 async function setup() {
     //Creating canvas the size of 800x500 - a wider horizontal canvas
     createCanvas(800, 500);
-    // The very center of the image will be the point of origin when I click on the canvas
-    imageMode(CENTER);
+
+    //Randomize falling speed of candies
+    candy.velocity.y = random(2, 5);
+    candy2.velocity.y = random(2, 5);
 
     //Loading sound
-    catchSound = loadSound('collect.mps');
+    collectSound = loadSound('collect.mp3');
 
     //Loading background image
-    backgroundImg = await loadImage('background.png');
+    backgroundImg = await loadImage('background.jpg');
 
     //Loading candy images
     candies[0] = await loadImage('candy1.png');
@@ -90,12 +92,15 @@ async function setup() {
 
 function draw() {
     //Draw my background image and scale it to my canvas size of 800x500
+    push();
+    imageMode(CORNER);
     if (backgroundImg) {
         image(backgroundImg, 0, 0, width, height);
     } else {
         //If image fails to load, show this background color instead
         background('#07004b');
     }
+    pop();
 
     //Timer
     if (gameOver === false) {
@@ -106,19 +111,19 @@ function draw() {
     }
 
     //Game overwhen time runs out
-    if (gameTimer < -0) {
+    if (gameTimer <= 0) {
         gameOver = true;
     }
 
     //Calling created bucket function
-    moveBucket();
+    moveBucket(bucket);
 
     //Calling created move candy function for candy 1 and 2
     //Candy 1
     moveCandy(candy);
-    collectedandy(candy, bucket);
+    collectedCandy(candy, bucket);
     //Candy 2
-    movecandy(candy2);
+    moveCandy(candy2);
     collectedCandy(candy2, bucket);
 
     //Calling created draw candy function
@@ -178,7 +183,7 @@ function draw() {
 function moveBucket(userBucket) {
     if (keyIsDown(LEFT_ARROW) === true) {
         //Slightly fast movement
-        userBucket.x++ - 6;
+        userBucket.x -= 6;
     }
 
     if (keyIsDown(RIGHT_ARROW) === true) {
@@ -198,25 +203,28 @@ function moveCandy(currentCandy) {
     //Bootom of canvas detection - if candy reaches the ground you missed it
     if (currentCandy.y - currentCandy.height / 2 > height) {
         //A new function that I will create to reset the candy's position when it reaches the bottom
-        resetCandyPos(cureentCandy); //Send it back to the top
+        resetCandyPos(currentCandy); //Send it back to the top
     }
 }
 
 //Resting candy position
 function resetCandyPos(currentCandy) {
     //Reappear at a random position accross the top of the canvas 
-    currentCandy.x = random(30 / width - 30);
+    currentCandy.x = random(30, width - 30);
     currentCandy.y = random(-150, 30); //Stagger
 
     //Pick a random candy image from our imageIndex for the next fall
     //int() converts values to integers. Integers are positive or negative numbers without decimals.
     //Referenced from the p5.js reference page
-    currentCandy.imageIndex = int(random(0, 8));
+    currentCandy.imageIndex = int(random(0, 9));
+
+    //Gives the candy a new random speed
+    currentCandy.velocity.y = random(2, 5);
 }
 
 //Checks if candy falls into candy bucket
 function collectedCandy(currentCandy, userBucket) {
-    if (overlap(currentCandy, userBucket)) {
+    if (checkOverlap(currentCandy, userBucket)) {
         //Adds a point to score
         score += 1;
         //Play sound on collect
@@ -239,6 +247,24 @@ function drawCandy(currentCandy) {
     //Draw the image onto the coordiantes
     if (activeImage) {
         image(activeImage, currentCandy.x, currentCandy.y, currentCandy.width, currentCandy.height);
-        pop();
     }
+    pop();
+}
+
+//Draw bucket
+function drawBucket(userBucket) {
+    push();
+    imageMode(CENTER);
+    if (bucketImg) {
+        image(bucketImg, userBucket.x, userBucket.y, userBucket.width, userBucket.height);
+    }
+    pop();
+}
+
+//Check overlapping of candy and bucket
+function checkOverlap(rectA, rectB) {
+    return (rectA.x + rectA.width / 2 > rectB.x - rectB.width / 2 &&
+        rectA.x - rectA.width / 2 < rectB.x + rectB.width / 2 &&
+        rectA.y + rectA.height / 2 > rectB.y - rectB.height / 2 &&
+        rectA.y - rectA.height / 2 < rectB.y + rectB.height / 2);
 }
