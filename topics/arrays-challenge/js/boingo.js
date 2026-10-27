@@ -1,6 +1,7 @@
 /**
  * Boingo
- * Pippin Barr
+ * 
+ * ANGELA TANG, SYDNEY TAN AND SABRINA RATH
  *
  * A ball that bounces around on the canvas
  */
