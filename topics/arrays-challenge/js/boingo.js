@@ -1,13 +1,12 @@
-//Boingo
-
-//SABRINA RATH
-
-//Description: 
-
-//Variables
-
-//An array to hold the information/data of several balls that we want to create
+/**
+ * Boingo
+ * Pippin Barr
+ *
+ * A ball that bounces around on the canvas
+ */
 let balls = [];
+let score = 0;
+// let ball1 = undefined; // Will create it with createBall()
 
 /**
  * Create the canvas and the ball
@@ -16,28 +15,31 @@ function setup() {
     // Create the canvas
     createCanvas(400, 400);
     // Create the ball
-    balls = createBall();
+    // const ball1 = createBall();
+    // balls.push(ball1)
 }
 
 /**
  * Creates a random ball
  */
-function createBall() {
+function createBall(x, y) {
     // Create a ball object with appropriate properties
-    const newBall = {
+    const ball = {
         // Position and dimensions
-        x: 200,
-        y: 200,
+        x: x,
+        y: y,
         size: 20,
+        angle: undefined,
         // Colour
         fill: "#000000",
         // Movement
         velocity: {
-            x: random(-5, 5),
-            y: random(-5, 5)
+            x: pmouseX - mouseX,
+            y: pmouseY - mouseY,
         }
+
     };
-    return newBall;
+    return ball;
 }
 
 /**
@@ -46,15 +48,24 @@ function createBall() {
 function draw() {
     background("#87ceeb");
 
-    moveBall();
-    bounceBall();
-    drawBall();
+    for (let ball of balls) {
+        moveBall(ball);
+        bounceBall(ball);
+        drawBall(ball);
+    }
 }
 
 /**
  * Moves the ball according to its velocity
  */
 function moveBall(ball) {
+    // ball.angle = atan(pmouseY - mouseY / pmouseX - mouseX);
+
+    // let xxxx = 1 * cos(ball.angle)
+    // let yyyy = 1 * sin(ball.angle)
+
+    // console.log(xxxx, yyyy, ball.angle)
+
     ball.x += ball.velocity.x;
     ball.y += ball.velocity.y;
 }
@@ -87,4 +98,10 @@ function drawBall(ball) {
     fill(ball.fill);
     ellipse(ball.x, ball.y, ball.size);
     pop();
+}
+
+function mousePressed() {
+    balls.push(createBall(mouseX, mouseY))
+    score++;
+    print(score)
 }
