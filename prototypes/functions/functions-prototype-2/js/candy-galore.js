@@ -114,16 +114,19 @@ function draw() {
         gameOver = true;
     }
 
-    //Calling created bucket function
-    moveBucket(bucket);
+    //Only move things and collect candy while the game is running
+    if (gameOver === false) {
+        //Calling created bucket function
+        moveBucket(bucket);
 
-    //Calling created move candy function for candy 1 and 2
-    //Candy 1
-    moveCandy(candy);
-    collectedCandy(candy, bucket);
-    //Candy 2
-    moveCandy(candy2);
-    collectedCandy(candy2, bucket);
+        //Calling created move candy function for candy 1 and 2
+        //Candy 1
+        moveCandy(candy);
+        collectedCandy(candy, bucket);
+        //Candy 2
+        moveCandy(candy2);
+        collectedCandy(candy2, bucket);
+    }
 
     //Calling created draw candy function
     drawCandy(candy);
