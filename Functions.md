@@ -48,7 +48,7 @@ SABRINA RATH
 
 > This project was inspired by Halloween being right around the corner of this week.
 
-## Screenshhot(s)
+## Screenshot(s)
 
 ![Candy Galore](./prototypes/functions/functions-prototype-2/assets/images/candy-galore.png)
 

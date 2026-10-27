@@ -12,7 +12,7 @@ SABRINA RATH
 
 > This experience is controlled via the left and right arrow keys to move the trick-or-treat bucket to collect as many candies as you can before the timre runs out.
 
-## Screenshhot(s)
+## Screenshot(s)
 
 ![Candy Galore](./assets/images/candy-galore.png)
 
