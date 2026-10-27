@@ -116,10 +116,10 @@ function draw() {
     //Calling created move candy function for candy 1 and 2
     //Candy 1
     moveCandy(candy);
-    catchCandy(candy, bucket);
+    collectedandy(candy, bucket);
     //Candy 2
     movecandy(candy2);
-    catchCandy(candy2, bucket);
+    collectedCandy(candy2, bucket);
 
     //Calling created draw candy function
     drawCandy(candy);
@@ -198,7 +198,7 @@ function moveCandy(currentCandy) {
     //Bootom of canvas detection - if candy reaches the ground you missed it
     if (currentCandy.y - currentCandy.height / 2 > height) {
         //A new function that I will create to reset the candy's position when it reaches the bottom
-        resetCandyPos{ cureentCandy }; //Send it back to the top
+        resetCandyPos(cureentCandy); //Send it back to the top
     }
 }
 
@@ -212,4 +212,18 @@ function resetCandyPos(currentCandy) {
     //int() converts values to integers. Integers are positive or negative numbers without decimals.
     //Referenced from the p5.js reference page
     currentCandy.imageIndex = int(random(0, 8));
+}
+
+//Checks if candy falls into candy bucket
+function collectedCandy(currentCandy, userBucket) {
+    if (overlap(currentCandy, userBucket)) {
+        //Adds a point to score
+        score += 1;
+        //Play sound on collect
+        if (collectSound && collectSound.isPlaying() === false) {
+            collectSound.play();
+        }
+        //Reset candy to a random top position for the next fall
+        resetCandyPos(currentCandy);
+    }
 }
