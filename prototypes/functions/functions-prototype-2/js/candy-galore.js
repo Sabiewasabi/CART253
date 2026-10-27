@@ -121,4 +121,11 @@ function draw() {
     movecandy(candy2);
     catchCandy(candy2, bucket);
 
+    //Calling created draw candy function
+    drawCandy(candy);
+    drawCandy(candy2);
+
+    //Calling created draw bucket function
+    drawBucket(bucket);
+
 }
