@@ -17,8 +17,12 @@ let catchSound;
 //Background image 
 let backgroundImg;
 
+//Candy bucket image
+let bucketImg;
+
 //Array container to hold all my candy images
 let candyImages = [];
+
 
 //Candies falling from the sky
 const candy = {
@@ -47,6 +51,13 @@ const candy2 = {
         x: 300,
         y: random(1, 5),
     }
+}
+
+const bucket = {
+    x: 300,
+    y: 280,
+    width: 100,
+    height: 15,
 }
 
 async function setup() {
