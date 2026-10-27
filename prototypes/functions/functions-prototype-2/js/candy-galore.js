@@ -173,3 +173,19 @@ function draw() {
         text('Final Candy Count: ' + score, width / 2, height / 2 + 25);
     }
 }
+
+//Candy bucket control input logic - move the bucket with left and right arrow keys
+function moveBucket(userBucket) {
+    if (keyIsDown(LEFT_ARROW) === true) {
+        //Slightly fast movement
+        userBucket.x++ - 6;
+    }
+
+    if (keyIsDown(RIGHT_ARROW) === true) {
+        //Slightly fast movement
+        userBucket.x += 6;
+    }
+
+    //Stops bucket from going off the canvas
+    userBucket.x = constrain(userBucket.x, userBucket.width / 2, width - userBucket.width / 2);
+}
