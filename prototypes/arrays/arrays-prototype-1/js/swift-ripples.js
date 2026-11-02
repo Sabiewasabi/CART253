@@ -13,7 +13,7 @@ function setup() {
     createCanvas(600, 600);
     //Fill the array with 100 water droplets
     for (let counter = 0; counter < 100; counter++) {
-        droplets.push(new Droplet);
+        droplets.push(new Droplet());
     }
 }
 
