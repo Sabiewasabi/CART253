@@ -23,7 +23,7 @@ function draw() {
     }
 
     //Backward loop to remove bubbles that are off the screen
-    for (counter = bubbles.length - 1; counter >= 0; counter--) {
+    for (let counter = bubbles.length - 1; counter >= 0; counter--) {
         let bubble = bubbles[counter];
         bubble.show();
         bubble.update();
