@@ -37,5 +37,9 @@ function draw() {
 }
 //Pooping buble interaction mechanic
 function mousePressed() {
+    //When popped, the bubble will be removed from the array
+    for (let counter = bubbles.length - 1; counter >= 0; counter--) {
+        let bubble = bubbles[counter];
 
+    }
 }
