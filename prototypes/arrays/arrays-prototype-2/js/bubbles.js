@@ -79,4 +79,12 @@ class Bubble {
             this.speedX += -1;
         }
     }
+    //Draw the bubbles
+    show() {
+        fill(this.color);
+        //White bubble border
+        stroke(255);
+        strokeWeight(1);
+        circle(this.x, this.y, this.size);
+    }
 }
