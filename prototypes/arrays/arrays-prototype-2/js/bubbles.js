@@ -58,7 +58,7 @@ class Bubble {
         //Start the bubble off the screen so it can float up
         this.y = height + 30;
         //Random size for the bubbles
-        this.size = random(1, 5);
+        this.size = random(20, 150);
         //Slight drift to the left and right
         this.speedX = random(-1, 1);
         //Random speed for the bubbles
@@ -94,5 +94,9 @@ class Bubble {
         let d = dist(mx, my, this.x, this.y);
         //Return true if the distance is less than the bubble's radius
         return d < this.size / 2;
+    }
+    //Function to check if the bubble is off the screen
+    isOffScreen() {
+        return this.y < -this.size;
     }
 }
