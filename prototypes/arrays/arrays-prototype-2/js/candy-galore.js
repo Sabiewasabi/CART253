@@ -15,4 +15,10 @@ function setup() {
 }
 
 function draw() {
+    background(0);
+
+    //Sapwning bubbles
+    If(frameCount % 20 === 0) {
+        bubbles.push(new Bubble());
+    }
 }
