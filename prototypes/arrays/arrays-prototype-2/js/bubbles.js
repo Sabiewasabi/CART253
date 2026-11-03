@@ -65,7 +65,9 @@ class Bubble {
         this.speedY = random(1, 5);
 
         //Random color for the bubbles
-        this.color = color(random(100, 255), random(100, 55), random(100, 55));
+        //4th parameter is the aplha value that makes the bubbles semi-transparent
+        //Locking the blue value to 255 to make the bubbles more blue
+        this.color = color(random(100, 255), random(150, 255), 255, 150);
     }
     //Function to display the bubbles and update their position
     update() {
