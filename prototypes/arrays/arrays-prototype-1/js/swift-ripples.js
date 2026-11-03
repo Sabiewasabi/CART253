@@ -37,20 +37,19 @@ class droplet {
         this.speed = random(1.5);
         this.size = random(2, 6);
     }
-}
+    //Function that lives inside an objet to draw droplets
+    show() {
+        stroke('#88ccf6')
+        //Draws a circle at the x and y position as well as the size of the droplet I defined with "this" in the constructor.
+        circle(this.x, this.y, this.size);
+    }
 
-//Function that lives inside an objet to draw droplets
-show(){
-    stroke('#88ccf6')
-    //Draws a circle at the x and y position as well as the size of the droplet I defined with "this" in the constructor.
-    circle(this.x, this.y, this.size);
-}
-
-//Updates the position of the droplet and resets it to the top of the canvas if it goes off screen.
-updates(){
-    this.y += this.speed;
-    //Reset if it goes off screen.
-    if (this.y > height) this.y = 0;
+    //Updates the position of the droplet and resets it to the top of the canvas if it goes off screen.
+    updates() {
+        this.y += this.speed;
+        //Reset if it goes off screen.
+        if (this.y > height) this.y = 0;
+    }
 }
 
 
