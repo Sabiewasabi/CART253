@@ -45,7 +45,7 @@ class droplet {
     }
 
     //Updates the position of the droplet and resets it to the top of the canvas if it goes off screen.
-    updates() {
+    update() {
         this.y += this.speed;
         //Reset if it goes off screen.
         if (this.y > height) this.y = 0;
