@@ -12,7 +12,7 @@ let droplets = [];
 function setup() {
     createCanvas(600, 600);
     //Fill the array with 100 water droplets / IFY, I say "counter" instead of "i" because it's less confusing. I dont let single lettered varaibles.
-    for (let counter = 0; counter < 100; counter++) {
+    for (let counter = 0; counter < 150; counter++) {
         droplets.push(new Droplet());
     }
 }
@@ -34,7 +34,7 @@ class Droplet {
         //Random x and y position for the droplets accross the whole canvas.
         this.x = random(width);
         this.y = random(height);
-        this.speed = random(1.5);
+        this.speed = random(1, 8);
         this.size = random(2, 6);
     }
     //Function that lives inside an objet to draw droplets
