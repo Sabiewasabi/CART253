@@ -2,7 +2,8 @@
 
 //Author: Sabrina Rath
 
-//Description:
+//Description: This project simulates bubbles floating up the screen in which the viewer can pop them.
+//This experience is controlled via mouse clicks on the bubbles.
 
 //Variables
 
@@ -15,7 +16,7 @@ function setup() {
 }
 
 function draw() {
-    background(0);
+    background("#d6f6ff");
 
     //Sapwning bubbles
     if (frameCount % 20 === 0) {
