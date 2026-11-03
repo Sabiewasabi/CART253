@@ -21,4 +21,11 @@ function draw() {
     If(frameCount % 20 === 0) {
         bubbles.push(new Bubble());
     }
+
+    //Backward loop to remove bubbles that are off the screen
+    for (counter = bubbles.length - 1; counter >= 0; counter--) {
+        let bubble = bubbles[counter];
+        bubble.show();
+        bubble.update();
+    }
 }
