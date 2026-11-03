@@ -21,6 +21,16 @@ function setup() {
 function draw() {
     background("pink");
 
+    strokeWeight(1);
+    for (let y = 0; y <= height; y++) {
+        //Making a fade effect (pink --> purple
+        const r = map(y, 0, height, 255, 120);
+        const g = map(y, 0, height, 192, 40);
+        const b = map(y, 0, height, 203, 160);
+        stroke(r, g, b);
+        line(0, y, width, y);
+    }
+
     //Replacing old vertical lines
     let x = 0;
     let shade = 0;
