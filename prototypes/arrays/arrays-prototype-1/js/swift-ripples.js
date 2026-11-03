@@ -20,7 +20,7 @@ function setup() {
 function draw() {
     //Placeholder color for the background, will change later
     background(0);
-    //Draw and update droplet size and position
+    //Get data and update droplet size and position
     for (droplet of droplets) {
         droplet.show();
         droplet.updates();
@@ -38,3 +38,11 @@ class droplet {
         this.size = random(2, 6);
     }
 }
+
+//Function that lives inside an objet to draw droplets
+show(){
+    stroke('#88ccf6')
+    //Draws a circle at the x and y position as well as the size of the droplet I defined with "this" in the constructor.
+    circle(this.x, this.y, this.size);
+}
+
