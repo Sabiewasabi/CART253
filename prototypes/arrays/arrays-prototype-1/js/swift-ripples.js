@@ -6,14 +6,14 @@
 
 //Variables
 //List of droplets
-let droplets = [];
+let glitters = [];
 
 //creating a canvas with the proportions of 600x600
 function setup() {
     createCanvas(800, 600);
     //Fill the array with 100 water droplets / IFY, I say "counter" instead of "i" because it's less confusing. I dont let single lettered varaibles.
     for (let counter = 0; counter < 150; counter++) {
-        droplets.push(new Droplet());
+        glitters.push(new Glitter());
     }
 }
 
@@ -21,15 +21,15 @@ function draw() {
     //Placeholder color for the background, will change later
     background(0);
     //Get data and update droplet size and position
-    for (let droplet of droplets) {
-        droplet.show();
-        droplet.update();
+    for (let glitter of glitters) {
+        glitter.show();
+        glitter.update();
     }
 }
 
 //Building custom droplet class to create a droplet object with properties and methods which is better than creating a variable for droplet size, position, and speed.
 //Referenced from past lectures in college and the p5.js reference page.
-class Droplet {
+class Glitter {
     constructor() {
         //Random x and y position for the droplets accross the whole canvas.
         this.x = random(width);
