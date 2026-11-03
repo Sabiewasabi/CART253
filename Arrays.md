@@ -19,7 +19,7 @@ SABRINA RATH
 
 ## Screenshot(s)
 
-![Glitter Pop](./assets/images/glitter-pop.png)
+![Glitter Pop](./prototypes/arrays/arrays-prototype-1/assets/images/glitter-pop.png)
 
 ## Attribution
 
