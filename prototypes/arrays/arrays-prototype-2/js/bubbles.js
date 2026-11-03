@@ -35,11 +35,18 @@ function draw() {
         }
     }
 }
-//Pooping buble interaction mechanic
+//Popping bubble interaction mechanic
 function mousePressed() {
     //When popped, the bubble will be removed from the array
     for (let counter = bubbles.length - 1; counter >= 0; counter--) {
         let bubble = bubbles[counter];
+
+        //Check if the mouse is inside the bubble
+        if (bubble.contains(mouseX, mouseY)) {
+            bubbles.splice(counter, 1);
+            //Stop looking through the array once a bubble is popped so only one bubble can be popped per click
+            break;
+        }
 
     }
 }
