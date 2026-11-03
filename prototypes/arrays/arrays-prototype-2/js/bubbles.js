@@ -50,3 +50,18 @@ function mousePressed() {
 
     }
 }
+
+//Creating a bubble class (object)
+class Bubble {
+    constructor() {
+        this.x = random(50, width - 50);
+        //Start the bubble off the screen so it can float up
+        this.y = height + 30;
+        //Random size for the bubbles
+        this.size = random(1, 5);
+        //Slight drift to the left and right
+        this.speedX = random(-1, 1);
+        //Random speed for the bubbles
+        this.speedY = random(1, 5);
+    }
+}
