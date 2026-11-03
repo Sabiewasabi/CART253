@@ -27,5 +27,11 @@ function draw() {
         let bubble = bubbles[counter];
         bubble.show();
         bubble.update();
+
+        //Remove bubbles if they go off screen
+        if (bubble.y < 0) {
+            //Delete (splice) the bubble from the list (array) of bubbles
+            bubble.splice(counter, 1);
+        }
     }
 }
