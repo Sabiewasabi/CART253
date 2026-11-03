@@ -66,6 +66,17 @@ class Bubble {
 
         //Random color for the bubbles
         this.color = color(random(100, 255), random(100, 55), random(100, 55));
+    }
+    //Function to display the bubbles and update their position
+    update() {
+        //Drift to the side
+        this.x += this.speedX;
+        //Subtract from y to make the bubbles float up
+        this.y -= this.speedY;
 
+        //Wall bounce mechanic to keep the bubbles on the canvas
+        if (this.x < this.size / 2 || this.x > width - this.size / 2) {
+            this.speedX += -1;
+        }
     }
 }
