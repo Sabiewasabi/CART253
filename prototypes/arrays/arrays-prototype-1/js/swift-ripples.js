@@ -21,15 +21,15 @@ function draw() {
     //Placeholder color for the background, will change later
     background(0);
     //Get data and update droplet size and position
-    for (droplet of droplets) {
+    for (let droplet of droplets) {
         droplet.show();
-        droplet.updates();
+        droplet.update();
     }
 }
 
 //Building custom droplet class to create a droplet object with properties and methods which is better than creating a variable for droplet size, position, and speed.
 //Referenced from past lectures in college and the p5.js reference page.
-class droplet {
+class Droplet {
     constructor() {
         //Random x and y position for the droplets accross the whole canvas.
         this.x = random(width);
