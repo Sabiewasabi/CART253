@@ -31,7 +31,7 @@ function draw() {
         //Remove bubbles if they go off screen
         if (bubble.y < 0) {
             //Delete (splice) the bubble from the list (array) of bubbles
-            bubble.splice(counter, 1);
+            bubbles.splice(counter, 1);
         }
     }
 }
