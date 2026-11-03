@@ -1,28 +1,26 @@
-# Candy Galore
+# Bubbles!
 
 SABRINA RATH
 
-[View this project online](https://sabiewasabi.github.io/CART253/prototypes/functions/functions-prototype-2/)
+[View this project online](https://sabiewasabi.github.io/CART253/prototypes/arrays/arrays-prototype-2/)
 
-[View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/prototypes/functions/functions-prototype-2/js/rng.js)
+[View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/prototypes/arrays/arrays-prototype-2/js/bubbles.js)
 
 ## Description
 
-> This project is an interactive Halloween themed catching game where the user moves a trick-or-treat bucket to catch 8 different types of falling candy images
+> This project simulates bubbles floating up the screen in which the viewer can pop them.
 
-> This experience is controlled via the left and right arrow keys to move the trick-or-treat bucket to collect as many candies as you can before the timre runs out.
+> This experience is controlled via mouse clicks on the bubbles.
+
 
 ## Screenshot(s)
 
-![Candy Galore](./assets/images/candy-galore.png)
+![Bubbles!](./assets/images/bubbles.png)
 
 ## Attribution
 
 > - This project uses [p5.js](https://p5js.org).
-> - The image is a capture of *Candy Galore* live on p5.js.
-> - The collect sound effect is *3 down fast 3* by *3 down fast 3
-Leszek_Szary (Freesound)* from pixabay.com
-> - All images are from google images using the creative domain search tool
+> - The image is a capture of *Bubbles!* live on p5.js.
 
 ## License
 
