@@ -35,3 +35,7 @@ function draw() {
         }
     }
 }
+//Pooping buble interaction mechanic
+function mousePressed() {
+
+}
