@@ -20,4 +20,9 @@ function setup() {
 function draw() {
     //Placeholder color for the background, will change later
     background(0);
+    //Draw and update droplet size and position
+    for (droplet of droplets) {
+        droplet.show();
+        droplet.updates();
+    }
 }
