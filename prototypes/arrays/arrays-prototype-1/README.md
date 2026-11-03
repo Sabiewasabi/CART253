@@ -1,25 +1,25 @@
-# Swift Ripples
+# Glitter Pop
 
 SABRINA RATH
 
-[View this project online](https://sabiewasabi.github.io/CART253/prototypes/functions/functions-prototype-1/)
+[View this project online](https://sabiewasabi.github.io/CART253/prototypes/arrays/arrays-prototype-1/)
 
-[View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/prototypes/functions/functions-prototype-1/js/swift-ripples.js)
+[View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/prototypes/arrays/arrays-prototype-1/js/glitter-pop.js)
 
 ## Description
 
-> This project is an interactive experience where moving your mouse generates colorful, expanding rain ripples across the canvas.
+> This project is a simple simulation of glitter falling down the screen. The glitter is represented by small circles that fall from the top of the canbas to the bottom.
 
-> The experience has no click controls; it is controlled entirely via mouse hovering,
+> The experience has no controls.
 
 ## Screenshot(s)
 
-![Swift Ripples](./assets/images/swift-ripples.png)
+![Glitter Pop](./assets/images/glitter-pop.png)
 
 ## Attribution
 
 > - This project uses [p5.js](https://p5js.org).
-> - The image is a capture of *Swift Ripples* live on p5.js
+> - The image is a capture of *Glitter Pop* live on p5.js
 
 ## License
 
