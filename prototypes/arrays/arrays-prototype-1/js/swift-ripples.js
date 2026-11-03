@@ -26,3 +26,15 @@ function draw() {
         droplet.updates();
     }
 }
+
+//Building custom droplet class to create a droplet object with properties and methods which is better than creating a variable for droplet size, position, and speed.
+//Referenced from past lectures in college and the p5.js reference page.
+class droplet {
+    constructor() {
+        //Random x and y position for the droplets accross the whole canvas.
+        this.x = random(width);
+        this.y = random(height);
+        this.speed = random(1.5);
+        this.size = random(2, 6);
+    }
+}
