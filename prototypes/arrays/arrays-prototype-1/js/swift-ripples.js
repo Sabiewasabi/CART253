@@ -39,7 +39,8 @@ class Droplet {
     }
     //Function that lives inside an objet to draw droplets
     show() {
-        stroke('#88ccf6')
+        stroke(random(10, 255), random(10, 255), random(10, 255));
+        //stroke('#88ccf6')
         //Draws a circle at the x and y position as well as the size of the droplet I defined with "this" in the constructor.
         circle(this.x, this.y, this.size);
     }
