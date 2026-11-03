@@ -63,5 +63,9 @@ class Bubble {
         this.speedX = random(-1, 1);
         //Random speed for the bubbles
         this.speedY = random(1, 5);
+
+        //Random color for the bubbles
+        this.color = color(random(100, 255), random(100, 55), random(100, 55));
+
     }
 }
