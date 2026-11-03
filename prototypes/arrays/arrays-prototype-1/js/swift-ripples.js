@@ -1,8 +1,9 @@
-//Raincheck
+//Gliiter Pop
 
 //Author : Sabrina Rath
 
-//Description:
+//Description: This project is a simple simulation of glitter falling down the screen. The glitter is represented by small circles that fall from the top of the canbas to the bottom.
+//The experience has no controls.
 
 //Variables
 //List of droplets
