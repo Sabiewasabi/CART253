@@ -76,7 +76,7 @@ class Bubble {
 
         //Wall bounce mechanic to keep the bubbles on the canvas
         if (this.x < this.size / 2 || this.x > width - this.size / 2) {
-            this.speedX += -1;
+            this.speedX *= -1;
         }
     }
     //Draw the bubbles
