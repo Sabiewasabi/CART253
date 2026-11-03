@@ -87,4 +87,12 @@ class Bubble {
         strokeWeight(1);
         circle(this.x, this.y, this.size);
     }
+
+    //Function to check if the mouse is inside the bubbles
+    contains(mx, my) {
+        //Calculate the distance between the mouse and the bubble
+        let d = dist(mx, my, this.x, this.y);
+        //Return true if the distance is less than the bubble's radius
+        return d < this.size / 2;
+    }
 }
