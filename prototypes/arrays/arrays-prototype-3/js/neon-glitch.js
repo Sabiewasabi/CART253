@@ -15,6 +15,7 @@ let score = 0;
 let speedLevel = 1;
 
 //Spawn interval variable - timing of events referenced from p5.js example sketches
+// https://editor.p5js.org/enickles/sketches/ZbCusCZtN
 let spawnInterval;
 
 
@@ -26,4 +27,11 @@ function setup() {
 function draw() {
     background('#1b0046')
 
+    //Draw targets
+    stroke("#ff2bdc");
+    strokeWeight(3);
+    fill("#b9ff15");
+    for (let target of targets) {
+        circle(target.x, target.y, 50);
+    }
 }
