@@ -78,3 +78,17 @@ function checkLevelUp() {
         startSpawner(newSpawnRate);
     }
 }
+
+//Manage interval
+function startSpawner(rate) {
+    //Set a recurring timer that executes the inner arrow function at a given millisecond rate
+    spawnInterval = setInterval(() => {
+        //Adds new target to the array
+        target.push({
+            //Place new target at a random x and y position away from the edges of the canvas
+            x: random(50, width - 50),
+            y: random(50, height - 50)
+        });
+        //Pass the rate parameter to define the timer delay
+    }, rate);
+}
