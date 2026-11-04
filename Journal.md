@@ -75,8 +75,8 @@
 
 - ### Loop challenge - **11/03/2026**
 
-> This challenge was pretty straightforward because si Pippin pratically gave us the line of code to completet this challenge when he was giving the lecture about loops.
+> This challenge was pretty straightforward because sir Pippin pratically gave us the line of code to complete this challenge when he was giving the lecture about loops.
 
 - ### Creating 3 array orientated prototypes - **11/03/2026**
 
-> 
+> For this set of prototypes, I started with simple falling glitter, moved on to floating bubbles, and ended with a fast-paced clicking game. The main coding highlights include using backward loops to safely delete items from a list (.splice()) without causing glitches or skipping items. I also used multi-axis math (||) to make things bounce off walls, and automatic formulas (floor() and max()) to speed up the game as the score rises in *Neon Glitch*. Following neat coding rules, I avoided using confusing one-letter names like "i". Instead, I used clear words like "counter" to make the code easy for anyone to read.
