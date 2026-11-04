@@ -36,13 +36,13 @@ function draw() {
         target.timer--;
 
         //Target outer ring
-        stroke("#9fff03")
+        stroke(150, 255, 3, target.timer * 2);
         strokeWeight(3);
         noFill();
         circle(target.x, target.y, target.size);
 
         //Target center core
-        fill("#ff02b3");
+        fill(255, 2, 179, target.timer * 2);
         noStroke();
         circle(target.x, target.y, target.size * 0.5);
 
