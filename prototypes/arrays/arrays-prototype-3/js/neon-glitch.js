@@ -64,6 +64,10 @@ function draw() {
 function mousePressed() {
     //Checks targets backward so I always click the newwest overlapping target first
     for (let counter = targets.length - 1; counter >= 0; counter--) {
+
+        //Defined the currentTarget variable so the distance checker works
+        let currentTarget = targets[counter];
+
         if (dist(mouseX, mouseY, currentTarget.x, currentTarget.y) < currentTarget.size / 2) {
             score++;
             //Remove clicked target
