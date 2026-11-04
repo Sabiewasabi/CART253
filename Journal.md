@@ -72,3 +72,11 @@
 - ### Arrays challenge - **10/27/2029**
 
 > The arrayys challenge was fun because I got to see some cool stuff hapenning as Angy was trying to implement angles,trigonometry and more math coplicated things in which I DO NOT excel in at all. Its interesting that array has there own special kind of loop (for....of)which I am not familiar with nor use.
+
+- ### Loop challenge - **11/03/2026**
+
+> This challenge was pretty straightforward because si Pippin pratically gave us the line of code to completet this challenge when he was giving the lecture about loops.
+
+- ### Creating 3 array orientated prototypes - **11/03/2026**
+
+> 
