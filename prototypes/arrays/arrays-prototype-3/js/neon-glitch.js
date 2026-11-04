@@ -18,5 +18,8 @@ function setup() {
 }
 
 function draw() {
-    background('#04001f')
+    background('#1b0046')
+
+    //Speed level variable to increase the speed of the targets as the score increases
+    let speedLevel = floor(score / 10);
 }
