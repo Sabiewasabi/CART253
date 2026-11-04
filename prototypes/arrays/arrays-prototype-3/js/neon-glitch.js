@@ -64,7 +64,7 @@ function draw() {
 function mousePressed() {
     //Checks targets backward so I always click the newwest overlapping target first
     for (let counter = targets.length - 1; counter >= 0; counter--) {
-        if (dist(mouseX, mouseY, targets[counter].x, targets[counter].y) < 25) {
+        if (dist(mouseX, mouseY, currentTarget.x, currentTarget.y) < currentTarget.size / 2) {
             score++;
             //Remove clicked target
             targets.splice(counter, 1);
