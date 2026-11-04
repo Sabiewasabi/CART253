@@ -50,10 +50,11 @@ function draw() {
 //Interaction mechanic
 function mousePressed() {
     //Checks targets backward so I always click the newwest overlapping target first
-    for (let counter = target.length - 1; counter >= 0; counter--) {
+    for (let counter = targets.length - 1; counter >= 0; counter--) {
         if (dist(mouseX, mouseY, target[counter].x, target[counter].y) < 25) {
             score++;
-            target.splice(counter, 1);
+            //Remove clicked target
+            targets.splice(counter, 1);
             //Check for level up every 10 points
             checkLevelUp();
             break;
