@@ -96,6 +96,10 @@ function checkLevelUp() {
 function startSpawner(rate) {
     //Set a recurring timer that executes the inner arrow function at a given millisecond rate
     spawnInterval = setInterval(() => {
+
+        //Defined baseLifespan variable that calculates individual lifespan based on current speed level
+        let baseLifespan = max(45, 120 - (speedLevel * 15))
+
         //Adds new target to the array
         targets.push({
             //Place new target at a random x and y position away from the edges of the canvas
