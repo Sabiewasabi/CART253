@@ -1,4 +1,4 @@
-//Neon Gliitch
+//Neon Glitch
 
 //Author: Sabrina Rath
 
