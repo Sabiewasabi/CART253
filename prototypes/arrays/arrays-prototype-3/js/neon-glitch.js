@@ -31,11 +31,9 @@ function draw() {
     background('#12022c')
 
     //Draw targets
-    stroke("#ff2bdc");
-    strokeWeight(3);
-    fill("#b9ff15");
     for (let target of targets) {
-        circle(target.x, target.y, 50);
+        //Decrease target lifespan (fade away)
+        target.timer--;
     }
     //Remove the oldest target if too many pile up
     if (targets.length > 8) {
