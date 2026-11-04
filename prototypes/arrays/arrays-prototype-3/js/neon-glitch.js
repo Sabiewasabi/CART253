@@ -25,7 +25,7 @@ function setup() {
 }
 
 function draw() {
-    background('#1b0046')
+    background('#12022c')
 
     //Draw targets
     stroke("#ff2bdc");
