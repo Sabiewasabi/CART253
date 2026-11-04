@@ -22,6 +22,9 @@ let spawnInterval;
 function setup() {
     //Creating a canvas of 1000x800 pixels
     createCanvas(1000, 800);
+
+    //Start the target spawning loop immediately when the game loads
+    startSpawner(500)
 }
 
 function draw() {
