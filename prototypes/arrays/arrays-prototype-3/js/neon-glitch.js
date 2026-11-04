@@ -34,6 +34,13 @@ function draw() {
     for (let target of targets) {
         //Decrease target lifespan (fade away)
         target.timer--;
+
+        //Target outer ring
+        stroke("#9fff03")
+        strokeWeight(3);
+        noFill();
+        circle(target.x, target.y, target.size);
+
     }
     //Remove the oldest target if too many pile up
     if (targets.length > 8) {
