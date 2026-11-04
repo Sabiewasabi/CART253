@@ -39,4 +39,10 @@ function draw() {
         //Remove the oldest target from the array
         targets.shift();
     }
+    //UI HUD (Targets and speed level text)
+    noStroke();
+    fill(255);
+    textSize(20);
+    text("TARGETS: " + score, 20, 30);
+    text("SPEED LEVEL: " + speedLevel, 20, 60);
 }
