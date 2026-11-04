@@ -65,4 +65,9 @@ function mousePressed() {
 function checkLevelUp() {
     //New level every 10 points
     let currentLevel = floor(score / 10 + 1);
+
+    //If player reached a new level speed up the spawning interval
+    if (currentLevel > speedLevel) {
+        speedLevel = currentLevel;
+    }
 }
