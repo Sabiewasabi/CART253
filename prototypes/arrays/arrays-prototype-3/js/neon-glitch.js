@@ -53,11 +53,19 @@ function draw() {
         targets.shift();
     }
     //UI HUD (Targets and speed level text)
+    push();
     noStroke();
     fill(255);
     textSize(20);
     text("TARGETS: " + score, 20, 30);
+    pop();
+
+    push();
+    noStroke();
+    fill(150, 255, 3);
+    textSize(25);
     text("SPEED LEVEL: " + speedLevel, 20, 60);
+    pop();
 }
 
 //Interaction mechanic
