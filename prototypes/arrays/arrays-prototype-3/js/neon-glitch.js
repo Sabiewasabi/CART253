@@ -61,3 +61,8 @@ function mousePressed() {
         }
     }
 }
+
+function checkLevelUp() {
+    //New level every 10 points
+    let currentLevel = floor(score / 10 + 1);
+}
