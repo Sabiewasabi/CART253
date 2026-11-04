@@ -34,4 +34,9 @@ function draw() {
     for (let target of targets) {
         circle(target.x, target.y, 50);
     }
+    //Remove the oldest target if too many pile up
+    if (target.length > 8) {
+        //Remove the oldest target from the array
+        targets.shift();
+    }
 }
