@@ -106,7 +106,7 @@ function startSpawner(rate) {
             x: random(50, width - 50),
             y: random(50, height - 50),
             //Randopmized target sizes
-            size: random(30, 50),
+            size: random(30, 100),
             //Set fading clock for targets
             timer: baseLifespan
         });
