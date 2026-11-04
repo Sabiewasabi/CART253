@@ -41,6 +41,11 @@ function draw() {
         noFill();
         circle(target.x, target.y, target.size);
 
+        //Target center core
+        fill("#ff02b3");
+        noStroke();
+        circle(target.x, target.y, target.size * 0.5);
+
     }
     //Remove the oldest target if too many pile up
     if (targets.length > 8) {
