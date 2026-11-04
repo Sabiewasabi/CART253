@@ -100,7 +100,11 @@ function startSpawner(rate) {
         targets.push({
             //Place new target at a random x and y position away from the edges of the canvas
             x: random(50, width - 50),
-            y: random(50, height - 50)
+            y: random(50, height - 50),
+            //Randopmized target sizes
+            size: random(30, 50),
+            //Set fading clock for targets
+            timer: baseLifespan
         });
         //Pass the rate parameter to define the timer delay
     }, rate);
