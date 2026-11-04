@@ -11,6 +11,12 @@ let targets = [];
 //Score tracker
 let score = 0;
 
+//Speed level variable
+let speedLevel = 1;
+
+//Spawn interval variable - timing of events referenced from p5.js example sketches
+let spawnInterval;
+
 
 function setup() {
     //Creating a canvas of 1000x800 pixels
@@ -20,6 +26,4 @@ function setup() {
 function draw() {
     background('#1b0046')
 
-    //Speed level variable to increase the speed of the targets as the score increases
-    let speedLevel = floor(score / 10);
 }
