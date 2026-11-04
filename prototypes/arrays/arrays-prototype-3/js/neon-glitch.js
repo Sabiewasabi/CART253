@@ -35,7 +35,7 @@ function draw() {
         circle(target.x, target.y, 50);
     }
     //Remove the oldest target if too many pile up
-    if (target.length > 8) {
+    if (targets.length > 8) {
         //Remove the oldest target from the array
         targets.shift();
     }
@@ -51,7 +51,7 @@ function draw() {
 function mousePressed() {
     //Checks targets backward so I always click the newwest overlapping target first
     for (let counter = targets.length - 1; counter >= 0; counter--) {
-        if (dist(mouseX, mouseY, target[counter].x, target[counter].y) < 25) {
+        if (dist(mouseX, mouseY, targets[counter].x, targets[counter].y) < 25) {
             score++;
             //Remove clicked target
             targets.splice(counter, 1);
@@ -66,8 +66,15 @@ function checkLevelUp() {
     //New level every 10 points
     let currentLevel = floor(score / 10 + 1);
 
-    //If player reached a new level speed up the spawning interval
+    //If player reached a new level, speed up the spawning interval
     if (currentLevel > speedLevel) {
         speedLevel = currentLevel;
+
+        // Calculate a faster spawn time capping at 150ms
+        let newSpawnRate = max(150, 500 - (speedLevel * 50));
+
+        //Reset the interval with the faster speed
+        clearInterval(spawnInterval);
+        startSpawner(newSpawnRate);
     }
 }
