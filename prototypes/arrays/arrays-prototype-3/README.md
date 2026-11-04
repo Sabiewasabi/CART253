@@ -1,25 +1,25 @@
-# Eye Floater Frenzy
+# Neon Glitch
 
 SABRINA RATH
 
-[View this project online](https://sabiewasabi.github.io/CART253/prototypes/functions/functions-prototype-3/)
+[View this project online](https://sabiewasabi.github.io/CART253/prototypes/arrays/arrays-prototype-3/)
 
-[View the code to this project]()
+[View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/prototypes/arrays/arrays-prototype-3/js/neon-glitch.js)
 
 ## Description
 
-> This projects is a simulation of the annoying eye floaters you you tend to see after you rub your eyes or stand up too quick. 
+> This project is a dynamic, neon-themed reaction-popping game.
 
-> The experience has no control
+> This experience is controlled via mouse clicks on the target to earn points. Each 10 points the speed level increases.
 
 ## Screenshot(s)
 
-![Eye Floaters Frenzy](./assets/images/eye-floater-frenzy.png)
+![Neon Glitch](./assets/images/neon-glitch.png)
 
 ## Attribution
 
 > - This project uses [p5.js](https://p5js.org).
-> - The image is a capture of *Eye Floater Frenzy* live on p5.js
+> - The image is a capture of *Neon Glitch* live on p5.js
 
 ## License
 
