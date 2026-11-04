@@ -8,7 +8,7 @@
 
 function setup() {
     //Creating a canvas the same size as the window width and height
-    createCanvas(windowWidth, windowHeight);
+    createCanvas(800, 1000);
 
 
 }
