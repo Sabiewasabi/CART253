@@ -14,18 +14,24 @@
 let carData = undefined;
 let dinosaurData = undefined;
 let langData = undefined;
-let lang = "fr";
+let lang = "eng";
 
 // Starts with the instruction
 let carName = "Click to generate a car name.";
+
+//Car manufacturera names
+let carManufacturer = "name";
+
+//Dinosaur names
+let dinoName = "name";
 
 /**
  * Load the car and dinosaur data
  */
 async function preload() {
 
-    carData = await loadJSON("assets/data/cars.json", [JSON]);
-    dinosaurData = await loadJSON("assets/data/dinosaur.json", (JSON));
+    carData = await loadJSON("./assets/data/cars.json", [JSON]);
+    dinosaurData = await loadJSON("./assets/data/dinosaur.json", (JSON));
 }
 
 /**
