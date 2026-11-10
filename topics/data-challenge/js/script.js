@@ -1,6 +1,6 @@
 /**
- * Terrible New Car
- * Sabrina Rath and rica Gavez
+ * Horrible Car Names
+ * Erica Galvez & Sabrina Rath
  * 
  * A program to generate new car model names using dinosaurs.
  * 
@@ -14,31 +14,28 @@
 let carData = undefined;
 let dinosaurData = undefined;
 let langData = undefined;
-let lang = "eng";
+let lang = "fr";
 
 // Starts with the instruction
 let carName = "Click to generate a car name.";
-
-//Car manufacturera names
-let carManufacturer = "name";
-
-//Dinosaur names
-let dinoName = "name";
 
 /**
  * Load the car and dinosaur data
  */
 async function preload() {
+    let carResponse = await fetch("assets/data/cars.json");
+    carData = await carResponse.json();
 
-    carData = await loadJSON("./assets/data/cars.json", [JSON]);
-    dinosaurData = await loadJSON("./assets/data/dinosaur.json", (JSON));
+    let dinosaurResponse = await fetch("assets/data/dinosaurs.json");
+    dinosaurData = await dinosaurResponse.json();
 }
 
 /**
  * Create the canvas
 */
-function setup() {
+async function setup() {
     createCanvas(600, 400);
+    await preload();
 }
 
 /**
@@ -48,7 +45,7 @@ function draw() {
     background(0);
 
     push();
-    fill("pink");
+    fill("red");
     textAlign(CENTER, CENTER);
     textSize(32);
     text(carName, width / 2, height / 2);
@@ -59,5 +56,10 @@ function draw() {
  * Generate a new car name
  */
 function mousePressed() {
+    if (!carData || !dinosaurData) return;
+    let car = random(carData.cars);
+    let dinosaur = random(dinosaurData.dinosaurs);
+
+    carName = car + " " + dinosaur;
 
 }
