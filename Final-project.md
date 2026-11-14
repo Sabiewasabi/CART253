@@ -9,6 +9,6 @@
 
 ![Sketch](./topics/final-project/assets/images/fortune-cookie.png)
 
-## <mark> PART 2: Early stage of the script
+## <mark> PART 2: Early stage P5.js script
 
 > COMING SOON!
