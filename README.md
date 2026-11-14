@@ -20,3 +20,6 @@ This is my onestop website for Pippin Barr’s course in CART253
 
 ## 4. [Portfolio](https://sabrinarath263.wixsite.com/srathdesigns)
 > My portfolio website from college in the Interactive Media Arts program.
+
+## 5. [Final Project](Final-project.md)
+> A place where I document the entire process of my project
