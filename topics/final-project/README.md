@@ -1,31 +1,29 @@
-# Boingo
+# Fortune Weaver's Cookie
 
-ANGELA TANG, SYDNEY TAN AND SABRINA RATH
+SABRINA RATH
 
-[View this project online](https://sabiewasabi.github.io/CART253/topics/arrays-challenge/)
+[View this project online]() COMING SOON
 
-[View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/topics/arrays-challenge/js/boingo.js)
+[View the code to this project]() COMING SOON
 
 
 ## Description
 
-> This project comnprises of balls that spawn and bounce around at different speed rates.
+> This project simulats receiving the special message inside a fortune cookie.Instead of the secret message containing the standard generic and boring messages, these cookie will be sure to contain something that will definetely make you smile.
 
-> The experience is controlled via mouse click in which you click and drag as fast you can to spawn a ball and have it bounce around the canvas.
+> The experience is controlled via mouse clicks on the fortune cookie to crack it open and receive your special message. Click it again and receive another fortune.
 
+> Would you like another cookie? Well then, another fortune awaits you.
 
 ## Screenshot(s)
 
-![Boingo](./assets/images/boingo.png)
-
+COMING SOON
 
 ## Attribution
 
 > - This project uses [p5.js](https://p5js.org).
-> - The image is a capture of *Boingo* live on p5.js.
+> - The image is a capture of *Fortune Weaver's Cookie* live on p5.js.
 
 ## License
-
-This bit could include the license you want to apply to your work. For example:
 
 > This project is licensed under a Creative Commons Attribution ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)) license with the exception of libraries and other components with their own licenses.
