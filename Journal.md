@@ -80,3 +80,17 @@
 - ### Creating 3 array orientated prototypes - **11/03/2026**
 
 > For this set of prototypes, I started with simple falling glitter, moved on to floating bubbles, and ended with a fast-paced clicking game. The main coding highlights, inlcude using backward loops to safely delete items from a list using splice without causing glitches or skipping items. Ialso used multi-axis math to make things bounce off walls and also uses automatic formulas like floor  and map to speed up the game as the score rises in *Neon Glitch*. Following neat coding rules, I avoided using confusing on-lettered variables like "i" in  a for loop. Instead, I used clear words like "counter" to make the code easy for anyone to read.
+
+- ### Final project <mark>PART 1</mark> - **11/13/2026**
+
+> For part 1 of my fianl project, I am simply starting of with brainstorming ideas on what I want to make. I know for sure that I only want to make a single script rather a combination of all the prototypes i've done into 3 small projects per say. The idea I want to go with is a project that simulateds receiveing a note from a fortune cookie that slightly rattles before you open it. Of course I am not about to fill it with some generic and boring jargon that we usually get in a good old fashion fortune cookie.
+
+> This project will most likely have me working with arrays and data to get the random "fortune" to generate on the piece of paper with every click. I was also thinking maybe having a checkered background image that will also change colors every reset - I am going for a pastel colour palette. I would like to mention that I also wanted to draw the fortune cookie myself bevcause the addition will make the project more personalized (?) For the data list content, I was leaning towards having the possibility of changing the language from English to Chinese or Japanese, and with that said <mark>I WILL NOT TRANSLATE THESE FORTUNE MESSAGE MYSELF I WILL MOST LIKELY USE AI TO TRANSLATE FOR ME!</mark> The reason is simple: I do not know how to read or write in those languages, however the Chinese and Japanese culture is always part of my day to day life, that is why I want to make it possible to switch between those languages.
+
+>Now, you may be wondering why a fortune cookie simulator? Well I for one enjoy the cookie itself but absolutely do not care for the little secret message you get inside of it bevause they are so repetitive and boring,hencec this is the reason I want to maybe spicce things up. Also I thought it be a great way to sort of implement of part of myself (asian culture) into my final project because I am also thinking ahead of time that this would be or could bean amazing project to have on my portfolio.
+
+> Complicated idea? Not really. Doable coding? Yeah sure why not. Time consumming? Most likely.
+
+> If it's a little hard to invision, here's a sketch I made below....
+
+![Fortune Weaver's Cookie](./topics/final-project/assets/images/fortune-cookie.png)
