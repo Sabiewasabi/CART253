@@ -18,3 +18,12 @@ let cookieCrack3
 let halfLeft;
 let halfRight;
 let paperImg;
+
+//Sound variables
+
+//When cookie cracks, play sound
+let crackSound;
+//Chime sound when message is revealed
+let chimeSound;
+//Background music
+let bgMusic;
