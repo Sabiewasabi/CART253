@@ -39,8 +39,6 @@ let startTime = 0;
 async function setup() {
     //Creating a canvas of 600x600 pixels
     createCanvas(600, 600);
-    //Placeholder background color
-    background("#c3e2ff")
 
     //Ensure the very center of my images is the point of origin
     imageMode(CENTER);
@@ -53,6 +51,11 @@ async function setup() {
     halfLeft = await loadImage("./assets/images/half-left.png");
     halfRight = await loadImage("./assets/images/half-right.png");
     paperImg = await loadImage("./assets/images/paper.png");
+}
+
+function draw() {
+    //Placeholder background color
+    background("#c3e2ff")
 }
 
 function mousePressed() {
