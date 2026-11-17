@@ -51,3 +51,9 @@ async function setup() {
     halfRight = await loadImage("./assets/images/half-right.png");
     paperImg = await loadImage("./assets/images/paper.png");
 }
+
+function mousePressed() {
+    hasStarted = true;
+    //Tracks the time since the sketch has begun
+    startTime = millis();
+}
