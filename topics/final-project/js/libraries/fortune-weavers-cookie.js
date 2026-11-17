@@ -32,4 +32,6 @@ let bgMusic;
 async function setup() {
     //Creating a canvas of 600x600 pixels
     createCanvas(600, 600);
+    //Ennsure the very center of my images is the point of origin
+    imageMode(CENTRE);
 }
