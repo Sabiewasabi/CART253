@@ -32,6 +32,15 @@ let bgMusic;
 async function setup() {
     //Creating a canvas of 600x600 pixels
     createCanvas(600, 600);
-    //Ennsure the very center of my images is the point of origin
+    //Ensure the very center of my images is the point of origin
     imageMode(CENTRE);
+
+    //Load all images and sound (sounds will be added later)
+    fullCookie = await loadImage("./assets/images/full-cookie.png");
+    cookieCracked1 = await loadImage("./assets/images/cookie-cracked1.png");
+    cookieCracked2 = await loadImage("./assets/images/cookie-cracked2.png");
+    cookieCracked3 = await loadImage("./assets/images/cookie-cracked3.png");
+    halfLeft = await loadImage("./assets/images/half-left.png");
+    halfRight = await loadImage("./assets/images/half-right.png");
+    paperImg = await loadImage("./assets/images/paper.png");
 }
