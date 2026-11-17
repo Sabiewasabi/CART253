@@ -38,6 +38,9 @@ let startTime = 0;
 //Keeps track of which fortune is currently on screen
 let currentFortune = 0;
 
+//Variable for my JSON file of fortunes and languages
+let fortunes;
+
 //Async because I am loading images and sounds
 async function setup() {
     //Creating a canvas of 600x600 pixels
