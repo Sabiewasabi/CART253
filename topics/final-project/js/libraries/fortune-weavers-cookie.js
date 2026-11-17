@@ -71,6 +71,10 @@ function draw() {
         image(fullCookie, 300, 300, 300, 300);
         return;
     }
+
+    //Count how many seconds have passed since the last click in milliseconds
+    let seconds = (millis() - startTime) / 1000; //1 second
+
 }
 
 function mousePressed() {
