@@ -56,8 +56,8 @@ async function setup() {
     //Align the text to the center of the canvas
     textAlign(CENTER, CENTER);
 
-
-
+    //A font that can easily read Chinese and Japanese characters. I just googled online what would be the best font or a font that can read these characters.
+    textFont('Noto Sans JP, Noto Sans SC, sans-serif')
 
     //Load all images and sound (sounds will be added later)
     fullCookie = await loadImage("./assets/images/full-cookie.png");
