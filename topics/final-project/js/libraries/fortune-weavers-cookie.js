@@ -7,3 +7,14 @@
 //The experience is controlled via mouse clicks on the fortune cookie to crack it open and receive your special message.Click it again and receive another fortune.
 
 //Would you like another cookie ? Well then, another fortune awaits you.
+
+//Variables
+
+//All my image varaibles to cycle through each fortune cookie state (full cookie to slowly cracking and then splitting into two halves revealing the message on the paper)
+let fullCookie;
+let cookieCrack1;
+let cookiCrack2;
+let cookieCrack3
+let halfLeft;
+let halfRight;
+let paperImg;
