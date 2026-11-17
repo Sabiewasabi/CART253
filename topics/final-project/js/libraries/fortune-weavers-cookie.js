@@ -13,8 +13,8 @@
 //All my image varaibles to cycle through each fortune cookie state (full cookie to slowly cracking and then splitting into two halves revealing the message on the paper)
 let fullCookie;
 let cookieCrack1;
-let cookiCrack2;
-let cookieCrack3
+let cookieCrack2;
+let cookieCrack3;
 let halfLeft;
 let halfRight;
 let paperImg;
@@ -33,13 +33,13 @@ async function setup() {
     //Creating a canvas of 600x600 pixels
     createCanvas(600, 600);
     //Ensure the very center of my images is the point of origin
-    imageMode(CENTRE);
+    imageMode(CENTER);
 
     //Load all images and sound (sounds will be added later)
     fullCookie = await loadImage("./assets/images/full-cookie.png");
-    cookieCracked1 = await loadImage("./assets/images/cookie-cracked1.png");
-    cookieCracked2 = await loadImage("./assets/images/cookie-cracked2.png");
-    cookieCracked3 = await loadImage("./assets/images/cookie-cracked3.png");
+    cookieCrack1 = await loadImage("./assets/images/cracked-cookie1.png");
+    cookieCrack2 = await loadImage("./assets/images/cracked-cookie2.png");
+    cookieCrack3 = await loadImage("./assets/images/cracked-cookie3.png");
     halfLeft = await loadImage("./assets/images/half-left.png");
     halfRight = await loadImage("./assets/images/half-right.png");
     paperImg = await loadImage("./assets/images/paper.png");
