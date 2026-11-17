@@ -28,6 +28,13 @@ let chimeSound;
 //Background music
 let bgMusic;
 
+//Variables to track if cookie has been clicked to start animation
+
+//Cookie clicked = start animation
+let hasStarted = false;
+//Tracks time from when the cookie has been clicked on
+let startTime = 0;
+
 //Async because I am loading images and sounds
 async function setup() {
     //Creating a canvas of 600x600 pixels
