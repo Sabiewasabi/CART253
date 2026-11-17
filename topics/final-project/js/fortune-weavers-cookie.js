@@ -53,6 +53,12 @@ async function setup() {
     //Ensure the very center of my images is the point of origin
     imageMode(CENTER);
 
+    //Align the text to the center of the canvas
+    textAlign(CENTER, CENTER);
+
+
+
+
     //Load all images and sound (sounds will be added later)
     fullCookie = await loadImage("./assets/images/full-cookie.png");
     cookieCrack1 = await loadImage("./assets/images/cracked-cookie1.png");
