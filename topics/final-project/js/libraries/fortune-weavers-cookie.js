@@ -39,6 +39,9 @@ let startTime = 0;
 async function setup() {
     //Creating a canvas of 600x600 pixels
     createCanvas(600, 600);
+    //Placeholder background color
+    background("#c3e2ff")
+
     //Ensure the very center of my images is the point of origin
     imageMode(CENTER);
 
