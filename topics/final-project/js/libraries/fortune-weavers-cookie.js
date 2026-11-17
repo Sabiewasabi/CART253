@@ -35,6 +35,9 @@ let hasStarted = false;
 //Tracks time from when the cookie has been clicked on
 let startTime = 0;
 
+//Keeps track of which fortune is currently on screen
+let currentFortune = 0;
+
 //Async because I am loading images and sounds
 async function setup() {
     //Creating a canvas of 600x600 pixels
