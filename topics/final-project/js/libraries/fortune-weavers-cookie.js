@@ -57,6 +57,9 @@ async function setup() {
     halfLeft = await loadImage("./assets/images/half-left.png");
     halfRight = await loadImage("./assets/images/half-right.png");
     paperImg = await loadImage("./assets/images/paper.png");
+
+    //Load JSON file
+    fortunes = await loadJSON("./assets/fortunes.json")
 }
 
 function draw() {
