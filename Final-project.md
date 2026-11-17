@@ -7,7 +7,7 @@
 
 ## <mark>PART 1: Ideation sketch </mark>
 
-![Sketch #1](./topics/final-project/assets/images/fortune-cookie.png)
+![Sketch #1](./topics/final-project/assets/images/fortune-cookie-ideation.png)
 
 ![Sketch #2](./topics/final-project/assets/images/fortune-cookie-sketches.png)
 
