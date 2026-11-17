@@ -39,7 +39,7 @@ let startTime = 0;
 let currentFortune = 0;
 
 //Variable for my JSON file of fortunes and languages
-let fortunes;
+let fortunes = [];
 
 //Async because I am loading images and sounds
 async function setup() {
