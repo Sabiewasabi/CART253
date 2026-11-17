@@ -27,3 +27,9 @@ let crackSound;
 let chimeSound;
 //Background music
 let bgMusic;
+
+//Async because I am loading images and sounds
+async function setup() {
+    //Creating a canvas of 600x600 pixels
+    createCanvas(600, 600);
+}
