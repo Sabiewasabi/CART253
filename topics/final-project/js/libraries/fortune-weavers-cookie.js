@@ -66,8 +66,11 @@ function draw() {
     //Placeholder background color
     background("#c3e2ff")
 
-    //Draw full uncracked fortune cookie at the very center of the canvas
-    image(fullCookie, 300, 300, width / 2, height / 2);
+    //Before receiving a click, draw full uncracked fortune cookie at the very center of the canvas
+    if (hasStarted === false) {
+        image(fullCookie, 300, 300, 300, 300);
+        return;
+    }
 }
 
 function mousePressed() {
