@@ -85,53 +85,53 @@ function draw() {
     //Before receiving a click, draw full uncracked fortune cookie at the very center of the canvas
     if (hasStarted === false) {
         image(fullCookie, 300, 300, cookieSize, cookieSize);
-        return;
-    }
-
-    //Count how many seconds have passed since the last click in milliseconds
-    let seconds = (millis() - startTime) / 1000; //1 second
-
-    //Wiggle/shake variable for the fortune cookie
-    if (seconds < 2) {
-        let shakeX = random(-4, 2);
-        let shakeY = random(-2, 1);
-
-        //Wiggle/shake animation  and crack the cookie for a few seconds
-        let currentImg = fullCookie;
-        if (seconds < 0.5) {
-            currentImg = fullCookie;
-        } else if (seconds < 1) {
-            currentImg = cookieCrack1;
-        } else if (seconds < 1.5) {
-            currentImg = cookieCrack2;
-        } else {
-            currentImg = cookieCrack3;
-        }
-
-        //Draw images with the random wiggle/shake at the very center of the canvas
-        image(currentImg, 300 + shakeX, 300 + shakeY, cookieSize, cookieSize); //Last to parameters is for how wide and tall I want to draw my fortune cookie
-
-        //Split open the fortune cookie and reveal the paper and fortune message after 2 seconds
     } else {
-        //Draw paper in the middle and keeping original paper image size
-        let paperWidth = 965;
-        let paperHeight = paperWidth * (paperImg.height / paperImg.width);
-        image(paperImg, 300, 300, paperWidth, paperHeight);
+
+        //Count how many seconds have passed since the last click in milliseconds
+        let seconds = (millis() - startTime) / 1000; //1 second
+
+        //Wiggle/shake variable for the fortune cookie
+        if (seconds < 2) {
+            let shakeX = random(-4, 2);
+            let shakeY = random(-2, 1);
+
+            //Wiggle/shake animation  and crack the cookie for a few seconds
+            let currentImg = fullCookie;
+            if (seconds < 0.5) {
+                currentImg = fullCookie;
+            } else if (seconds < 1) {
+                currentImg = cookieCrack1;
+            } else if (seconds < 1.5) {
+                currentImg = cookieCrack2;
+            } else {
+                currentImg = cookieCrack3;
+            }
+
+            //Draw images with the random wiggle/shake at the very center of the canvas
+            image(currentImg, 300 + shakeX, 300 + shakeY, cookieSize, cookieSize); //Last to parameters is for how wide and tall I want to draw my fortune cookie
+
+            //Split open the fortune cookie and reveal the paper and fortune message after 2 seconds
+        } else {
+            //Draw paper in the middle and keeping original paper image size
+            let paperWidth = 965;
+            let paperHeight = paperWidth * (paperImg.height / paperImg.width);
+            image(paperImg, 300, 300, paperWidth, paperHeight);
 
 
-        //Display fortune in currently selected language mode
-        let message = fortunes[currentFortune][currentLang] || fortunes[currentFortune] //Reverts back to English if translation for other languages have not been added yet (which I havent gotten to)
+            //Display fortune in currently selected language mode
+            let message = fortunes[currentFortune][currentLang] || fortunes[currentFortune] //Reverts back to English if translation for other languages have not been added yet (which I havent gotten to)
 
-        //Draw the fortune text centered on the paper
-        //Text color
-        fill("#1b191d");
-        noStroke();
-        textSize(17);
-        text(message, 300, 300, 250, 80);
+            //Draw the fortune text centered on the paper
+            //Text color
+            fill("#1b191d");
+            noStroke();
+            textSize(17);
+            text(message, 300, 300, 250, 80);
 
-        //Draw the left and right halves of the fortune cookie on each side
-        image(halfLeft, 120, 300, cookieSize, cookieSize);
-        image(halfRight, 430, 265, cookieSize, cookieSize);
+            //Draw the left and right halves of the fortune cookie on each side
+            image(halfLeft, 120, 300, cookieSize, cookieSize);
+            image(halfRight, 430, 265, cookieSize, cookieSize);
+        }
     }
 
     for (let counter = 0; counter < 3; counter++) {
