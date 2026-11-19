@@ -21,6 +21,7 @@ let paperImg;
 
 //Cookie size variable
 let cookieSize = 750;
+let cookieHeight = cookieSize * (fullCookie.length / fullCookie.width);
 
 //Sound variables
 
