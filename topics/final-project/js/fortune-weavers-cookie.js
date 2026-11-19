@@ -20,7 +20,7 @@ let halfRight;
 let paperImg;
 
 //Cookie size variable
-let cookieSize = 650;
+let cookieSize = 750;
 
 //Sound variables
 
@@ -111,7 +111,7 @@ function draw() {
         //Split open the fortune cookie and reveal the paper and fortune message after 2 seconds
     } else {
         //Draw paper in the middle and keeping original paper image size
-        let paperWidth = 350;
+        let paperWidth = 950;
         let paperHeight = paperWidth * (paperImg.height / paperImg.width);
         image(paperImg, 300, 300, paperWidth, paperHeight);
 
@@ -125,12 +125,12 @@ function draw() {
         //Text color
         fill("#1b191d");
         noStroke();
-        textSize(14);
+        textSize(17);
         text(message, 300, 300, 250, 80);
 
         //Draw the left and right halves of the fortune cookie on each side
-        image(halfLeft, 150, 300, cookieSize, cookieSize);
-        image(halfRight, 415, 265, cookieSize, cookieSize);
+        image(halfLeft, 120, 300, cookieSize, cookieSize);
+        image(halfRight, 430, 265, cookieSize, cookieSize);
     }
 }
 
