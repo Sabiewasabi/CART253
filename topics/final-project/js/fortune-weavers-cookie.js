@@ -133,21 +133,27 @@ function draw() {
         image(halfLeft, 120, 300, cookieSize, cookieSize);
         image(halfRight, 430, 265, cookieSize, cookieSize);
     }
-}
 
-for (counter = 0; counter < 3; counter++) {
-    //Draws and spaces my buttons evenly at the button of the canvas
-    let buttonX = 210 + counter * 90;
-    stroke("#ffd3e6");
-    strokeWeight(2)
-    //Selected button color and default color state
-    if (counter === currentLang) {
-        fill("#ffd3e6");
-    } else {
-        fill("#FFFDF6");
+    for (let counter = 0; counter < 3; counter++) {
+        //Draws and spaces my buttons evenly at the button of the canvas
+        let buttonX = 210 + counter * 90;
+        stroke("#ffd3e6");
+        strokeWeight(2)
+        //Selected button color and default color state
+        if (counter === currentLang) {
+            fill("#ffd3e6");
+        } else {
+            fill("#FFFDF6");
+        }
+        //Draw rounded buttons
+        rect(buttonX, 555, 80, 30, 15);
+
+        //Language label for buttons
+        noStroke();
+        fill("#1b191d");
+        textSize(15);
+        text(languages[counter], buttonX, 555);
     }
-    //Draw rounded buttons
-    rect(buttonX, 555, 80, 30, 15)
 }
 
 function mousePressed() {
