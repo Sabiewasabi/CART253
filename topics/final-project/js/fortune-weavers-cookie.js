@@ -150,6 +150,9 @@ function mousePressed() {
         }
     }
 
+    //Draw rounded buttons
+    rect(buttonX, 555, 80, 30, 15)
+
     hasStarted = true;
     //Tracks the time since the sketch has begun
     startTime = millis();
