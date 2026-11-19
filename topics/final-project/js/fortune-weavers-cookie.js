@@ -19,6 +19,9 @@ let halfLeft;
 let halfRight;
 let paperImg;
 
+//Cookie size variable
+let cookieSize = 580;
+
 //Sound variables
 
 //When cookie cracks, play sound
