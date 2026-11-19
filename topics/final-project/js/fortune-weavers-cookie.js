@@ -81,7 +81,7 @@ function draw() {
 
     //Before receiving a click, draw full uncracked fortune cookie at the very center of the canvas
     if (hasStarted === false) {
-        image(fullCookie, 300, 300, 580, 580);
+        image(fullCookie, 300, 300, cookieSize, cookieSize);
         return;
     }
 
@@ -106,7 +106,7 @@ function draw() {
         }
 
         //Draw images with the random wiggle/shake at the very center of the canvas
-        image(currentImg, 300 + shakeX, 300 + shakeY, 300, 300); //Last to parameters is for how wide and tall I want to draw my fortune cookie
+        image(currentImg, 300 + shakeX, 300 + shakeY, cookieSize, cookieSize); //Last to parameters is for how wide and tall I want to draw my fortune cookie
 
         //Split open the fortune cookie and reveal the paper and fortune message after 2 seconds
     } else {
@@ -129,8 +129,8 @@ function draw() {
         text(message, 300, 300, 250, 80);
 
         //Draw the left and right halves of the fortune cookie on each side
-        image(halfLeft, 180, 300, 580, 580);
-        image(halfRight, 400, 275, 580, 580);
+        image(halfLeft, 180, 300, cookieSize, cookieSize);
+        image(halfRight, 400, 275, cookieSize, cookieSize);
     }
 }
 
