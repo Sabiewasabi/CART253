@@ -43,6 +43,8 @@ COMING SOON
 
 ![Sketch #2](./topics/final-project/assets/images/fortune-cookie-sketches.png)
 
-## <mark> PART 2: </mark>
+## <mark> PART 2: Early stage of project </mark>
 
-> COMING SOON!
+>It works...sort of but it's so ugly...BUT BUT it works technically !
+
+![Early stage of project](./topics/final-project/assets/images/early-stage.png)
