@@ -115,6 +115,17 @@ function draw() {
 
     //Display fortune in currently selected language mode
     let message = fortunes[currentFortune][currentLang] || fortunes[currentFortune] //Reverts back to English if translation for other languages have not been added yet (which I havent gotten to)
+
+    //Draw the fortune text centered on the paper
+    //Canter the text
+    rectMode(CENTER);
+    //Text color
+    fill("#1b191d");
+    noStroke();
+    textSize(15);
+    text(message, 300, 300, 250, 80);
+
+
 }
 
 function mousePressed() {
