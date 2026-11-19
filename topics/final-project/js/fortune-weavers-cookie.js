@@ -19,6 +19,10 @@ let halfLeft;
 let halfRight;
 let paperImg;
 
+//Wiggle/shake variable for the fortune cookie
+let shakeX = random(-6, 6);
+let shakeY = random(-3, 3);
+
 //Sound variables
 
 //When cookie cracks, play sound
