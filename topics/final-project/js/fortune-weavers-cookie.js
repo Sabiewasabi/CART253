@@ -20,7 +20,7 @@ let halfRight;
 let paperImg;
 
 //Cookie size variable
-let cookieSize = 580;
+let cookieSize = 650;
 
 //Sound variables
 
@@ -130,7 +130,7 @@ function draw() {
 
         //Draw the left and right halves of the fortune cookie on each side
         image(halfLeft, 150, 300, cookieSize, cookieSize);
-        image(halfRight, 415, 275, cookieSize, cookieSize);
+        image(halfRight, 415, 265, cookieSize, cookieSize);
     }
 }
 
