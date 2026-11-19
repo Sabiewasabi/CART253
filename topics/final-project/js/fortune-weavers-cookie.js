@@ -165,10 +165,14 @@ function mousePressed() {
             currentLang = counter;
             return;
         }
-
-
-        hasStarted = true;
-        //Tracks the time since the sketch has begun
-        startTime = millis();
     }
+
+    //Randomly choose a fortune every time you click again
+    if (hasStarted === true) {
+        currentFortune = floor(random(fortunes.length));
+    }
+
+    hasStarted = true;
+    //Tracks the time since the sketch has begun
+    startTime = millis();
 }
