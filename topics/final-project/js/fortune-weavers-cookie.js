@@ -112,6 +112,9 @@ function draw() {
         let paperHeight = paperWidth * (paperImg.height / paperImg.width);
         image(paperImg, 300, 300, paperWidth, paperHeight);
     }
+
+    //Display fortune in currently selected language mode
+    let message = fortunes[currentFortune][currentLang] || fortunes[currentFortune] //Reverts back to English if translation for other languages have not been added yet (which I havent gotten to)
 }
 
 function mousePressed() {
