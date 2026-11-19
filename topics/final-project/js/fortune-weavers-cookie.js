@@ -138,9 +138,16 @@ function draw() {
 function mousePressed() {
     //Checks if one of the language buttons have been selected 
     for (counter = 0; counter < 3; counter++) {
-        //Spaces my buttons evenly at the button of the canvas
+        //Draws and spaces my buttons evenly at the button of the canvas
         let buttonX = 210 + counter * 90;
-
+        stroke("#ffd3e6");
+        strokeWeight(2)
+        //Selected button color and default color state
+        if (counter === curentLang) {
+            fill("#ffd3e6");
+        } else {
+            fill("#FFFDF6");
+        }
     }
 
     hasStarted = true;
