@@ -136,6 +136,13 @@ function draw() {
 }
 
 function mousePressed() {
+    //Checks if one of the language buttons have been selected 
+    for (counter = 0; counter < 3; counter++) {
+        //Spaces my buttons evenly at the button of the canvas
+        let buttonX = 210 + counter * 90;
+
+    }
+
     hasStarted = true;
     //Tracks the time since the sketch has begun
     startTime = millis();
