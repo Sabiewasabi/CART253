@@ -37,14 +37,18 @@ COMING SOON
 
 ## **Journey of my project**
 
-## <mark>PART 1: Ideation sketch </mark>
+## <mark>PART 1: Ideation sketch </mark>  **11/14/2026**
 
 ![Sketch #1](./topics/final-project/assets/images/fortune-cookie-ideation.png)
 
 ![Sketch #2](./topics/final-project/assets/images/fortune-cookie-sketches.png)
 
-## <mark> PART 2: Early stage of project </mark>
+## <mark> PART 2: Early stage of project </mark>  **11/19/2026**
 
->It works...sort of but it's so ugly...BUT BUT it works technically !
+>It works...sort of but it's so ugly...BUT BUT it works technically!
 
 ![Early stage of project](./topics/final-project/assets/images/early-stage.png)
+
+> Fixed it!!
+
+![Fixed fortune cookie](./topics/final-project/assets/images/fixed-fortune-cookie.png)
