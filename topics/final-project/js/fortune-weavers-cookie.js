@@ -111,7 +111,7 @@ function draw() {
         //Split open the fortune cookie and reveal the paper and fortune message after 2 seconds
     } else {
         //Draw paper in the middle and keeping original paper image size
-        let paperWidth = 950;
+        let paperWidth = 965;
         let paperHeight = paperWidth * (paperImg.height / paperImg.width);
         image(paperImg, 300, 300, paperWidth, paperHeight);
 
