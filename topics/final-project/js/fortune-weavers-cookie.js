@@ -78,7 +78,7 @@ function draw() {
 
     //Before receiving a click, draw full uncracked fortune cookie at the very center of the canvas
     if (hasStarted === false) {
-        image(fullCookie, 300, 300, 300, 300);
+        image(fullCookie, 300, 300, 580, 580);
         return;
     }
 
@@ -122,12 +122,12 @@ function draw() {
         //Text color
         fill("#1b191d");
         noStroke();
-        textSize(15);
+        textSize(14);
         text(message, 300, 300, 250, 80);
 
         //Draw the left and right halves of the fortune cookie on each side
-        image(halfLeft, 180, 300, 300, 300);
-        image(halfRight, 400, 300, 300, 300);
+        image(halfLeft, 180, 300, 580, 580);
+        image(halfRight, 400, 275, 580, 580);
     }
 }
 
