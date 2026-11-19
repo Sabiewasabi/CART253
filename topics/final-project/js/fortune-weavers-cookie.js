@@ -101,6 +101,9 @@ function draw() {
         currentImg = cookieCrack3;
     }
 
+    //Draw images with the random wiggle/shake at the very center of the canvas
+    image(currentImg, 300 + shakeX, 300 + shakeY, 300, 300); //Last to parameters is for how wide and tall I want to draw my fortune cookie
+
 }
 
 function mousePressed() {
