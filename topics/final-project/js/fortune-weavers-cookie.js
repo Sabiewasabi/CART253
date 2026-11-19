@@ -111,24 +111,24 @@ function draw() {
         let paperWidth = 350;
         let paperHeight = paperWidth * (paperImg.height / paperImg.width);
         image(paperImg, 300, 300, paperWidth, paperHeight);
+
+
+        //Display fortune in currently selected language mode
+        let message = fortunes[currentFortune][currentLang] || fortunes[currentFortune] //Reverts back to English if translation for other languages have not been added yet (which I havent gotten to)
+
+        //Draw the fortune text centered on the paper
+        //Canter the text
+        rectMode(CENTER);
+        //Text color
+        fill("#1b191d");
+        noStroke();
+        textSize(15);
+        text(message, 300, 300, 250, 80);
+
+        //Draw the left and right halves of the fortune cookie on each side
+        image(halfLeft, 180, 300, 300, 300);
+        image(halfRight, 400, 300, 300, 300);
     }
-
-    //Display fortune in currently selected language mode
-    let message = fortunes[currentFortune][currentLang] || fortunes[currentFortune] //Reverts back to English if translation for other languages have not been added yet (which I havent gotten to)
-
-    //Draw the fortune text centered on the paper
-    //Canter the text
-    rectMode(CENTER);
-    //Text color
-    fill("#1b191d");
-    noStroke();
-    textSize(15);
-    text(message, 300, 300, 250, 80);
-
-    //Draw the left and right halves of the fortune cookie on each side
-    image(halfLeft, 180, 300, 300, 300);
-    image(halfRight, 400, 300, 300, 300);
-
 }
 
 function mousePressed() {
