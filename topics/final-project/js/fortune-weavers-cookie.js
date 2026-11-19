@@ -40,7 +40,7 @@ let currentFortune = 0;
 
 //Language tracking : English, Chinese, and Japanese
 let languages = ['EN', '中文', '日本語'];
-let currentlang = 0;
+let currentLang = 0;
 
 //Variable for my JSON file of fortunes and languages
 let fortunes = [];
