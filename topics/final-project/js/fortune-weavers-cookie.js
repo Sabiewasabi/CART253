@@ -56,6 +56,9 @@ async function setup() {
     //Ensure the very center of my images is the point of origin
     imageMode(CENTER);
 
+    //Canter the text
+    rectMode(CENTER);
+
     //Align the text to the center of the canvas
     textAlign(CENTER, CENTER);
 
@@ -120,8 +123,6 @@ function draw() {
         let message = fortunes[currentFortune][currentLang] || fortunes[currentFortune] //Reverts back to English if translation for other languages have not been added yet (which I havent gotten to)
 
         //Draw the fortune text centered on the paper
-        //Canter the text
-        rectMode(CENTER);
         //Text color
         fill("#1b191d");
         noStroke();
