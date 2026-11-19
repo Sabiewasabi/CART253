@@ -85,6 +85,18 @@ function draw() {
     //Count how many seconds have passed since the last click in milliseconds
     let seconds = (millis() - startTime) / 1000; //1 second
 
+    //Wiggle/shake animation  and crack the cookie for a few seconds
+    let currentImg = fullCookie;
+    if (seconds < 0.5) {
+        currentImg = fullCookie;
+    } else if (seconds < 1) {
+        currentImg = cookieCrack1;
+    } else if (seconds < 1.5) {
+        currentImg = cookieCrack2;
+    } else {
+        currentImg = cookieCrack3;
+    }
+
 }
 
 function mousePressed() {
