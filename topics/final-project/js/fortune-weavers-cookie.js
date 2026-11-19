@@ -161,6 +161,11 @@ function mousePressed() {
     for (let counter = 0; counter < 3; counter++) {
         let buttonX = 210 + counter * 90;
 
+        if (dist(mouseX, mouseY, buttonX, 555 < 40)) {
+            currentImg = counter;
+            return;
+        }
+
 
         hasStarted = true;
         //Tracks the time since the sketch has begun
