@@ -129,8 +129,8 @@ function draw() {
         text(message, 300, 300, 250, 80);
 
         //Draw the left and right halves of the fortune cookie on each side
-        image(halfLeft, 180, 300, cookieSize, cookieSize);
-        image(halfRight, 400, 275, cookieSize, cookieSize);
+        image(halfLeft, 150, 300, cookieSize, cookieSize);
+        image(halfRight, 415, 275, cookieSize, cookieSize);
     }
 }
 
