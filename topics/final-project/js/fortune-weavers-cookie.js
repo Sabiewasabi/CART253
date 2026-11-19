@@ -90,8 +90,8 @@ function draw() {
 
     //Wiggle/shake variable for the fortune cookie
     if (seconds < 2) {
-        let shakeX = random(-6, 6);
-        let shakeY = random(-3, 3);
+        let shakeX = random(-4, 2);
+        let shakeY = random(-2, 1);
 
         //Wiggle/shake animation  and crack the cookie for a few seconds
         let currentImg = fullCookie;
