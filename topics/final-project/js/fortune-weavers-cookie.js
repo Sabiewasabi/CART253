@@ -135,25 +135,29 @@ function draw() {
     }
 }
 
-function mousePressed() {
-    //Checks if one of the language buttons have been selected 
-    for (counter = 0; counter < 3; counter++) {
-        //Draws and spaces my buttons evenly at the button of the canvas
-        let buttonX = 210 + counter * 90;
-        stroke("#ffd3e6");
-        strokeWeight(2)
-        //Selected button color and default color state
-        if (counter === curentLang) {
-            fill("#ffd3e6");
-        } else {
-            fill("#FFFDF6");
-        }
+for (counter = 0; counter < 3; counter++) {
+    //Draws and spaces my buttons evenly at the button of the canvas
+    let buttonX = 210 + counter * 90;
+    stroke("#ffd3e6");
+    strokeWeight(2)
+    //Selected button color and default color state
+    if (counter === currentLang) {
+        fill("#ffd3e6");
+    } else {
+        fill("#FFFDF6");
     }
-
     //Draw rounded buttons
     rect(buttonX, 555, 80, 30, 15)
+}
 
-    hasStarted = true;
-    //Tracks the time since the sketch has begun
-    startTime = millis();
+function mousePressed() {
+    //Checks if one of the language buttons have been selected 
+    for (let counter = 0; counter < 3; counter++) {
+        let buttonX = 210 + counter * 90;
+
+
+        hasStarted = true;
+        //Tracks the time since the sketch has begun
+        startTime = millis();
+    }
 }
