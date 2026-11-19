@@ -19,10 +19,6 @@ let halfLeft;
 let halfRight;
 let paperImg;
 
-//Wiggle/shake variable for the fortune cookie
-let shakeX = random(-6, 6);
-let shakeY = random(-3, 3);
-
 //Sound variables
 
 //When cookie cracks, play sound
@@ -89,21 +85,33 @@ function draw() {
     //Count how many seconds have passed since the last click in milliseconds
     let seconds = (millis() - startTime) / 1000; //1 second
 
-    //Wiggle/shake animation  and crack the cookie for a few seconds
-    let currentImg = fullCookie;
-    if (seconds < 0.5) {
-        currentImg = fullCookie;
-    } else if (seconds < 1) {
-        currentImg = cookieCrack1;
-    } else if (seconds < 1.5) {
-        currentImg = cookieCrack2;
+    //Wiggle/shake variable for the fortune cookie
+    if (seconds < 2) {
+        let shakeX = random(-6, 6);
+        let shakeY = random(-3, 3);
+
+        //Wiggle/shake animation  and crack the cookie for a few seconds
+        let currentImg = fullCookie;
+        if (seconds < 0.5) {
+            currentImg = fullCookie;
+        } else if (seconds < 1) {
+            currentImg = cookieCrack1;
+        } else if (seconds < 1.5) {
+            currentImg = cookieCrack2;
+        } else {
+            currentImg = cookieCrack3;
+        }
+
+        //Draw images with the random wiggle/shake at the very center of the canvas
+        image(currentImg, 300 + shakeX, 300 + shakeY, 300, 300); //Last to parameters is for how wide and tall I want to draw my fortune cookie
+
+        //Split open the fortune cookie and reveal the paper and fortune message after 2 seconds
     } else {
-        currentImg = cookieCrack3;
+        //Draw paper in the middle and keeping original paper image size
+        let paperWidth = 350;
+        let paperHeight = paperWidth * (paperImg.height / paperImg.width);
+        image(paperImg, 300, 300, paperWidth, paperHeight);
     }
-
-    //Draw images with the random wiggle/shake at the very center of the canvas
-    image(currentImg, 300 + shakeX, 300 + shakeY, 300, 300); //Last to parameters is for how wide and tall I want to draw my fortune cookie
-
 }
 
 function mousePressed() {
