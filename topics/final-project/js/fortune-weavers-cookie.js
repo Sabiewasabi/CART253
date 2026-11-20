@@ -88,7 +88,7 @@ function draw() {
     if (hasStarted === false) {
         //Smoothly floats up and down
         let floatY = -sin(millis() / 400) * 10;
-        image(fullCookie, 300, 300, floatY, cookieSize, cookieHeight);
+        image(fullCookie, 300, 300, floatY + cookieSize, cookieHeight);
     } else {
 
         //Count how many seconds have passed since the last click in milliseconds
