@@ -1,6 +1,8 @@
 [
     [
-        "You will soon find a sock, it will not match."
+        "You will soon find a sock, it will not match.",
+        "你很快会找到一只袜子，但绝对配不成对",
+        "もうすぐ靴下が片方見つかります。ただし、ペアにはなりません。"
     ],
     [
         "The cookie is crunchy,the future is crunchier."
@@ -46,5 +48,35 @@
     ],
     [
         "A wise decision awaita you tomorrow. Today, however, is not looking to great."
+    ],
+    [
+        "Your screen time report is arriving soon. Do not open it in public."
+    ],
+    [
+        "A mysterious stranger will ghost you, and it will be for the best."
+    ],
+    [
+        "You are destined for greatness, right after one more five-minute break."
+    ],
+    [
+        "Today you will solve a problem you accidentally created yesterday."
+    ],
+    [
+        "An unexpected treat is in your future. Spoiler: you bought it yourself."
+    ],
+    [
+        "Trust your gut, unless it is telling you to send that risky text at 2 AM."
+    ],
+    [
+        "Your bank account and your sleep schedule are currently having a competition."
+    ],
+    [
+        "You have the power to achieve anything, except remembering why you walked into this room."
+    ],
+    [
+        "A fresh start awaits you on Monday. Which Monday remains unclear."
+    ],
+    [
+        "Beware of advice coming from a baked good."
     ]
 ]
