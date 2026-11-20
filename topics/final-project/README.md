@@ -1,10 +1,15 @@
+[Home 🏠](README.md) / [Portfolio 💼](https://sabrinarath263.wixsite.com/srathdesigns) /  [Challenges](Challenges.md) / [Prototypes 💻](Prototypes.md)
+
+
 # Fortune Weaver's Cookie
+
+## [Reflective Journal](Journal.md)
 
 SABRINA RATH
 
 [View this project online]() COMING SOON
 
-[View the code to this project]() COMING SOON
+[View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/topics/final-project/js/fortune-weavers-cookie.js)
 
 
 ## Description
