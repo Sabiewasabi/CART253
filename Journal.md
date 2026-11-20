@@ -87,10 +87,22 @@
 
 > This project will most likely have me working with arrays and data to get the random "fortune" to generate on the piece of paper with every click. I was also thinking maybe having a checkered background image that will also change colors every reset - I am going for a pastel colour palette. I would like to mention that I also wanted to draw the fortune cookie myself bevcause the addition will make the project more personalized (?) For the data list content, I was leaning towards having the possibility of changing the language from English to Chinese or Japanese, and with that said <mark>I WILL NOT TRANSLATE THESE FORTUNE MESSAGE MYSELF I WILL MOST LIKELY USE AI TO TRANSLATE FOR ME!</mark> The reason is simple: I do not know how to read or write in those languages, however the Chinese and Japanese culture is always part of my day to day life, that is why I want to make it possible to switch between those languages.
 
->Now, you may be wondering why a fortune cookie simulator? Well I for one enjoy the cookie itself but absolutely do not care for the little secret message you get inside of it bevause they are so repetitive and boring,hencec this is the reason I want to maybe spicce things up. Also I thought it be a great way to sort of implement of part of myself (asian culture) into my final project because I am also thinking ahead of time that this would be or could bean amazing project to have on my portfolio.
+>Now, you may be wondering why a fortune cookie simulator? Well I for one enjoy the cookie itself but absolutely do not care for the little secret message you get inside of it because they are so repetitive and boring,hence this is the reason I want to maybe spicce things up. Also I thought it be a great way to sort of implement of part of myself (asian culture) into my final project because I am also thinking ahead of time that this would be or could bean amazing project to have on my portfolio.
 
 > Complicated idea? Not really. Doable coding? Yeah sure why not. Time consumming? Most likely.
 
 > If it's a little hard to invision, here's a sketch I made below....
 
-![Fortune Weaver's Cookie](./topics/final-project/assets/images/fortune-cookie.png)
+![Fortune Weaver's Cookie](./topics/final-project/assets/images/fortune-cookie-ideation.png)
+
+
+- ### Final project <mark> PART 2 </mark> - **11/19/2026**
+
+> So for part 2 I essentially just started the project and slowly work on it day by day. It's turning out look look pretty nice, close to how I invisoned it. I got all of the main core elemnts of my fortune cookie working like the wiggle/shake animation of the fortune cooking cracking than revealing the fortune right in the center of the paper. I am quite please with how my drawing also looks on the canvas because I was scared it would look aesthetically pleasing but it looks cute! I added buttons to be able to select which language mode viewers would want to have their fortunes read in at the bottom of the canvas. I chose pink for the buttons, however I think I'll just leave it their as a plaveholder for now until I decide on another color possibility. I ran into this one problem with the original sizing of my drawings because without controling the size of all the images made it look so ugly and wonky and so I created a vatiable to control the sizing - cookieSize variable.
+
+> By making the cookie wiggle/shake as it cracks open, I thought it would be cool to make it gently float up and down before you click on it so it looks less plain on start up.
+
+> Now i have to figure out a way to make a checkered background that changes colors when you click the cookie as well as adding sounds and the background music.
+
+![Early stage of project](./topics/final-project/assets/images/fixed-fortune-cookie.png)
+> This screenshot was taken before I added the buttons and tweaked the sizing.
