@@ -1,5 +1,3 @@
-[Portfolio 💼](https://sabrinarath263.wixsite.com/srathdesigns) / [Reflective Journal 📓](Journal.md) / [Challenges](Challenges.md) / [Prototypes 💻](Prototypes.md)
-
 # **Sabrina Rath's CART253 onestop** 🌱
 This is my onestop website for Pippin Barr’s course in CART253
 
