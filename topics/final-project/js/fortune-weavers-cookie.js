@@ -21,7 +21,7 @@ let paperImg;
 
 //Cookie size variable
 let cookieSize = 750;
-let cookieHeight = cookieSize * (fullCookie.height / fullCookie.width);
+let cookieHeight;
 
 //Sound variables
 
@@ -68,6 +68,7 @@ async function setup() {
 
     //Load all images and sound (sounds will be added later)
     fullCookie = await loadImage("./assets/images/full-cookie.png");
+    cookieHeight = cookieSize * (fullCookie.height / fullCookie.width);
     cookieCrack1 = await loadImage("./assets/images/cracked-cookie1.png");
     cookieCrack2 = await loadImage("./assets/images/cracked-cookie2.png");
     cookieCrack3 = await loadImage("./assets/images/cracked-cookie3.png");
