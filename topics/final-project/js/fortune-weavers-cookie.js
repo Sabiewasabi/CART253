@@ -20,7 +20,7 @@ let halfRight;
 let paperImg;
 
 //Cookie size variable
-let cookieSize = 850;
+let cookieSize = 880;
 let cookieHeight;
 
 //Sound variables
@@ -86,7 +86,9 @@ function draw() {
 
     //Before receiving a click, draw full uncracked fortune cookie at the very center of the canvas
     if (hasStarted === false) {
-        image(fullCookie, 300, 300, cookieSize, cookieHeight);
+        //Smoothly floats up and down
+        let floatY = -sin(millis() / 400) * 10;
+        image(fullCookie, 300, 300, floatY, cookieSize, cookieHeight);
     } else {
 
         //Count how many seconds have passed since the last click in milliseconds
