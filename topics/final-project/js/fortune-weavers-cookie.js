@@ -171,12 +171,15 @@ function mousePressed() {
         }
     }
 
-    //Randomly choose a fortune every time you click again
-    if (hasStarted === true) {
-        currentFortune = floor(random(fortunes.length));
-    }
+    //Only crack the cookie when you click on it and not anywhere else on the canvas or the browser page
+    if (dist(mouseX, mouseY, 300, 300) < 150) {
+        //Randomly choose a fortune every time you click again
+        if (hasStarted === true) {
+            currentFortune = floor(random(fortunes.length));
+        }
 
-    hasStarted = true;
-    //Tracks the time since the sketch has begun
-    startTime = millis();
+        hasStarted = true;
+        //Tracks the time since the sketch has begun
+        startTime = millis();
+    }
 }
