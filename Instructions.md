@@ -1,5 +1,5 @@
 [Home 🏠](README.md) / [Portfolio 💼](https://sabrinarath263.wixsite.com/srathdesigns) /  [Challenges](Challenges.md) / [Prototypes 💻](Prototypes.md) /  [Final Project](final-project.md)
-[Home 🏠](README.md) / [Portfolio 💼](https://sabrinarath263.wixsite.com/srathdesigns) / [Challenges](Challenges.md) / [Prototypes 💻](Prototypes.md) /  
+
 
 
 # <mark> Protoypes: instructions </mark>
