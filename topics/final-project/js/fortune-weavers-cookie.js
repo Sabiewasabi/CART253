@@ -114,7 +114,7 @@ function draw() {
             }
 
             //Draw images with the random wiggle/shake at the very center of the canvas
-            image(currentImg, 300 + shakeX, 300 + shakeY, cookieSize, cookieHeight); //Last to parameters is for how wide and tall I want to draw my fortune cookie
+            image(currentImg, 300 + shakeX, 300 + shakeY, cookieSize, cookieHeight); //Last two parameters is for how wide and tall I want to draw my fortune cookie
 
             //Split open the fortune cookie and reveal the paper and fortune message after 2 seconds
         } else {
