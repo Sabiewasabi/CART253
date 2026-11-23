@@ -78,6 +78,8 @@ async function setup() {
 
     //Load JSON file
     fortunes = await loadJSON("./assets/fortunes.json")
+    //Convert the loaded JSON object into a proper list so fortunes.length works
+    fortunes = Object.values(fortunes)
 }
 
 function draw() {
@@ -174,9 +176,7 @@ function mousePressed() {
     //Only crack the cookie when you click on it and not anywhere else on the canvas or the browser page
     if (dist(mouseX, mouseY, 300, 300) < 150) {
         //Randomly choose a fortune every time you click again
-        if (hasStarted === true) {
-            currentFortune = floor(random(fortunes.length));
-        }
+        currentFortune = floor(random(fortunes.length));
 
         hasStarted = true;
         //Tracks the time since the sketch has begun
