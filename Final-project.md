@@ -9,7 +9,7 @@
 
 SABRINA RATH
 
-[View this project online]() COMING SOON
+[View this project online](https://sabiewasabi.github.io/CART253/topics/final-project/)
 
 [View the code to this project](https://github.com/Sabiewasabi/CART253/blob/main/topics/final-project/js/fortune-weavers-cookie.js)
 
