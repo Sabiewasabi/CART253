@@ -106,3 +106,5 @@
 
 ![Early stage of project](./topics/final-project/assets/images/fixed-fortune-cookie.png)
 > This screenshot was taken before I added the buttons and tweaked the sizing.
+
+> On a side note, I totally forgot I had to present my my work infront of the whole class and that got me feeling more stressed because I absolutely hate being the center of attention and I feel like my project will be very underwhelming compared to others..... Where do I even start I am so nervous.....
